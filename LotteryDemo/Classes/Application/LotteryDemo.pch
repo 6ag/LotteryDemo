@@ -1,0 +1,49 @@
+//
+//  LotteryDemo.pch
+//  LotteryDemo
+//
+//  Created by feng on 2022/7/17.
+//
+
+#ifndef LotteryDemo_pch
+#define LotteryDemo_pch
+
+#import <MBProgressHUD/MBProgressHUD.h>
+#import "MBProgressHUD+YY.h"
+#import <SVGAPlayer/SVGA.h>
+
+#import "JFHttpRequestHelper.h"
+#import "JFLotteryResultItem.h"
+
+typedef void(^JFRoomWishAgain)(NSInteger type);
+typedef void(^JFRoomWishClose)(void);
+
+// 屏幕尺寸
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+// 判断是否iPhoneX带刘海系列
+#define iPhoneX \
+({BOOL isPhoneX = NO;\
+if (@available(iOS 11.0, *)) {\
+isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
+}\
+(isPhoneX);})
+
+// 颜色
+#define JFColorFromHex(hex) [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16))/255.0 green:((float)((hex & 0xFF00) >> 8))/255.0 blue:((float)(hex & 0xFF))/255.0 alpha:1.0]
+#define JFHexColorAlpha(hex,alphaNum) [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16))/255.0 green:((float)((hex & 0xFF00) >> 8))/255.0 blue:((float)(hex & 0xFF))/255.0 alpha:alphaNum]
+
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+
+#define RGBA(r,g,b,a) (r)/255.0f, (g)/255.0f, (b)/255.0f, (a)
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+// 字体
+#define JFFontPingFangSCRegular(fontSize) [UIFont fontWithName:@"PingFangSC-Regular" size:fontSize]
+#define JFFontPingFangSCMedium(fontSize) [UIFont fontWithName:@"PingFangSC-Medium" size:fontSize]
+#define JFFontPingFangSCBold(fontSize) [UIFont fontWithName:@"PingFangSC-Bold" size:fontSize]
+#define JFFontAvenirNextHeavyItalic(fontSize) [UIFont fontWithName:@"AvenirNext-HeavyItalic" size:fontSize]
+
+#endif /* LotteryDemo_pch */
