@@ -11,6 +11,7 @@
 #import <MBProgressHUD/MBProgressHUD.h>
 #import "MBProgressHUD+YY.h"
 #import <SVGAPlayer/SVGA.h>
+#import "YYCategories.h"
 
 #import "JFHttpRequestHelper.h"
 #import "JFLotteryResultItem.h"

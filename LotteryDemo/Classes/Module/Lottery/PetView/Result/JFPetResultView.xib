@@ -237,7 +237,7 @@
         </view>
     </objects>
     <resources>
-        <image name="gold_coin_icon" width="128" height="128"/>
+        <image name="gold_coin_icon" width="20.333333969116211" height="20"/>
         <image name="room_pet_result_gift_box" width="83" height="83"/>
         <image name="room_pet_result_more_1" width="113.66666412353516" height="42.666667938232422"/>
         <image name="room_pet_result_more_bg" width="334" height="454"/>

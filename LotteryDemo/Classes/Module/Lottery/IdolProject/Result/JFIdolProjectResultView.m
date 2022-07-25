@@ -226,11 +226,11 @@
 {
     _againType = againType;
     if (againType == 1) {
-        [self.moreWishBtn20 setImage:[UIImage imageNamed:@"prize_award_open1"] forState:UIControlStateNormal];
+        [self.moreWishBtn20 setImage:[UIImage imageNamed:@"room_prize_result_open1"] forState:UIControlStateNormal];
     } else if (againType == 2) {
-        [self.moreWishBtn20 setImage:[UIImage imageNamed:@"prize_award_open10"] forState:UIControlStateNormal];
+        [self.moreWishBtn20 setImage:[UIImage imageNamed:@"room_prize_result_open10"] forState:UIControlStateNormal];
     } else if (againType == 3) {
-        [self.moreWishBtn20 setImage:[UIImage imageNamed:@"prize_award_open20"] forState:UIControlStateNormal];
+        [self.moreWishBtn20 setImage:[UIImage imageNamed:@"room_prize_result_open20"] forState:UIControlStateNormal];
     }
 }
 

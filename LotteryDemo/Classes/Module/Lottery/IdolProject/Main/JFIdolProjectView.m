@@ -185,20 +185,7 @@
         weakSelf.isRequesting = NO;
         weakSelf.models = [data copy];
         
-        // 请求优先于动画完成
-        if (weakSelf.isShowingSvga) {
-            // 延迟1秒弹出结果
-            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                
-                // 取消动画
-                weakSelf.svgaBoxView.alpha = 1;
-                weakSelf.isShowingSvga = NO;
-                [weakSelf.svgaOpenBoxView stopAnimation];
-                
-                // 弹窗
-                [weakSelf checkHadShowResult];
-            });
-        } else {
+        if (!weakSelf.giftAnimationBtn.selected) {
             [weakSelf checkHadShowResult];
         }
         

@@ -38,20 +38,20 @@
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    CGFloat itemWidth = (SCREEN_WIDTH - 15 * 3) / 2.0;
+    CGFloat itemWidth = (SCREEN_WIDTH - 15 * 2 - 10) / 2.0;
     return CGSizeMake(floor(itemWidth), itemWidth * 0.75);
 }
 
 // 滚动方向的item间距
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section
 {
-    return 0.01;
+    return 10;
 }
 
 // 滚动方向的交叉方向的item间距
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section
 {
-    return 15;
+    return 10;
 }
 
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
@@ -82,8 +82,10 @@
         _lotteryList = [NSMutableArray array];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFIdolProjectView") image:@"lottery_idol_project" title:@"爱豆计划"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFPetView") image:@"lottery_pet_view" title:@"萌宠考拉"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFRoomWishView") image:@"lottery_wish_crystal" title:@"许愿水晶"]];
     }
     return _lotteryList;
 }
 
 @end
+
