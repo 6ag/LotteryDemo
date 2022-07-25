@@ -83,9 +83,14 @@
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFIdolProjectView") image:@"lottery_idol_project" title:@"爱豆计划"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFPetView") image:@"lottery_pet_view" title:@"萌宠考拉"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFRoomWishView") image:@"lottery_wish_crystal" title:@"许愿水晶"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFTwistedEggView") image:@"lottery_twisted_egg" title:@"快乐扭蛋"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFMagicTableView") image:@"lottery_magic_table" title:@"魔法仙台"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFPentagramBallView") image:@"lottery_pentagram_ball" title:@"五角星球"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("AATurntableView") image:@"lottery_aa_turntable" title:@"幸运转盘"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("BBTurntableView") image:@"lottery_bb_turntable" title:@"幸运大转盘"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFPrayLotusView") image:@"lottery_pray_lotus" title:@"祈福莲华"]];
     }
     return _lotteryList;
 }
 
 @end
-

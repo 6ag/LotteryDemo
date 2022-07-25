@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param failure 失败回调
 + (void)wish:(NSInteger)type success:(void (^)(id data))success failure:(void (^)(NSNumber *code, NSString *msg))failure;
 
++ (void)getWishListWithSuccess:(void (^)(id data))success failure:(void (^)(NSNumber *code, NSString *msg))failure;
+
 @end
 
 NS_ASSUME_NONNULL_END

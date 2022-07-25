@@ -7,6 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B20A8C00288E4B49009861E2 /* JFVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8BFE288E4B49009861E2 /* JFVerticalButton.m */; };
+		B20A8C3D288E4D3E009861E2 /* JFMagicTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8C0B288E4D3E009861E2 /* JFMagicTableView.xib */; };
+		B20A8C3E288E4D3E009861E2 /* JFMagicTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8C0C288E4D3E009861E2 /* JFMagicTableView.m */; };
+		B20A8C3F288E4D3E009861E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20A8C0D288E4D3E009861E2 /* Assets.xcassets */; };
+		B20A8C40288E4D3E009861E2 /* magic_table_open.svga in Resources */ = {isa = PBXBuildFile; fileRef = B20A8C0E288E4D3E009861E2 /* magic_table_open.svga */; };
+		B20A8C52288E4D3E009861E2 /* JFMagicTableResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8C34288E4D3E009861E2 /* JFMagicTableResultView.m */; };
+		B20A8C53288E4D3E009861E2 /* JFMagicTableResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8C35288E4D3E009861E2 /* JFMagicTableResultView.xib */; };
+		B20A8C54288E4D3E009861E2 /* JFMagicTableResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8C36288E4D3E009861E2 /* JFMagicTableResultCell.m */; };
+		B20A8C55288E4D3E009861E2 /* JFMagicTableResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8C37288E4D3E009861E2 /* JFMagicTableResultCell.xib */; };
+		B20A8C8A288E60B5009861E2 /* JFPentagramBallResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8C6A288E60B5009861E2 /* JFPentagramBallResultView.m */; };
+		B20A8C8B288E60B5009861E2 /* JFPentagramBallResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8C6B288E60B5009861E2 /* JFPentagramBallResultItemView.xib */; };
+		B20A8C8C288E60B5009861E2 /* JFPentagramBallResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8C6C288E60B5009861E2 /* JFPentagramBallResultItemView.m */; };
+		B20A8C8D288E60B5009861E2 /* JFPentagramBallResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8C6D288E60B5009861E2 /* JFPentagramBallResultView.xib */; };
+		B20A8C8E288E60B5009861E2 /* JFPentagramBallView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8C72288E60B5009861E2 /* JFPentagramBallView.m */; };
+		B20A8C8F288E60B5009861E2 /* JFPentagramBallView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8C73288E60B5009861E2 /* JFPentagramBallView.xib */; };
+		B20A8C90288E60B5009861E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20A8C74288E60B5009861E2 /* Assets.xcassets */; };
+		B20A8C96288E60B5009861E2 /* pentagram_ball_open_box.svga in Resources */ = {isa = PBXBuildFile; fileRef = B20A8C7F288E60B5009861E2 /* pentagram_ball_open_box.svga */; };
+		B20A8CD6288E6663009861E2 /* AATurntableOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8CA5288E6663009861E2 /* AATurntableOptionView.m */; };
+		B20A8CD7288E6663009861E2 /* AATurntableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8CA6288E6663009861E2 /* AATurntableView.xib */; };
+		B20A8CD8288E6663009861E2 /* AATurntableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8CA9288E6663009861E2 /* AATurntableView.m */; };
+		B20A8CD9288E6663009861E2 /* AATurntableAnimView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8CAA288E6663009861E2 /* AATurntableAnimView.m */; };
+		B20A8CE3288E6663009861E2 /* AATurntableResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8CBB288E6663009861E2 /* AATurntableResultView.m */; };
+		B20A8CE4288E6663009861E2 /* AATurntableResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8CBC288E6663009861E2 /* AATurntableResultItemView.m */; };
+		B20A8CE5288E6663009861E2 /* AATurntableResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8CBD288E6663009861E2 /* AATurntableResultView.xib */; };
+		B20A8CE6288E6663009861E2 /* AATurntableResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8CC0288E6663009861E2 /* AATurntableResultItemView.xib */; };
+		B20A8CEC288E6663009861E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20A8CCC288E6663009861E2 /* Assets.xcassets */; };
+		B20A8D2E288E6F87009861E2 /* BBTurntableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8CFC288E6F87009861E2 /* BBTurntableView.xib */; };
+		B20A8D2F288E6F87009861E2 /* BBTurntableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8CFE288E6F87009861E2 /* BBTurntableView.m */; };
+		B20A8D30288E6F87009861E2 /* BBTurntableAnimView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8CFF288E6F87009861E2 /* BBTurntableAnimView.m */; };
+		B20A8D3A288E6F87009861E2 /* BBTurntableBigPriceResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8D10288E6F87009861E2 /* BBTurntableBigPriceResultView.m */; };
+		B20A8D3B288E6F87009861E2 /* BBTurntableResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8D11288E6F87009861E2 /* BBTurntableResultView.m */; };
+		B20A8D3C288E6F87009861E2 /* BBTurntableResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8D12288E6F87009861E2 /* BBTurntableResultItemView.m */; };
+		B20A8D3D288E6F87009861E2 /* BBTurntableResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8D13288E6F87009861E2 /* BBTurntableResultView.xib */; };
+		B20A8D3E288E6F87009861E2 /* BBTurntableBigPriceResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8D14288E6F87009861E2 /* BBTurntableBigPriceResultView.xib */; };
+		B20A8D3F288E6F87009861E2 /* BBTurntableResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8D18288E6F87009861E2 /* BBTurntableResultItemView.xib */; };
+		B20A8D45288E6F87009861E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20A8D24288E6F87009861E2 /* Assets.xcassets */; };
+		B20A8D8F288E7585009861E2 /* JFPrayLotusResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8D5B288E7585009861E2 /* JFPrayLotusResultView.m */; };
+		B20A8D90288E7585009861E2 /* JFPrayLotusResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8D5C288E7585009861E2 /* JFPrayLotusResultItemView.xib */; };
+		B20A8D91288E7585009861E2 /* JFPrayLotusResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8D5D288E7585009861E2 /* JFPrayLotusResultItemView.m */; };
+		B20A8D92288E7585009861E2 /* JFPrayLotusResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8D5E288E7585009861E2 /* JFPrayLotusResultView.xib */; };
+		B20A8D93288E7585009861E2 /* JFPrayLotusView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8D63288E7585009861E2 /* JFPrayLotusView.m */; };
+		B20A8D94288E7585009861E2 /* JFPrayLotusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8D64288E7585009861E2 /* JFPrayLotusView.xib */; };
+		B20A8D95288E7585009861E2 /* filter.metal in Sources */ = {isa = PBXBuildFile; fileRef = B20A8D66288E7585009861E2 /* filter.metal */; };
+		B20A8D96288E7585009861E2 /* SLMaskVideoPlayerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8D67288E7585009861E2 /* SLMaskVideoPlayerLayer.m */; };
+		B20A8D97288E7585009861E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20A8D6A288E7585009861E2 /* Assets.xcassets */; };
+		B20A8DA2288E7585009861E2 /* pray_lotus_normal_open.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B20A8D80288E7585009861E2 /* pray_lotus_normal_open.mp4 */; };
+		B20A8DA3288E7585009861E2 /* pray_lotus_yellow_man.svga in Resources */ = {isa = PBXBuildFile; fileRef = B20A8D81288E7585009861E2 /* pray_lotus_yellow_man.svga */; };
+		B20A8DA4288E7585009861E2 /* pray_lotus_dream_wait.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B20A8D82288E7585009861E2 /* pray_lotus_dream_wait.mp4 */; };
+		B20A8DA5288E7585009861E2 /* pray_lotus_dream_open.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B20A8D83288E7585009861E2 /* pray_lotus_dream_open.mp4 */; };
+		B20A8DA6288E7585009861E2 /* pray_lotus_normal_wait.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B20A8D84288E7585009861E2 /* pray_lotus_normal_wait.mp4 */; };
 		B2253077288D621500D130B8 /* JFPetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2253047288D621500D130B8 /* JFPetView.m */; };
 		B2253078288D621500D130B8 /* JFPetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2253049288D621500D130B8 /* JFPetView.xib */; };
 		B225307B288D621500D130B8 /* room_pet_eat.svga in Resources */ = {isa = PBXBuildFile; fileRef = B225304E288D621500D130B8 /* room_pet_eat.svga */; };
@@ -116,6 +166,18 @@
 		B2793A63288E38D2000E9230 /* UIImage+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B2793A18288E38D2000E9230 /* UIImage+YYWebImage.m */; };
 		B2793A64288E38D2000E9230 /* CALayer+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B2793A19288E38D2000E9230 /* CALayer+YYWebImage.m */; };
 		B2793A65288E38D2000E9230 /* YYWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2793A1B288E38D2000E9230 /* YYWebImageOperation.m */; };
+		B2793AAB288E3E7D000E9230 /* JFTwistedEggResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2793A7A288E3E7D000E9230 /* JFTwistedEggResultView.m */; };
+		B2793AAC288E3E7D000E9230 /* JFTwistedEggResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2793A7B288E3E7D000E9230 /* JFTwistedEggResultItemView.xib */; };
+		B2793AAD288E3E7D000E9230 /* JFTwistedEggResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2793A7C288E3E7D000E9230 /* JFTwistedEggResultItemView.m */; };
+		B2793AAE288E3E7D000E9230 /* JFTwistedEggResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2793A7D288E3E7D000E9230 /* JFTwistedEggResultView.xib */; };
+		B2793AAF288E3E7D000E9230 /* JFTwistedEggOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2793A82288E3E7D000E9230 /* JFTwistedEggOptionView.m */; };
+		B2793AB0288E3E7D000E9230 /* JFTwistedEggView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2793A83288E3E7D000E9230 /* JFTwistedEggView.m */; };
+		B2793AB1288E3E7D000E9230 /* JFTwistedEggView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2793A84288E3E7D000E9230 /* JFTwistedEggView.xib */; };
+		B2793AB2288E3E7D000E9230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2793A86288E3E7D000E9230 /* Assets.xcassets */; };
+		B2793ABF288E3E7D000E9230 /* room_twisted_egg_open_box.svga in Resources */ = {isa = PBXBuildFile; fileRef = B2793AA0288E3E7D000E9230 /* room_twisted_egg_open_box.svga */; };
+		B2793AC8288E4015000E9230 /* GGImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2793AC2288E4014000E9230 /* GGImageView.m */; };
+		B2793AC9288E4015000E9230 /* GGLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2793AC3288E4014000E9230 /* GGLabel.m */; };
+		B2793ACA288E4015000E9230 /* GGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B2793AC4288E4014000E9230 /* GGButton.m */; };
 		B2A030AE288522B00024209D /* MBProgressHUD.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A030AB288522B00024209D /* MBProgressHUD.xcassets */; };
 		B2A030AF288522B00024209D /* MBProgressHUD+YY.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A030AC288522B00024209D /* MBProgressHUD+YY.m */; };
 		B2AEBF7528839599006C840E /* JFLotteryListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AEBF7428839599006C840E /* JFLotteryListCell.m */; };
@@ -128,6 +190,78 @@
 		66FB8767CEA9DD3F8A2EFC95 /* libPods-LotteryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LotteryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D7244B2778B4ADA14811C8 /* Pods-LotteryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotteryDemo.release.xcconfig"; path = "Target Support Files/Pods-LotteryDemo/Pods-LotteryDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A61036CB77532DF636E1A7C2 /* Pods-LotteryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotteryDemo.debug.xcconfig"; path = "Target Support Files/Pods-LotteryDemo/Pods-LotteryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B20A8BFE288E4B49009861E2 /* JFVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFVerticalButton.m; sourceTree = "<group>"; };
+		B20A8BFF288E4B49009861E2 /* JFVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFVerticalButton.h; sourceTree = "<group>"; };
+		B20A8C0A288E4D3E009861E2 /* JFMagicTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMagicTableView.h; sourceTree = "<group>"; };
+		B20A8C0B288E4D3E009861E2 /* JFMagicTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFMagicTableView.xib; sourceTree = "<group>"; };
+		B20A8C0C288E4D3E009861E2 /* JFMagicTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMagicTableView.m; sourceTree = "<group>"; };
+		B20A8C0D288E4D3E009861E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20A8C0E288E4D3E009861E2 /* magic_table_open.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = magic_table_open.svga; sourceTree = "<group>"; };
+		B20A8C33288E4D3E009861E2 /* JFMagicTableResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMagicTableResultCell.h; sourceTree = "<group>"; };
+		B20A8C34288E4D3E009861E2 /* JFMagicTableResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMagicTableResultView.m; sourceTree = "<group>"; };
+		B20A8C35288E4D3E009861E2 /* JFMagicTableResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFMagicTableResultView.xib; sourceTree = "<group>"; };
+		B20A8C36288E4D3E009861E2 /* JFMagicTableResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMagicTableResultCell.m; sourceTree = "<group>"; };
+		B20A8C37288E4D3E009861E2 /* JFMagicTableResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFMagicTableResultCell.xib; sourceTree = "<group>"; };
+		B20A8C38288E4D3E009861E2 /* JFMagicTableResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMagicTableResultView.h; sourceTree = "<group>"; };
+		B20A8C6A288E60B5009861E2 /* JFPentagramBallResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPentagramBallResultView.m; sourceTree = "<group>"; };
+		B20A8C6B288E60B5009861E2 /* JFPentagramBallResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFPentagramBallResultItemView.xib; sourceTree = "<group>"; };
+		B20A8C6C288E60B5009861E2 /* JFPentagramBallResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPentagramBallResultItemView.m; sourceTree = "<group>"; };
+		B20A8C6D288E60B5009861E2 /* JFPentagramBallResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFPentagramBallResultView.xib; sourceTree = "<group>"; };
+		B20A8C6E288E60B5009861E2 /* JFPentagramBallResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPentagramBallResultItemView.h; sourceTree = "<group>"; };
+		B20A8C6F288E60B5009861E2 /* JFPentagramBallResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPentagramBallResultView.h; sourceTree = "<group>"; };
+		B20A8C71288E60B5009861E2 /* JFPentagramBallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPentagramBallView.h; sourceTree = "<group>"; };
+		B20A8C72288E60B5009861E2 /* JFPentagramBallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPentagramBallView.m; sourceTree = "<group>"; };
+		B20A8C73288E60B5009861E2 /* JFPentagramBallView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFPentagramBallView.xib; sourceTree = "<group>"; };
+		B20A8C74288E60B5009861E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20A8C7F288E60B5009861E2 /* pentagram_ball_open_box.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = pentagram_ball_open_box.svga; sourceTree = "<group>"; };
+		B20A8CA4288E6663009861E2 /* AATurntableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATurntableView.h; sourceTree = "<group>"; };
+		B20A8CA5288E6663009861E2 /* AATurntableOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATurntableOptionView.m; sourceTree = "<group>"; };
+		B20A8CA6288E6663009861E2 /* AATurntableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AATurntableView.xib; sourceTree = "<group>"; };
+		B20A8CA7288E6663009861E2 /* AATurntableAnimView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATurntableAnimView.h; sourceTree = "<group>"; };
+		B20A8CA8288E6663009861E2 /* AATurntableOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATurntableOptionView.h; sourceTree = "<group>"; };
+		B20A8CA9288E6663009861E2 /* AATurntableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATurntableView.m; sourceTree = "<group>"; };
+		B20A8CAA288E6663009861E2 /* AATurntableAnimView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATurntableAnimView.m; sourceTree = "<group>"; };
+		B20A8CBB288E6663009861E2 /* AATurntableResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATurntableResultView.m; sourceTree = "<group>"; };
+		B20A8CBC288E6663009861E2 /* AATurntableResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATurntableResultItemView.m; sourceTree = "<group>"; };
+		B20A8CBD288E6663009861E2 /* AATurntableResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AATurntableResultView.xib; sourceTree = "<group>"; };
+		B20A8CBE288E6663009861E2 /* AATurntableResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATurntableResultItemView.h; sourceTree = "<group>"; };
+		B20A8CBF288E6663009861E2 /* AATurntableResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATurntableResultView.h; sourceTree = "<group>"; };
+		B20A8CC0288E6663009861E2 /* AATurntableResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AATurntableResultItemView.xib; sourceTree = "<group>"; };
+		B20A8CCC288E6663009861E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20A8CFB288E6F87009861E2 /* BBTurntableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTurntableView.h; sourceTree = "<group>"; };
+		B20A8CFC288E6F87009861E2 /* BBTurntableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBTurntableView.xib; sourceTree = "<group>"; };
+		B20A8CFD288E6F87009861E2 /* BBTurntableAnimView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTurntableAnimView.h; sourceTree = "<group>"; };
+		B20A8CFE288E6F87009861E2 /* BBTurntableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTurntableView.m; sourceTree = "<group>"; };
+		B20A8CFF288E6F87009861E2 /* BBTurntableAnimView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTurntableAnimView.m; sourceTree = "<group>"; };
+		B20A8D10288E6F87009861E2 /* BBTurntableBigPriceResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTurntableBigPriceResultView.m; sourceTree = "<group>"; };
+		B20A8D11288E6F87009861E2 /* BBTurntableResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTurntableResultView.m; sourceTree = "<group>"; };
+		B20A8D12288E6F87009861E2 /* BBTurntableResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTurntableResultItemView.m; sourceTree = "<group>"; };
+		B20A8D13288E6F87009861E2 /* BBTurntableResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBTurntableResultView.xib; sourceTree = "<group>"; };
+		B20A8D14288E6F87009861E2 /* BBTurntableBigPriceResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBTurntableBigPriceResultView.xib; sourceTree = "<group>"; };
+		B20A8D15288E6F87009861E2 /* BBTurntableBigPriceResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTurntableBigPriceResultView.h; sourceTree = "<group>"; };
+		B20A8D16288E6F87009861E2 /* BBTurntableResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTurntableResultItemView.h; sourceTree = "<group>"; };
+		B20A8D17288E6F87009861E2 /* BBTurntableResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTurntableResultView.h; sourceTree = "<group>"; };
+		B20A8D18288E6F87009861E2 /* BBTurntableResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBTurntableResultItemView.xib; sourceTree = "<group>"; };
+		B20A8D24288E6F87009861E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20A8D5B288E7585009861E2 /* JFPrayLotusResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPrayLotusResultView.m; sourceTree = "<group>"; };
+		B20A8D5C288E7585009861E2 /* JFPrayLotusResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFPrayLotusResultItemView.xib; sourceTree = "<group>"; };
+		B20A8D5D288E7585009861E2 /* JFPrayLotusResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPrayLotusResultItemView.m; sourceTree = "<group>"; };
+		B20A8D5E288E7585009861E2 /* JFPrayLotusResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFPrayLotusResultView.xib; sourceTree = "<group>"; };
+		B20A8D5F288E7585009861E2 /* JFPrayLotusResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPrayLotusResultItemView.h; sourceTree = "<group>"; };
+		B20A8D60288E7585009861E2 /* JFPrayLotusResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPrayLotusResultView.h; sourceTree = "<group>"; };
+		B20A8D62288E7585009861E2 /* JFPrayLotusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPrayLotusView.h; sourceTree = "<group>"; };
+		B20A8D63288E7585009861E2 /* JFPrayLotusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPrayLotusView.m; sourceTree = "<group>"; };
+		B20A8D64288E7585009861E2 /* JFPrayLotusView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFPrayLotusView.xib; sourceTree = "<group>"; };
+		B20A8D66288E7585009861E2 /* filter.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = filter.metal; sourceTree = "<group>"; };
+		B20A8D67288E7585009861E2 /* SLMaskVideoPlayerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMaskVideoPlayerLayer.m; sourceTree = "<group>"; };
+		B20A8D68288E7585009861E2 /* SLAlphaVideoDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAlphaVideoDefines.h; sourceTree = "<group>"; };
+		B20A8D69288E7585009861E2 /* SLMaskVideoPlayerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMaskVideoPlayerLayer.h; sourceTree = "<group>"; };
+		B20A8D6A288E7585009861E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20A8D80288E7585009861E2 /* pray_lotus_normal_open.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pray_lotus_normal_open.mp4; sourceTree = "<group>"; };
+		B20A8D81288E7585009861E2 /* pray_lotus_yellow_man.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = pray_lotus_yellow_man.svga; sourceTree = "<group>"; };
+		B20A8D82288E7585009861E2 /* pray_lotus_dream_wait.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pray_lotus_dream_wait.mp4; sourceTree = "<group>"; };
+		B20A8D83288E7585009861E2 /* pray_lotus_dream_open.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pray_lotus_dream_open.mp4; sourceTree = "<group>"; };
+		B20A8D84288E7585009861E2 /* pray_lotus_normal_wait.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pray_lotus_normal_wait.mp4; sourceTree = "<group>"; };
 		B2253047288D621500D130B8 /* JFPetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPetView.m; sourceTree = "<group>"; };
 		B2253048288D621500D130B8 /* JFPetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPetView.h; sourceTree = "<group>"; };
 		B2253049288D621500D130B8 /* JFPetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFPetView.xib; sourceTree = "<group>"; };
@@ -333,6 +467,26 @@
 		B2793A19288E38D2000E9230 /* CALayer+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+YYWebImage.m"; sourceTree = "<group>"; };
 		B2793A1A288E38D2000E9230 /* YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebImage.h; sourceTree = "<group>"; };
 		B2793A1B288E38D2000E9230 /* YYWebImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWebImageOperation.m; sourceTree = "<group>"; };
+		B2793A7A288E3E7D000E9230 /* JFTwistedEggResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTwistedEggResultView.m; sourceTree = "<group>"; };
+		B2793A7B288E3E7D000E9230 /* JFTwistedEggResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFTwistedEggResultItemView.xib; sourceTree = "<group>"; };
+		B2793A7C288E3E7D000E9230 /* JFTwistedEggResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTwistedEggResultItemView.m; sourceTree = "<group>"; };
+		B2793A7D288E3E7D000E9230 /* JFTwistedEggResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFTwistedEggResultView.xib; sourceTree = "<group>"; };
+		B2793A7E288E3E7D000E9230 /* JFTwistedEggResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTwistedEggResultItemView.h; sourceTree = "<group>"; };
+		B2793A7F288E3E7D000E9230 /* JFTwistedEggResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTwistedEggResultView.h; sourceTree = "<group>"; };
+		B2793A81288E3E7D000E9230 /* JFTwistedEggView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTwistedEggView.h; sourceTree = "<group>"; };
+		B2793A82288E3E7D000E9230 /* JFTwistedEggOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTwistedEggOptionView.m; sourceTree = "<group>"; };
+		B2793A83288E3E7D000E9230 /* JFTwistedEggView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTwistedEggView.m; sourceTree = "<group>"; };
+		B2793A84288E3E7D000E9230 /* JFTwistedEggView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFTwistedEggView.xib; sourceTree = "<group>"; };
+		B2793A85288E3E7D000E9230 /* JFTwistedEggOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTwistedEggOptionView.h; sourceTree = "<group>"; };
+		B2793A86288E3E7D000E9230 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2793AA0288E3E7D000E9230 /* room_twisted_egg_open_box.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = room_twisted_egg_open_box.svga; sourceTree = "<group>"; };
+		B2793AC1288E4014000E9230 /* GGButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGButton.h; sourceTree = "<group>"; };
+		B2793AC2288E4014000E9230 /* GGImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGImageView.m; sourceTree = "<group>"; };
+		B2793AC3288E4014000E9230 /* GGLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGLabel.m; sourceTree = "<group>"; };
+		B2793AC4288E4014000E9230 /* GGButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGButton.m; sourceTree = "<group>"; };
+		B2793AC5288E4014000E9230 /* GGIBInspectableKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGIBInspectableKit.h; sourceTree = "<group>"; };
+		B2793AC6288E4014000E9230 /* GGLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGLabel.h; sourceTree = "<group>"; };
+		B2793AC7288E4014000E9230 /* GGImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGImageView.h; sourceTree = "<group>"; };
 		B29CD8B628839E8800E1FB64 /* LotteryDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LotteryDemo.pch; sourceTree = "<group>"; };
 		B2A030A9288522B00024209D /* MBProgressHUD+YY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+YY.h"; sourceTree = "<group>"; };
 		B2A030AB288522B00024209D /* MBProgressHUD.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MBProgressHUD.xcassets; sourceTree = "<group>"; };
@@ -373,7 +527,209 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		B2253045288D621500D130B8 /* PetView */ = {
+		B20A8BFD288E4B49009861E2 /* JFVerticalButton */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8BFE288E4B49009861E2 /* JFVerticalButton.m */,
+				B20A8BFF288E4B49009861E2 /* JFVerticalButton.h */,
+			);
+			path = JFVerticalButton;
+			sourceTree = "<group>";
+		};
+		B20A8C01288E4D3E009861E2 /* 魔法仙台 */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8C09288E4D3E009861E2 /* Main */,
+				B20A8C32288E4D3E009861E2 /* Result */,
+				B20A8C0E288E4D3E009861E2 /* magic_table_open.svga */,
+				B20A8C0D288E4D3E009861E2 /* Assets.xcassets */,
+			);
+			path = "魔法仙台";
+			sourceTree = "<group>";
+		};
+		B20A8C09288E4D3E009861E2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8C0A288E4D3E009861E2 /* JFMagicTableView.h */,
+				B20A8C0C288E4D3E009861E2 /* JFMagicTableView.m */,
+				B20A8C0B288E4D3E009861E2 /* JFMagicTableView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B20A8C32288E4D3E009861E2 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8C38288E4D3E009861E2 /* JFMagicTableResultView.h */,
+				B20A8C34288E4D3E009861E2 /* JFMagicTableResultView.m */,
+				B20A8C35288E4D3E009861E2 /* JFMagicTableResultView.xib */,
+				B20A8C33288E4D3E009861E2 /* JFMagicTableResultCell.h */,
+				B20A8C36288E4D3E009861E2 /* JFMagicTableResultCell.m */,
+				B20A8C37288E4D3E009861E2 /* JFMagicTableResultCell.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B20A8C56288E60B5009861E2 /* 五角星球 */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8C70288E60B5009861E2 /* Main */,
+				B20A8C69288E60B5009861E2 /* Result */,
+				B20A8C7F288E60B5009861E2 /* pentagram_ball_open_box.svga */,
+				B20A8C74288E60B5009861E2 /* Assets.xcassets */,
+			);
+			path = "五角星球";
+			sourceTree = "<group>";
+		};
+		B20A8C69288E60B5009861E2 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8C6F288E60B5009861E2 /* JFPentagramBallResultView.h */,
+				B20A8C6A288E60B5009861E2 /* JFPentagramBallResultView.m */,
+				B20A8C6D288E60B5009861E2 /* JFPentagramBallResultView.xib */,
+				B20A8C6E288E60B5009861E2 /* JFPentagramBallResultItemView.h */,
+				B20A8C6C288E60B5009861E2 /* JFPentagramBallResultItemView.m */,
+				B20A8C6B288E60B5009861E2 /* JFPentagramBallResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B20A8C70288E60B5009861E2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8C71288E60B5009861E2 /* JFPentagramBallView.h */,
+				B20A8C72288E60B5009861E2 /* JFPentagramBallView.m */,
+				B20A8C73288E60B5009861E2 /* JFPentagramBallView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B20A8C97288E6663009861E2 /* 幸运转盘 */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8CA3288E6663009861E2 /* Main */,
+				B20A8CBA288E6663009861E2 /* Result */,
+				B20A8CCC288E6663009861E2 /* Assets.xcassets */,
+			);
+			path = "幸运转盘";
+			sourceTree = "<group>";
+		};
+		B20A8CA3288E6663009861E2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8CA4288E6663009861E2 /* AATurntableView.h */,
+				B20A8CA9288E6663009861E2 /* AATurntableView.m */,
+				B20A8CA6288E6663009861E2 /* AATurntableView.xib */,
+				B20A8CA8288E6663009861E2 /* AATurntableOptionView.h */,
+				B20A8CA5288E6663009861E2 /* AATurntableOptionView.m */,
+				B20A8CA7288E6663009861E2 /* AATurntableAnimView.h */,
+				B20A8CAA288E6663009861E2 /* AATurntableAnimView.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B20A8CBA288E6663009861E2 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8CBF288E6663009861E2 /* AATurntableResultView.h */,
+				B20A8CBB288E6663009861E2 /* AATurntableResultView.m */,
+				B20A8CBD288E6663009861E2 /* AATurntableResultView.xib */,
+				B20A8CBE288E6663009861E2 /* AATurntableResultItemView.h */,
+				B20A8CBC288E6663009861E2 /* AATurntableResultItemView.m */,
+				B20A8CC0288E6663009861E2 /* AATurntableResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B20A8CEE288E6F87009861E2 /* 幸运大转盘 */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8CFA288E6F87009861E2 /* Main */,
+				B20A8D0F288E6F87009861E2 /* Result */,
+				B20A8D24288E6F87009861E2 /* Assets.xcassets */,
+			);
+			path = "幸运大转盘";
+			sourceTree = "<group>";
+		};
+		B20A8CFA288E6F87009861E2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8CFB288E6F87009861E2 /* BBTurntableView.h */,
+				B20A8CFE288E6F87009861E2 /* BBTurntableView.m */,
+				B20A8CFC288E6F87009861E2 /* BBTurntableView.xib */,
+				B20A8CFD288E6F87009861E2 /* BBTurntableAnimView.h */,
+				B20A8CFF288E6F87009861E2 /* BBTurntableAnimView.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B20A8D0F288E6F87009861E2 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8D17288E6F87009861E2 /* BBTurntableResultView.h */,
+				B20A8D11288E6F87009861E2 /* BBTurntableResultView.m */,
+				B20A8D13288E6F87009861E2 /* BBTurntableResultView.xib */,
+				B20A8D15288E6F87009861E2 /* BBTurntableBigPriceResultView.h */,
+				B20A8D10288E6F87009861E2 /* BBTurntableBigPriceResultView.m */,
+				B20A8D14288E6F87009861E2 /* BBTurntableBigPriceResultView.xib */,
+				B20A8D16288E6F87009861E2 /* BBTurntableResultItemView.h */,
+				B20A8D12288E6F87009861E2 /* BBTurntableResultItemView.m */,
+				B20A8D18288E6F87009861E2 /* BBTurntableResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B20A8D47288E7585009861E2 /* 祈福莲华 */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8D61288E7585009861E2 /* Main */,
+				B20A8D5A288E7585009861E2 /* Result */,
+				B20A8D65288E7585009861E2 /* SLAlphaVideo */,
+				B20A8D6A288E7585009861E2 /* Assets.xcassets */,
+				B20A8D81288E7585009861E2 /* pray_lotus_yellow_man.svga */,
+				B20A8D80288E7585009861E2 /* pray_lotus_normal_open.mp4 */,
+				B20A8D82288E7585009861E2 /* pray_lotus_dream_wait.mp4 */,
+				B20A8D83288E7585009861E2 /* pray_lotus_dream_open.mp4 */,
+				B20A8D84288E7585009861E2 /* pray_lotus_normal_wait.mp4 */,
+			);
+			path = "祈福莲华";
+			sourceTree = "<group>";
+		};
+		B20A8D5A288E7585009861E2 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8D60288E7585009861E2 /* JFPrayLotusResultView.h */,
+				B20A8D5B288E7585009861E2 /* JFPrayLotusResultView.m */,
+				B20A8D5E288E7585009861E2 /* JFPrayLotusResultView.xib */,
+				B20A8D5F288E7585009861E2 /* JFPrayLotusResultItemView.h */,
+				B20A8D5D288E7585009861E2 /* JFPrayLotusResultItemView.m */,
+				B20A8D5C288E7585009861E2 /* JFPrayLotusResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B20A8D61288E7585009861E2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8D62288E7585009861E2 /* JFPrayLotusView.h */,
+				B20A8D63288E7585009861E2 /* JFPrayLotusView.m */,
+				B20A8D64288E7585009861E2 /* JFPrayLotusView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B20A8D65288E7585009861E2 /* SLAlphaVideo */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8D66288E7585009861E2 /* filter.metal */,
+				B20A8D68288E7585009861E2 /* SLAlphaVideoDefines.h */,
+				B20A8D69288E7585009861E2 /* SLMaskVideoPlayerLayer.h */,
+				B20A8D67288E7585009861E2 /* SLMaskVideoPlayerLayer.m */,
+			);
+			path = SLAlphaVideo;
+			sourceTree = "<group>";
+		};
+		B2253045288D621500D130B8 /* 萌宠考拉 */ = {
 			isa = PBXGroup;
 			children = (
 				B2253046288D621500D130B8 /* Main */,
@@ -382,7 +738,7 @@
 				B225306F288D621500D130B8 /* room_pet_idel.svga */,
 				B2253068288D621500D130B8 /* Assets.xcassets */,
 			);
-			path = PetView;
+			path = "萌宠考拉";
 			sourceTree = "<group>";
 		};
 		B2253046288D621500D130B8 /* Main */ = {
@@ -420,6 +776,8 @@
 		B2253096288D62EF00D130B8 /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
+				B20A8BFD288E4B49009861E2 /* JFVerticalButton */,
+				B2793AC0288E4014000E9230 /* GGIBInspectableKit */,
 				B2253092288D62EA00D130B8 /* JFNoHighlightButton */,
 			);
 			path = Widgets;
@@ -463,7 +821,7 @@
 			path = LotteryDemo;
 			sourceTree = "<group>";
 		};
-		B267AFA02882D99700648A02 /* IdolProject */ = {
+		B267AFA02882D99700648A02 /* 爱豆计划 */ = {
 			isa = PBXGroup;
 			children = (
 				B267AFA82882D99700648A02 /* Main */,
@@ -471,7 +829,7 @@
 				B267AFAC2882D99700648A02 /* Svga */,
 				B267AFDC2882D99700648A02 /* Assets.xcassets */,
 			);
-			path = IdolProject;
+			path = "爱豆计划";
 			sourceTree = "<group>";
 		};
 		B267AFA82882D99700648A02 /* Main */ = {
@@ -524,7 +882,7 @@
 			path = Request;
 			sourceTree = "<group>";
 		};
-		B2793921288E33F0000E9230 /* RoomWishView */ = {
+		B2793921288E33F0000E9230 /* 许愿水晶 */ = {
 			isa = PBXGroup;
 			children = (
 				B2793931288E33F0000E9230 /* Main */,
@@ -532,7 +890,7 @@
 				B2793950288E33F0000E9230 /* room_wish_crystal_animation.svga */,
 				B2793922288E33F0000E9230 /* Assets.xcassets */,
 			);
-			path = RoomWishView;
+			path = "许愿水晶";
 			sourceTree = "<group>";
 		};
 		B2793931288E33F0000E9230 /* Main */ = {
@@ -822,6 +1180,56 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		B2793A66288E3E7D000E9230 /* 快乐扭蛋 */ = {
+			isa = PBXGroup;
+			children = (
+				B2793A80288E3E7D000E9230 /* Main */,
+				B2793A79288E3E7D000E9230 /* Result */,
+				B2793AA0288E3E7D000E9230 /* room_twisted_egg_open_box.svga */,
+				B2793A86288E3E7D000E9230 /* Assets.xcassets */,
+			);
+			path = "快乐扭蛋";
+			sourceTree = "<group>";
+		};
+		B2793A79288E3E7D000E9230 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B2793A7F288E3E7D000E9230 /* JFTwistedEggResultView.h */,
+				B2793A7A288E3E7D000E9230 /* JFTwistedEggResultView.m */,
+				B2793A7D288E3E7D000E9230 /* JFTwistedEggResultView.xib */,
+				B2793A7E288E3E7D000E9230 /* JFTwistedEggResultItemView.h */,
+				B2793A7C288E3E7D000E9230 /* JFTwistedEggResultItemView.m */,
+				B2793A7B288E3E7D000E9230 /* JFTwistedEggResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B2793A80288E3E7D000E9230 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B2793A81288E3E7D000E9230 /* JFTwistedEggView.h */,
+				B2793A83288E3E7D000E9230 /* JFTwistedEggView.m */,
+				B2793A84288E3E7D000E9230 /* JFTwistedEggView.xib */,
+				B2793A85288E3E7D000E9230 /* JFTwistedEggOptionView.h */,
+				B2793A82288E3E7D000E9230 /* JFTwistedEggOptionView.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B2793AC0288E4014000E9230 /* GGIBInspectableKit */ = {
+			isa = PBXGroup;
+			children = (
+				B2793AC1288E4014000E9230 /* GGButton.h */,
+				B2793AC2288E4014000E9230 /* GGImageView.m */,
+				B2793AC3288E4014000E9230 /* GGLabel.m */,
+				B2793AC4288E4014000E9230 /* GGButton.m */,
+				B2793AC5288E4014000E9230 /* GGIBInspectableKit.h */,
+				B2793AC6288E4014000E9230 /* GGLabel.h */,
+				B2793AC7288E4014000E9230 /* GGImageView.h */,
+			);
+			path = GGIBInspectableKit;
+			sourceTree = "<group>";
+		};
 		B2A030A7288522B00024209D /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -837,9 +1245,15 @@
 			children = (
 				B267AFD22882D99700648A02 /* Request */,
 				B267AFBE2882D99700648A02 /* Model */,
-				B267AFA02882D99700648A02 /* IdolProject */,
-				B2253045288D621500D130B8 /* PetView */,
-				B2793921288E33F0000E9230 /* RoomWishView */,
+				B267AFA02882D99700648A02 /* 爱豆计划 */,
+				B2253045288D621500D130B8 /* 萌宠考拉 */,
+				B2793921288E33F0000E9230 /* 许愿水晶 */,
+				B2793A66288E3E7D000E9230 /* 快乐扭蛋 */,
+				B20A8C01288E4D3E009861E2 /* 魔法仙台 */,
+				B20A8C56288E60B5009861E2 /* 五角星球 */,
+				B20A8C97288E6663009861E2 /* 幸运转盘 */,
+				B20A8CEE288E6F87009861E2 /* 幸运大转盘 */,
+				B20A8D47288E7585009861E2 /* 祈福莲华 */,
 			);
 			path = Lottery;
 			sourceTree = "<group>";
@@ -957,27 +1371,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20A8CD7288E6663009861E2 /* AATurntableView.xib in Resources */,
 				B267AFE22882D99700648A02 /* JFIdolProjectView.xib in Resources */,
+				B20A8DA3288E7585009861E2 /* pray_lotus_yellow_man.svga in Resources */,
+				B20A8C53288E4D3E009861E2 /* JFMagicTableResultView.xib in Resources */,
 				B267AFEB2882D99700648A02 /* prize_call_open_box.svga in Resources */,
+				B20A8CE5288E6663009861E2 /* AATurntableResultView.xib in Resources */,
+				B20A8C3F288E4D3E009861E2 /* Assets.xcassets in Resources */,
+				B2793ABF288E3E7D000E9230 /* room_twisted_egg_open_box.svga in Resources */,
 				B2AEBF7F28839B1A006C840E /* Main.storyboard in Resources */,
 				B267B0002882D99700648A02 /* Assets.xcassets in Resources */,
 				B267AFFA2882D99700648A02 /* JFIdolProjectResultCell.xib in Resources */,
+				B20A8C8B288E60B5009861E2 /* JFPentagramBallResultItemView.xib in Resources */,
 				B2793961288E33F0000E9230 /* JFRoomWishView.xib in Resources */,
 				B2A030AE288522B00024209D /* MBProgressHUD.xcassets in Resources */,
+				B20A8CE6288E6663009861E2 /* AATurntableResultItemView.xib in Resources */,
+				B20A8D2E288E6F87009861E2 /* BBTurntableView.xib in Resources */,
+				B20A8C3D288E4D3E009861E2 /* JFMagicTableView.xib in Resources */,
 				B2793958288E33F0000E9230 /* Assets.xcassets in Resources */,
+				B2793AB2288E3E7D000E9230 /* Assets.xcassets in Resources */,
 				B2793973288E33F0000E9230 /* JFRoomResultItemView.xib in Resources */,
 				B225308A288D621500D130B8 /* Assets.xcassets in Resources */,
+				B20A8D3E288E6F87009861E2 /* BBTurntableBigPriceResultView.xib in Resources */,
 				B2253080288D621500D130B8 /* JFPetResultView.xib in Resources */,
 				B2253078288D621500D130B8 /* JFPetView.xib in Resources */,
 				B267AF972882D6FA00648A02 /* LaunchScreen.storyboard in Resources */,
+				B2793AAC288E3E7D000E9230 /* JFTwistedEggResultItemView.xib in Resources */,
 				B2253081288D621500D130B8 /* JFPetResultCell.xib in Resources */,
+				B20A8CEC288E6663009861E2 /* Assets.xcassets in Resources */,
 				B2793972288E33F0000E9230 /* JFRoomWishResultView.xib in Resources */,
+				B20A8D3F288E6F87009861E2 /* BBTurntableResultItemView.xib in Resources */,
+				B20A8C8D288E60B5009861E2 /* JFPentagramBallResultView.xib in Resources */,
+				B20A8D97288E7585009861E2 /* Assets.xcassets in Resources */,
+				B20A8D3D288E6F87009861E2 /* BBTurntableResultView.xib in Resources */,
+				B20A8C8F288E60B5009861E2 /* JFPentagramBallView.xib in Resources */,
 				B2793970288E33F0000E9230 /* room_wish_crystal_animation.svga in Resources */,
+				B2793AAE288E3E7D000E9230 /* JFTwistedEggResultView.xib in Resources */,
+				B20A8DA4288E7585009861E2 /* pray_lotus_dream_wait.mp4 in Resources */,
+				B20A8C90288E60B5009861E2 /* Assets.xcassets in Resources */,
+				B20A8D45288E6F87009861E2 /* Assets.xcassets in Resources */,
+				B20A8C96288E60B5009861E2 /* pentagram_ball_open_box.svga in Resources */,
+				B20A8DA5288E7585009861E2 /* pray_lotus_dream_open.mp4 in Resources */,
+				B2793AB1288E3E7D000E9230 /* JFTwistedEggView.xib in Resources */,
 				B267AFE52882D99700648A02 /* prize_call_box_default.svga in Resources */,
+				B20A8C40288E4D3E009861E2 /* magic_table_open.svga in Resources */,
+				B20A8DA6288E7585009861E2 /* pray_lotus_normal_wait.mp4 in Resources */,
 				B267AF942882D6FA00648A02 /* Assets.xcassets in Resources */,
 				B225307B288D621500D130B8 /* room_pet_eat.svga in Resources */,
 				B225308D288D621500D130B8 /* room_pet_idel.svga in Resources */,
+				B20A8D94288E7585009861E2 /* JFPrayLotusView.xib in Resources */,
+				B20A8D92288E7585009861E2 /* JFPrayLotusResultView.xib in Resources */,
+				B20A8D90288E7585009861E2 /* JFPrayLotusResultItemView.xib in Resources */,
 				B267AFF82882D99700648A02 /* JFIdolProjectResultView.xib in Resources */,
+				B20A8DA2288E7585009861E2 /* pray_lotus_normal_open.mp4 in Resources */,
+				B20A8C55288E4D3E009861E2 /* JFMagicTableResultCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1013,30 +1460,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20A8D8F288E7585009861E2 /* JFPrayLotusResultView.m in Sources */,
 				B2793A43288E38D2000E9230 /* UIApplication+YYAdd.m in Sources */,
 				B2253077288D621500D130B8 /* JFPetView.m in Sources */,
+				B2793AAD288E3E7D000E9230 /* JFTwistedEggResultItemView.m in Sources */,
 				B2793A54288E38D2000E9230 /* NSTimer+YYAdd.m in Sources */,
 				B2793A4F288E38D2000E9230 /* NSBundle+YYAdd.m in Sources */,
 				B2253095288D62EA00D130B8 /* JFNoHighlightButton.m in Sources */,
 				B2793A2F288E38D2000E9230 /* YYLabel.m in Sources */,
 				B2253082288D621500D130B8 /* JFPetResultView.m in Sources */,
+				B20A8C8C288E60B5009861E2 /* JFPentagramBallResultItemView.m in Sources */,
 				B2793A44288E38D2000E9230 /* UITableView+YYAdd.m in Sources */,
 				B2793A31288E38D2000E9230 /* YYTextParser.m in Sources */,
 				B267AF8F2882D6F800648A02 /* ViewController.m in Sources */,
+				B20A8CE3288E6663009861E2 /* AATurntableResultView.m in Sources */,
 				B2793A35288E38D2000E9230 /* YYTextUtilities.m in Sources */,
+				B20A8D2F288E6F87009861E2 /* BBTurntableView.m in Sources */,
 				B2AEBF7528839599006C840E /* JFLotteryListCell.m in Sources */,
 				B2793A22288E38D2000E9230 /* YYImageCoder.m in Sources */,
+				B2793AAB288E3E7D000E9230 /* JFTwistedEggResultView.m in Sources */,
 				B2793A23288E38D2000E9230 /* YYFrameImage.m in Sources */,
 				B2793A33288E38D2000E9230 /* YYTextArchiver.m in Sources */,
 				B2793A51288E38D2000E9230 /* NSData+YYAdd.m in Sources */,
 				B2793A4D288E38D2000E9230 /* NSArray+YYAdd.m in Sources */,
+				B20A8D95288E7585009861E2 /* filter.metal in Sources */,
 				B2793A63288E38D2000E9230 /* UIImage+YYWebImage.m in Sources */,
 				B2793A64288E38D2000E9230 /* CALayer+YYWebImage.m in Sources */,
 				B2793A2B288E38D2000E9230 /* YYTextLine.m in Sources */,
 				B2793A62288E38D2000E9230 /* MKAnnotationView+YYWebImage.m in Sources */,
+				B20A8CD8288E6663009861E2 /* AATurntableView.m in Sources */,
 				B2793A36288E38D2000E9230 /* NSParagraphStyle+YYText.m in Sources */,
 				B2793A5D288E38D2000E9230 /* YYImageCache.m in Sources */,
 				B2793A46288E38D2000E9230 /* UIScreen+YYAdd.m in Sources */,
+				B20A8D93288E7585009861E2 /* JFPrayLotusView.m in Sources */,
+				B20A8CD9288E6663009861E2 /* AATurntableAnimView.m in Sources */,
 				B2793A4E288E38D2000E9230 /* NSNumber+YYAdd.m in Sources */,
 				B2793A3F288E38D2000E9230 /* UITextField+YYAdd.m in Sources */,
 				B2793A58288E38D2000E9230 /* NSNotificationCenter+YYAdd.m in Sources */,
@@ -1048,32 +1505,46 @@
 				B2793A39288E38D2000E9230 /* YYTextTransaction.m in Sources */,
 				B2793A5A288E38D2000E9230 /* NSObject+YYAddForKVO.m in Sources */,
 				B2793A25288E38D2000E9230 /* YYTextView.m in Sources */,
+				B20A8D91288E7585009861E2 /* JFPrayLotusResultItemView.m in Sources */,
 				B2793A60288E38D2000E9230 /* UIButton+YYWebImage.m in Sources */,
 				B2793A5E288E38D2000E9230 /* YYWebImageManager.m in Sources */,
+				B2793ACA288E4015000E9230 /* GGButton.m in Sources */,
 				B2793A50288E38D2000E9230 /* NSObject+YYAdd.m in Sources */,
 				B2793A3C288E38D2000E9230 /* YYTextWeakProxy.m in Sources */,
+				B20A8C52288E4D3E009861E2 /* JFMagicTableResultView.m in Sources */,
 				B2793A48288E38D2000E9230 /* UIBarButtonItem+YYAdd.m in Sources */,
 				B2793A42288E38D2000E9230 /* UIDevice+YYAdd.m in Sources */,
+				B20A8C8E288E60B5009861E2 /* JFPentagramBallView.m in Sources */,
 				B2793A29288E38D2000E9230 /* YYTextInput.m in Sources */,
+				B20A8D96288E7585009861E2 /* SLMaskVideoPlayerLayer.m in Sources */,
+				B20A8D3C288E6F87009861E2 /* BBTurntableResultItemView.m in Sources */,
 				B267AFF72882D99700648A02 /* JFIdolProjectResultView.m in Sources */,
 				B2793A28288E38D2000E9230 /* YYTextEffectWindow.m in Sources */,
 				B2793A2D288E38D2000E9230 /* YYTextKeyboardManager.m in Sources */,
 				B2793A59288E38D2000E9230 /* NSDictionary+YYAdd.m in Sources */,
+				B20A8CD6288E6663009861E2 /* AATurntableOptionView.m in Sources */,
 				B2793A56288E38D2000E9230 /* NSDate+YYAdd.m in Sources */,
 				B267AFF92882D99700648A02 /* JFIdolProjectResultCell.m in Sources */,
 				B267AF9A2882D6FA00648A02 /* main.m in Sources */,
 				B2793A40288E38D2000E9230 /* UIBezierPath+YYAdd.m in Sources */,
+				B20A8D3A288E6F87009861E2 /* BBTurntableBigPriceResultView.m in Sources */,
 				B2793A3A288E38D2000E9230 /* UIView+YYText.m in Sources */,
 				B2793A2E288E38D2000E9230 /* YYTextDebugOption.m in Sources */,
+				B2793AC8288E4015000E9230 /* GGImageView.m in Sources */,
+				B20A8C00288E4B49009861E2 /* JFVerticalButton.m in Sources */,
 				B2793A49288E38D2000E9230 /* UIGestureRecognizer+YYAdd.m in Sources */,
 				B2793A34288E38D2000E9230 /* YYTextRubyAnnotation.m in Sources */,
 				B2793A21288E38D2000E9230 /* YYImage.m in Sources */,
 				B2793A65288E38D2000E9230 /* YYWebImageOperation.m in Sources */,
+				B20A8C54288E4D3E009861E2 /* JFMagicTableResultCell.m in Sources */,
+				B2793AAF288E3E7D000E9230 /* JFTwistedEggOptionView.m in Sources */,
+				B2793AC9288E4015000E9230 /* GGLabel.m in Sources */,
 				B2793A45288E38D2000E9230 /* UIScrollView+YYAdd.m in Sources */,
 				B2793A3D288E38D2000E9230 /* NSObject+YYModel.m in Sources */,
 				B2793A2A288E38D2000E9230 /* YYTextLayout.m in Sources */,
 				B2793A1F288E38D2000E9230 /* YYMemoryCache.m in Sources */,
 				B2793A5C288E38D2000E9230 /* CALayer+YYAdd.m in Sources */,
+				B2793AB0288E3E7D000E9230 /* JFTwistedEggView.m in Sources */,
 				B267AFE12882D99700648A02 /* JFIdolProjectView.m in Sources */,
 				B2793971288E33F0000E9230 /* JFRoomWishResultView.m in Sources */,
 				B2793A52288E38D2000E9230 /* NSThread+YYAdd.m in Sources */,
@@ -1082,6 +1553,7 @@
 				B2793A20288E38D2000E9230 /* YYSpriteSheetImage.m in Sources */,
 				B267AFFB2882D99700648A02 /* JFHttpRequestHelper.m in Sources */,
 				B2793974288E33F0000E9230 /* JFRoomResultItemView.m in Sources */,
+				B20A8CE4288E6663009861E2 /* AATurntableResultItemView.m in Sources */,
 				B267AF8C2882D6F800648A02 /* SceneDelegate.m in Sources */,
 				B2793A32288E38D2000E9230 /* YYTextAttribute.m in Sources */,
 				B2793A5F288E38D2000E9230 /* _YYWebImageSetter.m in Sources */,
@@ -1091,12 +1563,15 @@
 				B2793A47288E38D2000E9230 /* UIView+YYAdd.m in Sources */,
 				B2793A38288E38D2000E9230 /* UIPasteboard+YYText.m in Sources */,
 				B2793A37288E38D2000E9230 /* NSAttributedString+YYText.m in Sources */,
+				B20A8D3B288E6F87009861E2 /* BBTurntableResultView.m in Sources */,
 				B2793A4C288E38D2000E9230 /* UIFont+YYAdd.m in Sources */,
+				B20A8C8A288E60B5009861E2 /* JFPentagramBallResultView.m in Sources */,
 				B2253083288D621500D130B8 /* JFPetResultCell.m in Sources */,
 				B2793A2C288E38D2000E9230 /* YYTextSelectionView.m in Sources */,
 				B2793A1C288E38D2000E9230 /* YYDiskCache.m in Sources */,
 				B2793A4B288E38D2000E9230 /* UIControl+YYAdd.m in Sources */,
 				B2793A24288E38D2000E9230 /* YYAnimatedImageView.m in Sources */,
+				B20A8C3E288E4D3E009861E2 /* JFMagicTableView.m in Sources */,
 				B2793A61288E38D2000E9230 /* UIImageView+YYWebImage.m in Sources */,
 				B2793A57288E38D2000E9230 /* NSString+YYAdd.m in Sources */,
 				B2793A27288E38D2000E9230 /* YYTextContainerView.m in Sources */,
@@ -1104,6 +1579,7 @@
 				B267AFF32882D99700648A02 /* JFLotteryResultItem.m in Sources */,
 				B2793A1E288E38D2000E9230 /* YYKVStorage.m in Sources */,
 				B2793A3E288E38D2000E9230 /* YYClassInfo.m in Sources */,
+				B20A8D30288E6F87009861E2 /* BBTurntableAnimView.m in Sources */,
 				B2793A55288E38D2000E9230 /* NSObject+YYAddForARC.m in Sources */,
 				B2793A1D288E38D2000E9230 /* YYCache.m in Sources */,
 			);
@@ -1256,6 +1732,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MTLLINKER_FLAGS = "-fcikernel";
+				MTL_COMPILER_FLAGS = "-fcikernel";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ag.LotteryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1286,6 +1764,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MTLLINKER_FLAGS = "-fcikernel";
+				MTL_COMPILER_FLAGS = "-fcikernel";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ag.LotteryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

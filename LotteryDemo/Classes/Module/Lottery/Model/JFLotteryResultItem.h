@@ -14,6 +14,8 @@
 @property (nonatomic, assign) NSInteger goldPrice; // 价值
 @property (nonatomic, assign) NSInteger num; // 数量
 
+@property (nonatomic, assign) NSInteger angle; // 角度
+
 - (instancetype)initWithItemName:(NSString *)itemName picUrl:(NSString *)picUrl goldPrice:(NSInteger)goldPrice num:(NSInteger)num;
 
 @end
