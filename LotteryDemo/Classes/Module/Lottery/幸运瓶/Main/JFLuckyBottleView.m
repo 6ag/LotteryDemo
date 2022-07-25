@@ -45,9 +45,6 @@
     view.alpha = 0;
     [UIView animateWithDuration:0.28 animations:^{
         view.alpha = 1;
-    } completion:^(BOOL finished) {
-        // 先从xib里加载一次结果单项视图，这样弹窗避免卡顿
-        [UINib nibWithNibName:@"JFLuckyBottleResultItemView" bundle:nil];
     }];
 }
 

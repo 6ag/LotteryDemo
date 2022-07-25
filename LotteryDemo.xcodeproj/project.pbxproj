@@ -90,6 +90,21 @@
 		B23FB911288E9A7A002DC0DB /* JFLuckyBottleResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23FB8EB288E9A7A002DC0DB /* JFLuckyBottleResultView.xib */; };
 		B23FB912288E9A7A002DC0DB /* JFLuckyBottleResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23FB8EE288E9A7A002DC0DB /* JFLuckyBottleResultItemView.xib */; };
 		B23FB918288E9A7A002DC0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23FB8FA288E9A7A002DC0DB /* Assets.xcassets */; };
+		B23FB95F288EBDE1002DC0DB /* JFTreasureBoxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23FB928288EBDE1002DC0DB /* JFTreasureBoxView.xib */; };
+		B23FB960288EBDE1002DC0DB /* JFTreasureBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = B23FB929288EBDE1002DC0DB /* JFTreasureBoxView.m */; };
+		B23FB965288EBDE1002DC0DB /* treasure_box_open_box_open_normal.svga in Resources */ = {isa = PBXBuildFile; fileRef = B23FB931288EBDE1002DC0DB /* treasure_box_open_box_open_normal.svga */; };
+		B23FB966288EBDE1002DC0DB /* treasure_box_open_box_idel_normal.svga in Resources */ = {isa = PBXBuildFile; fileRef = B23FB932288EBDE1002DC0DB /* treasure_box_open_box_idel_normal.svga */; };
+		B23FB96B288EBDE1002DC0DB /* JFTreasureBoxBigResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23FB93B288EBDE1002DC0DB /* JFTreasureBoxBigResultView.xib */; };
+		B23FB96C288EBDE1002DC0DB /* JFTreasureBoxBigResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B23FB93C288EBDE1002DC0DB /* JFTreasureBoxBigResultView.m */; };
+		B23FB96D288EBDE1002DC0DB /* JFTreasureBoxResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B23FB93D288EBDE1002DC0DB /* JFTreasureBoxResultView.m */; };
+		B23FB96E288EBDE1002DC0DB /* JFTreasureBoxBigResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B23FB93E288EBDE1002DC0DB /* JFTreasureBoxBigResultItemView.m */; };
+		B23FB96F288EBDE1002DC0DB /* JFTreasureBoxResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B23FB93F288EBDE1002DC0DB /* JFTreasureBoxResultItemView.m */; };
+		B23FB970288EBDE1002DC0DB /* JFTreasureBoxResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23FB940288EBDE1002DC0DB /* JFTreasureBoxResultView.xib */; };
+		B23FB971288EBDE1002DC0DB /* JFTreasureBoxBigResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23FB942288EBDE1002DC0DB /* JFTreasureBoxBigResultItemView.xib */; };
+		B23FB972288EBDE1002DC0DB /* JFTreasureBoxResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23FB946288EBDE1002DC0DB /* JFTreasureBoxResultItemView.xib */; };
+		B23FB973288EBDE1002DC0DB /* treasure_box_open_box_open_luxury.svga in Resources */ = {isa = PBXBuildFile; fileRef = B23FB947288EBDE1002DC0DB /* treasure_box_open_box_open_luxury.svga */; };
+		B23FB979288EBDE1002DC0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23FB953288EBDE1002DC0DB /* Assets.xcassets */; };
+		B23FB97B288EBDE1002DC0DB /* treasure_box_open_box_idel_luxury.svga in Resources */ = {isa = PBXBuildFile; fileRef = B23FB957288EBDE1002DC0DB /* treasure_box_open_box_idel_luxury.svga */; };
 		B267AF892882D6F800648A02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B267AF882882D6F800648A02 /* AppDelegate.m */; };
 		B267AF8C2882D6F800648A02 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B267AF8B2882D6F800648A02 /* SceneDelegate.m */; };
 		B267AF8F2882D6F800648A02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B267AF8E2882D6F800648A02 /* ViewController.m */; };
@@ -346,6 +361,26 @@
 		B23FB8ED288E9A7A002DC0DB /* JFLuckyBottleResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFLuckyBottleResultView.h; sourceTree = "<group>"; };
 		B23FB8EE288E9A7A002DC0DB /* JFLuckyBottleResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFLuckyBottleResultItemView.xib; sourceTree = "<group>"; };
 		B23FB8FA288E9A7A002DC0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B23FB927288EBDE1002DC0DB /* JFTreasureBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTreasureBoxView.h; sourceTree = "<group>"; };
+		B23FB928288EBDE1002DC0DB /* JFTreasureBoxView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFTreasureBoxView.xib; sourceTree = "<group>"; };
+		B23FB929288EBDE1002DC0DB /* JFTreasureBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTreasureBoxView.m; sourceTree = "<group>"; };
+		B23FB931288EBDE1002DC0DB /* treasure_box_open_box_open_normal.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = treasure_box_open_box_open_normal.svga; sourceTree = "<group>"; };
+		B23FB932288EBDE1002DC0DB /* treasure_box_open_box_idel_normal.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = treasure_box_open_box_idel_normal.svga; sourceTree = "<group>"; };
+		B23FB93B288EBDE1002DC0DB /* JFTreasureBoxBigResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFTreasureBoxBigResultView.xib; sourceTree = "<group>"; };
+		B23FB93C288EBDE1002DC0DB /* JFTreasureBoxBigResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTreasureBoxBigResultView.m; sourceTree = "<group>"; };
+		B23FB93D288EBDE1002DC0DB /* JFTreasureBoxResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTreasureBoxResultView.m; sourceTree = "<group>"; };
+		B23FB93E288EBDE1002DC0DB /* JFTreasureBoxBigResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTreasureBoxBigResultItemView.m; sourceTree = "<group>"; };
+		B23FB93F288EBDE1002DC0DB /* JFTreasureBoxResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTreasureBoxResultItemView.m; sourceTree = "<group>"; };
+		B23FB940288EBDE1002DC0DB /* JFTreasureBoxResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFTreasureBoxResultView.xib; sourceTree = "<group>"; };
+		B23FB941288EBDE1002DC0DB /* JFTreasureBoxBigResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTreasureBoxBigResultView.h; sourceTree = "<group>"; };
+		B23FB942288EBDE1002DC0DB /* JFTreasureBoxBigResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFTreasureBoxBigResultItemView.xib; sourceTree = "<group>"; };
+		B23FB943288EBDE1002DC0DB /* JFTreasureBoxBigResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTreasureBoxBigResultItemView.h; sourceTree = "<group>"; };
+		B23FB944288EBDE1002DC0DB /* JFTreasureBoxResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTreasureBoxResultItemView.h; sourceTree = "<group>"; };
+		B23FB945288EBDE1002DC0DB /* JFTreasureBoxResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTreasureBoxResultView.h; sourceTree = "<group>"; };
+		B23FB946288EBDE1002DC0DB /* JFTreasureBoxResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFTreasureBoxResultItemView.xib; sourceTree = "<group>"; };
+		B23FB947288EBDE1002DC0DB /* treasure_box_open_box_open_luxury.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = treasure_box_open_box_open_luxury.svga; sourceTree = "<group>"; };
+		B23FB953288EBDE1002DC0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B23FB957288EBDE1002DC0DB /* treasure_box_open_box_idel_luxury.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = treasure_box_open_box_idel_luxury.svga; sourceTree = "<group>"; };
 		B267AF842882D6F800648A02 /* LotteryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B267AF872882D6F800648A02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B267AF882882D6F800648A02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -982,6 +1017,49 @@
 			path = Result;
 			sourceTree = "<group>";
 		};
+		B23FB91A288EBDE1002DC0DB /* 开宝箱 */ = {
+			isa = PBXGroup;
+			children = (
+				B23FB926288EBDE1002DC0DB /* Main */,
+				B23FB93A288EBDE1002DC0DB /* Result */,
+				B23FB931288EBDE1002DC0DB /* treasure_box_open_box_open_normal.svga */,
+				B23FB932288EBDE1002DC0DB /* treasure_box_open_box_idel_normal.svga */,
+				B23FB947288EBDE1002DC0DB /* treasure_box_open_box_open_luxury.svga */,
+				B23FB957288EBDE1002DC0DB /* treasure_box_open_box_idel_luxury.svga */,
+				B23FB953288EBDE1002DC0DB /* Assets.xcassets */,
+			);
+			path = "开宝箱";
+			sourceTree = "<group>";
+		};
+		B23FB926288EBDE1002DC0DB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B23FB927288EBDE1002DC0DB /* JFTreasureBoxView.h */,
+				B23FB929288EBDE1002DC0DB /* JFTreasureBoxView.m */,
+				B23FB928288EBDE1002DC0DB /* JFTreasureBoxView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B23FB93A288EBDE1002DC0DB /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B23FB945288EBDE1002DC0DB /* JFTreasureBoxResultView.h */,
+				B23FB93D288EBDE1002DC0DB /* JFTreasureBoxResultView.m */,
+				B23FB940288EBDE1002DC0DB /* JFTreasureBoxResultView.xib */,
+				B23FB944288EBDE1002DC0DB /* JFTreasureBoxResultItemView.h */,
+				B23FB93F288EBDE1002DC0DB /* JFTreasureBoxResultItemView.m */,
+				B23FB946288EBDE1002DC0DB /* JFTreasureBoxResultItemView.xib */,
+				B23FB941288EBDE1002DC0DB /* JFTreasureBoxBigResultView.h */,
+				B23FB93C288EBDE1002DC0DB /* JFTreasureBoxBigResultView.m */,
+				B23FB93B288EBDE1002DC0DB /* JFTreasureBoxBigResultView.xib */,
+				B23FB943288EBDE1002DC0DB /* JFTreasureBoxBigResultItemView.h */,
+				B23FB93E288EBDE1002DC0DB /* JFTreasureBoxBigResultItemView.m */,
+				B23FB942288EBDE1002DC0DB /* JFTreasureBoxBigResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
 		B267AF7B2882D6F800648A02 = {
 			isa = PBXGroup;
 			children = (
@@ -1506,6 +1584,7 @@
 				B289E4A0288E82680064D57A /* 月球宝藏 */,
 				B23FB87A288E8C21002DC0DB /* 火箭大作战 */,
 				B23FB8C9288E9A7A002DC0DB /* 幸运瓶 */,
+				B23FB91A288EBDE1002DC0DB /* 开宝箱 */,
 			);
 			path = Lottery;
 			sourceTree = "<group>";
@@ -1631,6 +1710,8 @@
 				B289E4DE288E82680064D57A /* JFMoonTreasureView.xib in Resources */,
 				B23FB904288E9A7A002DC0DB /* JFLuckyBottleView.xib in Resources */,
 				B20A8DFB288E7A48009861E2 /* CCTurntableResultItemView.xib in Resources */,
+				B23FB972288EBDE1002DC0DB /* JFTreasureBoxResultItemView.xib in Resources */,
+				B23FB971288EBDE1002DC0DB /* JFTreasureBoxBigResultItemView.xib in Resources */,
 				B289E48E288E7ECE0064D57A /* interstellar_travel_open_box.svga in Resources */,
 				B289E4F4288E82680064D57A /* Assets.xcassets in Resources */,
 				B20A8CE5288E6663009861E2 /* AATurntableResultView.xib in Resources */,
@@ -1645,16 +1726,20 @@
 				B23FB8B4288E8C21002DC0DB /* JFRocketView.xib in Resources */,
 				B289E493288E7ECE0064D57A /* Assets.xcassets in Resources */,
 				B20A8DFA288E7A48009861E2 /* CCTurntableResultView.xib in Resources */,
+				B23FB970288EBDE1002DC0DB /* JFTreasureBoxResultView.xib in Resources */,
+				B23FB973288EBDE1002DC0DB /* treasure_box_open_box_open_luxury.svga in Resources */,
 				B2A030AE288522B00024209D /* MBProgressHUD.xcassets in Resources */,
 				B23FB918288E9A7A002DC0DB /* Assets.xcassets in Resources */,
 				B23FB8C7288E8C21002DC0DB /* Assets.xcassets in Resources */,
 				B289E4EE288E82680064D57A /* JFMoonTreasureResultItemView.xib in Resources */,
+				B23FB966288EBDE1002DC0DB /* treasure_box_open_box_idel_normal.svga in Resources */,
 				B20A8CE6288E6663009861E2 /* AATurntableResultItemView.xib in Resources */,
 				B20A8D2E288E6F87009861E2 /* BBTurntableView.xib in Resources */,
 				B20A8C3D288E4D3E009861E2 /* JFMagicTableView.xib in Resources */,
 				B2793958288E33F0000E9230 /* Assets.xcassets in Resources */,
 				B2793AB2288E3E7D000E9230 /* Assets.xcassets in Resources */,
 				B2793973288E33F0000E9230 /* JFRoomResultItemView.xib in Resources */,
+				B23FB979288EBDE1002DC0DB /* Assets.xcassets in Resources */,
 				B23FB912288E9A7A002DC0DB /* JFLuckyBottleResultItemView.xib in Resources */,
 				B225308A288D621500D130B8 /* Assets.xcassets in Resources */,
 				B20A8D3E288E6F87009861E2 /* BBTurntableBigPriceResultView.xib in Resources */,
@@ -1665,6 +1750,8 @@
 				B20A8E01288E7A48009861E2 /* Assets.xcassets in Resources */,
 				B2253081288D621500D130B8 /* JFPetResultCell.xib in Resources */,
 				B20A8CEC288E6663009861E2 /* Assets.xcassets in Resources */,
+				B23FB97B288EBDE1002DC0DB /* treasure_box_open_box_idel_luxury.svga in Resources */,
+				B23FB96B288EBDE1002DC0DB /* JFTreasureBoxBigResultView.xib in Resources */,
 				B2793972288E33F0000E9230 /* JFRoomWishResultView.xib in Resources */,
 				B20A8D3F288E6F87009861E2 /* BBTurntableResultItemView.xib in Resources */,
 				B20A8C8D288E60B5009861E2 /* JFPentagramBallResultView.xib in Resources */,
@@ -1674,6 +1761,7 @@
 				B20A8C8F288E60B5009861E2 /* JFPentagramBallView.xib in Resources */,
 				B23FB8C0288E8C21002DC0DB /* JFRocketResultView.xib in Resources */,
 				B2793970288E33F0000E9230 /* room_wish_crystal_animation.svga in Resources */,
+				B23FB95F288EBDE1002DC0DB /* JFTreasureBoxView.xib in Resources */,
 				B2793AAE288E3E7D000E9230 /* JFTwistedEggResultView.xib in Resources */,
 				B20A8DA4288E7585009861E2 /* pray_lotus_dream_wait.mp4 in Resources */,
 				B20A8C90288E60B5009861E2 /* Assets.xcassets in Resources */,
@@ -1697,6 +1785,7 @@
 				B267AFF82882D99700648A02 /* JFIdolProjectResultView.xib in Resources */,
 				B20A8DA2288E7585009861E2 /* pray_lotus_normal_open.mp4 in Resources */,
 				B20A8C55288E4D3E009861E2 /* JFMagicTableResultCell.xib in Resources */,
+				B23FB965288EBDE1002DC0DB /* treasure_box_open_box_open_normal.svga in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1750,7 +1839,9 @@
 				B2793A31288E38D2000E9230 /* YYTextParser.m in Sources */,
 				B267AF8F2882D6F800648A02 /* ViewController.m in Sources */,
 				B20A8CE3288E6663009861E2 /* AATurntableResultView.m in Sources */,
+				B23FB96C288EBDE1002DC0DB /* JFTreasureBoxBigResultView.m in Sources */,
 				B289E4E0288E82680064D57A /* JFMoonTreasureView.m in Sources */,
+				B23FB96E288EBDE1002DC0DB /* JFTreasureBoxBigResultItemView.m in Sources */,
 				B289E4EB288E82680064D57A /* JFMoonTreasureResultView.m in Sources */,
 				B2793A35288E38D2000E9230 /* YYTextUtilities.m in Sources */,
 				B20A8D2F288E6F87009861E2 /* BBTurntableView.m in Sources */,
@@ -1785,6 +1876,7 @@
 				B2793A4A288E38D2000E9230 /* UIImage+YYAdd.m in Sources */,
 				B2793A39288E38D2000E9230 /* YYTextTransaction.m in Sources */,
 				B2793A5A288E38D2000E9230 /* NSObject+YYAddForKVO.m in Sources */,
+				B23FB960288EBDE1002DC0DB /* JFTreasureBoxView.m in Sources */,
 				B23FB905288E9A7A002DC0DB /* JFLuckyBottleView.m in Sources */,
 				B2793A25288E38D2000E9230 /* YYTextView.m in Sources */,
 				B20A8D91288E7585009861E2 /* JFPrayLotusResultItemView.m in Sources */,
@@ -1860,7 +1952,9 @@
 				B2793A4B288E38D2000E9230 /* UIControl+YYAdd.m in Sources */,
 				B2793A24288E38D2000E9230 /* YYAnimatedImageView.m in Sources */,
 				B20A8C3E288E4D3E009861E2 /* JFMagicTableView.m in Sources */,
+				B23FB96D288EBDE1002DC0DB /* JFTreasureBoxResultView.m in Sources */,
 				B2793A61288E38D2000E9230 /* UIImageView+YYWebImage.m in Sources */,
+				B23FB96F288EBDE1002DC0DB /* JFTreasureBoxResultItemView.m in Sources */,
 				B2793A57288E38D2000E9230 /* NSString+YYAdd.m in Sources */,
 				B2793A27288E38D2000E9230 /* YYTextContainerView.m in Sources */,
 				B2AEBF7828839602006C840E /* JFLotteryListModel.m in Sources */,

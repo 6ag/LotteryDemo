@@ -75,9 +75,6 @@
         view.coverView.alpha = 1;
         view.bottom_contentView.constant = (iPhoneX ? 0 : -20);
         [view layoutIfNeeded];
-    } completion:^(BOOL finished) {
-        // 先从xib里加载一次结果单项视图，这样弹窗避免卡顿
-        [UINib nibWithNibName:@"CCTurntableResultItemView" bundle:nil];
     }];
 }
 

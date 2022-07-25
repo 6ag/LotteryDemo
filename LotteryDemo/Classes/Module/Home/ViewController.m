@@ -18,7 +18,6 @@
 
 @end
 
-// 所有抽奖换UICollectionView展示，截图和名字，文字底部加遮罩
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -42,13 +41,11 @@
     return CGSizeMake(floor(itemWidth), itemWidth * 0.75);
 }
 
-// 滚动方向的item间距
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section
 {
     return 10;
 }
 
-// 滚动方向的交叉方向的item间距
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section
 {
     return 10;
@@ -69,10 +66,7 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     [collectionView deselectItemAtIndexPath:indexPath animated:YES];
-    
-    JFLotteryListModel *model = self.lotteryList[indexPath.item];
-    
-    [model.viewClass performSelector:@selector(show)];
+    [self.lotteryList[indexPath.item].viewClass performSelector:@selector(show)];
 }
 
 #pragma mark - setter/getter
@@ -94,6 +88,8 @@
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFMoonTreasureView") image:@"lottery_moon_treasure" title:@"月球宝藏"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFRocketView") image:@"lottery_rocket" title:@"火箭大作战"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFLuckyBottleView") image:@"lottery_lucky_bottle" title:@"幸运瓶"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFTreasureBoxView") image:@"lottery_treasure_box" title:@"开宝箱"]];
+        
         
     }
     return _lotteryList;
