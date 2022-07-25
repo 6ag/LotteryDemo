@@ -50,4 +50,7 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
 #define JFFontPingFangSCBold(fontSize) [UIFont fontWithName:@"PingFangSC-Bold" size:fontSize]
 #define JFFontAvenirNextHeavyItalic(fontSize) [UIFont fontWithName:@"AvenirNext-HeavyItalic" size:fontSize]
 
+// 按屏幕宽度，缩放WIDTH比例
+#define JFWidthRadio(WIDTH) ((WIDTH) * ([UIScreen mainScreen].bounds.size.width/375.0))
+
 #endif /* LotteryDemo_pch */

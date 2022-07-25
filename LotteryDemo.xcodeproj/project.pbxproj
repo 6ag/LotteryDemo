@@ -57,6 +57,15 @@
 		B20A8DA4288E7585009861E2 /* pray_lotus_dream_wait.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B20A8D82288E7585009861E2 /* pray_lotus_dream_wait.mp4 */; };
 		B20A8DA5288E7585009861E2 /* pray_lotus_dream_open.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B20A8D83288E7585009861E2 /* pray_lotus_dream_open.mp4 */; };
 		B20A8DA6288E7585009861E2 /* pray_lotus_normal_wait.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B20A8D84288E7585009861E2 /* pray_lotus_normal_wait.mp4 */; };
+		B20A8DE9288E7A48009861E2 /* CCTurntableOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8DB5288E7A47009861E2 /* CCTurntableOptionView.m */; };
+		B20A8DEA288E7A48009861E2 /* CCTurntableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8DB6288E7A47009861E2 /* CCTurntableView.xib */; };
+		B20A8DEC288E7A48009861E2 /* CCTurntableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8DBB288E7A47009861E2 /* CCTurntableView.m */; };
+		B20A8DED288E7A48009861E2 /* CCTurntableAnimView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8DBC288E7A47009861E2 /* CCTurntableAnimView.m */; };
+		B20A8DF8288E7A48009861E2 /* CCTurntableResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8DCE288E7A47009861E2 /* CCTurntableResultView.m */; };
+		B20A8DF9288E7A48009861E2 /* CCTurntableResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A8DCF288E7A47009861E2 /* CCTurntableResultItemView.m */; };
+		B20A8DFA288E7A48009861E2 /* CCTurntableResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8DD0288E7A47009861E2 /* CCTurntableResultView.xib */; };
+		B20A8DFB288E7A48009861E2 /* CCTurntableResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8DD3288E7A47009861E2 /* CCTurntableResultItemView.xib */; };
+		B20A8E01288E7A48009861E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20A8DDF288E7A47009861E2 /* Assets.xcassets */; };
 		B2253077288D621500D130B8 /* JFPetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2253047288D621500D130B8 /* JFPetView.m */; };
 		B2253078288D621500D130B8 /* JFPetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2253049288D621500D130B8 /* JFPetView.xib */; };
 		B225307B288D621500D130B8 /* room_pet_eat.svga in Resources */ = {isa = PBXBuildFile; fileRef = B225304E288D621500D130B8 /* room_pet_eat.svga */; };
@@ -67,6 +76,20 @@
 		B225308A288D621500D130B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2253068288D621500D130B8 /* Assets.xcassets */; };
 		B225308D288D621500D130B8 /* room_pet_idel.svga in Resources */ = {isa = PBXBuildFile; fileRef = B225306F288D621500D130B8 /* room_pet_idel.svga */; };
 		B2253095288D62EA00D130B8 /* JFNoHighlightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B2253094288D62EA00D130B8 /* JFNoHighlightButton.m */; };
+		B23FB8B4288E8C21002DC0DB /* JFRocketView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23FB888288E8C21002DC0DB /* JFRocketView.xib */; };
+		B23FB8B5288E8C21002DC0DB /* JFRocketView.m in Sources */ = {isa = PBXBuildFile; fileRef = B23FB889288E8C21002DC0DB /* JFRocketView.m */; };
+		B23FB8BE288E8C21002DC0DB /* JFRocketResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B23FB899288E8C21002DC0DB /* JFRocketResultView.m */; };
+		B23FB8BF288E8C21002DC0DB /* JFRocketResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B23FB89A288E8C21002DC0DB /* JFRocketResultItemView.m */; };
+		B23FB8C0288E8C21002DC0DB /* JFRocketResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23FB89B288E8C21002DC0DB /* JFRocketResultView.xib */; };
+		B23FB8C1288E8C21002DC0DB /* JFRocketResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23FB89E288E8C21002DC0DB /* JFRocketResultItemView.xib */; };
+		B23FB8C7288E8C21002DC0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23FB8AA288E8C21002DC0DB /* Assets.xcassets */; };
+		B23FB904288E9A7A002DC0DB /* JFLuckyBottleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23FB8D7288E9A7A002DC0DB /* JFLuckyBottleView.xib */; };
+		B23FB905288E9A7A002DC0DB /* JFLuckyBottleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B23FB8D8288E9A7A002DC0DB /* JFLuckyBottleView.m */; };
+		B23FB90F288E9A7A002DC0DB /* JFLuckyBottleResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B23FB8E9288E9A7A002DC0DB /* JFLuckyBottleResultView.m */; };
+		B23FB910288E9A7A002DC0DB /* JFLuckyBottleResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B23FB8EA288E9A7A002DC0DB /* JFLuckyBottleResultItemView.m */; };
+		B23FB911288E9A7A002DC0DB /* JFLuckyBottleResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23FB8EB288E9A7A002DC0DB /* JFLuckyBottleResultView.xib */; };
+		B23FB912288E9A7A002DC0DB /* JFLuckyBottleResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23FB8EE288E9A7A002DC0DB /* JFLuckyBottleResultItemView.xib */; };
+		B23FB918288E9A7A002DC0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23FB8FA288E9A7A002DC0DB /* Assets.xcassets */; };
 		B267AF892882D6F800648A02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B267AF882882D6F800648A02 /* AppDelegate.m */; };
 		B267AF8C2882D6F800648A02 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B267AF8B2882D6F800648A02 /* SceneDelegate.m */; };
 		B267AF8F2882D6F800648A02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B267AF8E2882D6F800648A02 /* ViewController.m */; };
@@ -178,6 +201,19 @@
 		B2793AC8288E4015000E9230 /* GGImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2793AC2288E4014000E9230 /* GGImageView.m */; };
 		B2793AC9288E4015000E9230 /* GGLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2793AC3288E4014000E9230 /* GGLabel.m */; };
 		B2793ACA288E4015000E9230 /* GGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B2793AC4288E4014000E9230 /* GGButton.m */; };
+		B289E48E288E7ECE0064D57A /* interstellar_travel_open_box.svga in Resources */ = {isa = PBXBuildFile; fileRef = B289E462288E7ECE0064D57A /* interstellar_travel_open_box.svga */; };
+		B289E48F288E7ECE0064D57A /* JFInterstellarTravelResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B289E464288E7ECE0064D57A /* JFInterstellarTravelResultItemView.xib */; };
+		B289E490288E7ECE0064D57A /* JFInterstellarTravelResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B289E465288E7ECE0064D57A /* JFInterstellarTravelResultItemView.m */; };
+		B289E491288E7ECE0064D57A /* JFInterstellarTravelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B289E468288E7ECE0064D57A /* JFInterstellarTravelView.m */; };
+		B289E492288E7ECE0064D57A /* JFInterstellarTravelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B289E469288E7ECE0064D57A /* JFInterstellarTravelView.xib */; };
+		B289E493288E7ECE0064D57A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B289E46A288E7ECE0064D57A /* Assets.xcassets */; };
+		B289E4DE288E82680064D57A /* JFMoonTreasureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B289E4AE288E82680064D57A /* JFMoonTreasureView.xib */; };
+		B289E4E0288E82680064D57A /* JFMoonTreasureView.m in Sources */ = {isa = PBXBuildFile; fileRef = B289E4B1288E82680064D57A /* JFMoonTreasureView.m */; };
+		B289E4EB288E82680064D57A /* JFMoonTreasureResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B289E4C3288E82680064D57A /* JFMoonTreasureResultView.m */; };
+		B289E4EC288E82680064D57A /* JFMoonTreasureResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B289E4C4288E82680064D57A /* JFMoonTreasureResultItemView.m */; };
+		B289E4ED288E82680064D57A /* JFMoonTreasureResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B289E4C5288E82680064D57A /* JFMoonTreasureResultView.xib */; };
+		B289E4EE288E82680064D57A /* JFMoonTreasureResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B289E4C8288E82680064D57A /* JFMoonTreasureResultItemView.xib */; };
+		B289E4F4288E82680064D57A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B289E4D4288E82680064D57A /* Assets.xcassets */; };
 		B2A030AE288522B00024209D /* MBProgressHUD.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A030AB288522B00024209D /* MBProgressHUD.xcassets */; };
 		B2A030AF288522B00024209D /* MBProgressHUD+YY.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A030AC288522B00024209D /* MBProgressHUD+YY.m */; };
 		B2AEBF7528839599006C840E /* JFLotteryListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AEBF7428839599006C840E /* JFLotteryListCell.m */; };
@@ -262,6 +298,20 @@
 		B20A8D82288E7585009861E2 /* pray_lotus_dream_wait.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pray_lotus_dream_wait.mp4; sourceTree = "<group>"; };
 		B20A8D83288E7585009861E2 /* pray_lotus_dream_open.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pray_lotus_dream_open.mp4; sourceTree = "<group>"; };
 		B20A8D84288E7585009861E2 /* pray_lotus_normal_wait.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pray_lotus_normal_wait.mp4; sourceTree = "<group>"; };
+		B20A8DB4288E7A47009861E2 /* CCTurntableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTurntableView.h; sourceTree = "<group>"; };
+		B20A8DB5288E7A47009861E2 /* CCTurntableOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTurntableOptionView.m; sourceTree = "<group>"; };
+		B20A8DB6288E7A47009861E2 /* CCTurntableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCTurntableView.xib; sourceTree = "<group>"; };
+		B20A8DB7288E7A47009861E2 /* CCTurntableAnimView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTurntableAnimView.h; sourceTree = "<group>"; };
+		B20A8DBA288E7A47009861E2 /* CCTurntableOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTurntableOptionView.h; sourceTree = "<group>"; };
+		B20A8DBB288E7A47009861E2 /* CCTurntableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTurntableView.m; sourceTree = "<group>"; };
+		B20A8DBC288E7A47009861E2 /* CCTurntableAnimView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTurntableAnimView.m; sourceTree = "<group>"; };
+		B20A8DCE288E7A47009861E2 /* CCTurntableResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTurntableResultView.m; sourceTree = "<group>"; };
+		B20A8DCF288E7A47009861E2 /* CCTurntableResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTurntableResultItemView.m; sourceTree = "<group>"; };
+		B20A8DD0288E7A47009861E2 /* CCTurntableResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCTurntableResultView.xib; sourceTree = "<group>"; };
+		B20A8DD1288E7A47009861E2 /* CCTurntableResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTurntableResultItemView.h; sourceTree = "<group>"; };
+		B20A8DD2288E7A47009861E2 /* CCTurntableResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTurntableResultView.h; sourceTree = "<group>"; };
+		B20A8DD3288E7A47009861E2 /* CCTurntableResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCTurntableResultItemView.xib; sourceTree = "<group>"; };
+		B20A8DDF288E7A47009861E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2253047288D621500D130B8 /* JFPetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPetView.m; sourceTree = "<group>"; };
 		B2253048288D621500D130B8 /* JFPetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPetView.h; sourceTree = "<group>"; };
 		B2253049288D621500D130B8 /* JFPetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFPetView.xib; sourceTree = "<group>"; };
@@ -276,6 +326,26 @@
 		B225306F288D621500D130B8 /* room_pet_idel.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = room_pet_idel.svga; sourceTree = "<group>"; };
 		B2253093288D62EA00D130B8 /* JFNoHighlightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFNoHighlightButton.h; sourceTree = "<group>"; };
 		B2253094288D62EA00D130B8 /* JFNoHighlightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFNoHighlightButton.m; sourceTree = "<group>"; };
+		B23FB887288E8C21002DC0DB /* JFRocketView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRocketView.h; sourceTree = "<group>"; };
+		B23FB888288E8C21002DC0DB /* JFRocketView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFRocketView.xib; sourceTree = "<group>"; };
+		B23FB889288E8C21002DC0DB /* JFRocketView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRocketView.m; sourceTree = "<group>"; };
+		B23FB899288E8C21002DC0DB /* JFRocketResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRocketResultView.m; sourceTree = "<group>"; };
+		B23FB89A288E8C21002DC0DB /* JFRocketResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRocketResultItemView.m; sourceTree = "<group>"; };
+		B23FB89B288E8C21002DC0DB /* JFRocketResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFRocketResultView.xib; sourceTree = "<group>"; };
+		B23FB89C288E8C21002DC0DB /* JFRocketResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRocketResultItemView.h; sourceTree = "<group>"; };
+		B23FB89D288E8C21002DC0DB /* JFRocketResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRocketResultView.h; sourceTree = "<group>"; };
+		B23FB89E288E8C21002DC0DB /* JFRocketResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFRocketResultItemView.xib; sourceTree = "<group>"; };
+		B23FB8AA288E8C21002DC0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B23FB8D6288E9A7A002DC0DB /* JFLuckyBottleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFLuckyBottleView.h; sourceTree = "<group>"; };
+		B23FB8D7288E9A7A002DC0DB /* JFLuckyBottleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFLuckyBottleView.xib; sourceTree = "<group>"; };
+		B23FB8D8288E9A7A002DC0DB /* JFLuckyBottleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFLuckyBottleView.m; sourceTree = "<group>"; };
+		B23FB8E9288E9A7A002DC0DB /* JFLuckyBottleResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFLuckyBottleResultView.m; sourceTree = "<group>"; };
+		B23FB8EA288E9A7A002DC0DB /* JFLuckyBottleResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFLuckyBottleResultItemView.m; sourceTree = "<group>"; };
+		B23FB8EB288E9A7A002DC0DB /* JFLuckyBottleResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFLuckyBottleResultView.xib; sourceTree = "<group>"; };
+		B23FB8EC288E9A7A002DC0DB /* JFLuckyBottleResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFLuckyBottleResultItemView.h; sourceTree = "<group>"; };
+		B23FB8ED288E9A7A002DC0DB /* JFLuckyBottleResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFLuckyBottleResultView.h; sourceTree = "<group>"; };
+		B23FB8EE288E9A7A002DC0DB /* JFLuckyBottleResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFLuckyBottleResultItemView.xib; sourceTree = "<group>"; };
+		B23FB8FA288E9A7A002DC0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B267AF842882D6F800648A02 /* LotteryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B267AF872882D6F800648A02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B267AF882882D6F800648A02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -487,6 +557,24 @@
 		B2793AC5288E4014000E9230 /* GGIBInspectableKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGIBInspectableKit.h; sourceTree = "<group>"; };
 		B2793AC6288E4014000E9230 /* GGLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGLabel.h; sourceTree = "<group>"; };
 		B2793AC7288E4014000E9230 /* GGImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGImageView.h; sourceTree = "<group>"; };
+		B289E462288E7ECE0064D57A /* interstellar_travel_open_box.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = interstellar_travel_open_box.svga; sourceTree = "<group>"; };
+		B289E464288E7ECE0064D57A /* JFInterstellarTravelResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFInterstellarTravelResultItemView.xib; sourceTree = "<group>"; };
+		B289E465288E7ECE0064D57A /* JFInterstellarTravelResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFInterstellarTravelResultItemView.m; sourceTree = "<group>"; };
+		B289E466288E7ECE0064D57A /* JFInterstellarTravelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFInterstellarTravelView.h; sourceTree = "<group>"; };
+		B289E467288E7ECE0064D57A /* JFInterstellarTravelResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFInterstellarTravelResultItemView.h; sourceTree = "<group>"; };
+		B289E468288E7ECE0064D57A /* JFInterstellarTravelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFInterstellarTravelView.m; sourceTree = "<group>"; };
+		B289E469288E7ECE0064D57A /* JFInterstellarTravelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFInterstellarTravelView.xib; sourceTree = "<group>"; };
+		B289E46A288E7ECE0064D57A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B289E4AD288E82680064D57A /* JFMoonTreasureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMoonTreasureView.h; sourceTree = "<group>"; };
+		B289E4AE288E82680064D57A /* JFMoonTreasureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFMoonTreasureView.xib; sourceTree = "<group>"; };
+		B289E4B1288E82680064D57A /* JFMoonTreasureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMoonTreasureView.m; sourceTree = "<group>"; };
+		B289E4C3288E82680064D57A /* JFMoonTreasureResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMoonTreasureResultView.m; sourceTree = "<group>"; };
+		B289E4C4288E82680064D57A /* JFMoonTreasureResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMoonTreasureResultItemView.m; sourceTree = "<group>"; };
+		B289E4C5288E82680064D57A /* JFMoonTreasureResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFMoonTreasureResultView.xib; sourceTree = "<group>"; };
+		B289E4C6288E82680064D57A /* JFMoonTreasureResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMoonTreasureResultItemView.h; sourceTree = "<group>"; };
+		B289E4C7288E82680064D57A /* JFMoonTreasureResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMoonTreasureResultView.h; sourceTree = "<group>"; };
+		B289E4C8288E82680064D57A /* JFMoonTreasureResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFMoonTreasureResultItemView.xib; sourceTree = "<group>"; };
+		B289E4D4288E82680064D57A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B29CD8B628839E8800E1FB64 /* LotteryDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LotteryDemo.pch; sourceTree = "<group>"; };
 		B2A030A9288522B00024209D /* MBProgressHUD+YY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+YY.h"; sourceTree = "<group>"; };
 		B2A030AB288522B00024209D /* MBProgressHUD.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MBProgressHUD.xcassets; sourceTree = "<group>"; };
@@ -729,6 +817,43 @@
 			path = SLAlphaVideo;
 			sourceTree = "<group>";
 		};
+		B20A8DA7288E7A47009861E2 /* 比翼转盘 */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8DB3288E7A47009861E2 /* Main */,
+				B20A8DCD288E7A47009861E2 /* Result */,
+				B20A8DDF288E7A47009861E2 /* Assets.xcassets */,
+			);
+			path = "比翼转盘";
+			sourceTree = "<group>";
+		};
+		B20A8DB3288E7A47009861E2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8DB4288E7A47009861E2 /* CCTurntableView.h */,
+				B20A8DBB288E7A47009861E2 /* CCTurntableView.m */,
+				B20A8DB6288E7A47009861E2 /* CCTurntableView.xib */,
+				B20A8DB7288E7A47009861E2 /* CCTurntableAnimView.h */,
+				B20A8DBC288E7A47009861E2 /* CCTurntableAnimView.m */,
+				B20A8DBA288E7A47009861E2 /* CCTurntableOptionView.h */,
+				B20A8DB5288E7A47009861E2 /* CCTurntableOptionView.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B20A8DCD288E7A47009861E2 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B20A8DD2288E7A47009861E2 /* CCTurntableResultView.h */,
+				B20A8DCE288E7A47009861E2 /* CCTurntableResultView.m */,
+				B20A8DD0288E7A47009861E2 /* CCTurntableResultView.xib */,
+				B20A8DD1288E7A47009861E2 /* CCTurntableResultItemView.h */,
+				B20A8DCF288E7A47009861E2 /* CCTurntableResultItemView.m */,
+				B20A8DD3288E7A47009861E2 /* CCTurntableResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
 		B2253045288D621500D130B8 /* 萌宠考拉 */ = {
 			isa = PBXGroup;
 			children = (
@@ -789,6 +914,72 @@
 				B2A030A7288522B00024209D /* MBProgressHUD */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B23FB87A288E8C21002DC0DB /* 火箭大作战 */ = {
+			isa = PBXGroup;
+			children = (
+				B23FB886288E8C21002DC0DB /* Main */,
+				B23FB898288E8C21002DC0DB /* Result */,
+				B23FB8AA288E8C21002DC0DB /* Assets.xcassets */,
+			);
+			path = "火箭大作战";
+			sourceTree = "<group>";
+		};
+		B23FB886288E8C21002DC0DB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B23FB887288E8C21002DC0DB /* JFRocketView.h */,
+				B23FB889288E8C21002DC0DB /* JFRocketView.m */,
+				B23FB888288E8C21002DC0DB /* JFRocketView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B23FB898288E8C21002DC0DB /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B23FB89D288E8C21002DC0DB /* JFRocketResultView.h */,
+				B23FB899288E8C21002DC0DB /* JFRocketResultView.m */,
+				B23FB89B288E8C21002DC0DB /* JFRocketResultView.xib */,
+				B23FB89C288E8C21002DC0DB /* JFRocketResultItemView.h */,
+				B23FB89A288E8C21002DC0DB /* JFRocketResultItemView.m */,
+				B23FB89E288E8C21002DC0DB /* JFRocketResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B23FB8C9288E9A7A002DC0DB /* 幸运瓶 */ = {
+			isa = PBXGroup;
+			children = (
+				B23FB8D5288E9A7A002DC0DB /* Main */,
+				B23FB8E8288E9A7A002DC0DB /* Result */,
+				B23FB8FA288E9A7A002DC0DB /* Assets.xcassets */,
+			);
+			path = "幸运瓶";
+			sourceTree = "<group>";
+		};
+		B23FB8D5288E9A7A002DC0DB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B23FB8D6288E9A7A002DC0DB /* JFLuckyBottleView.h */,
+				B23FB8D8288E9A7A002DC0DB /* JFLuckyBottleView.m */,
+				B23FB8D7288E9A7A002DC0DB /* JFLuckyBottleView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B23FB8E8288E9A7A002DC0DB /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B23FB8ED288E9A7A002DC0DB /* JFLuckyBottleResultView.h */,
+				B23FB8E9288E9A7A002DC0DB /* JFLuckyBottleResultView.m */,
+				B23FB8EB288E9A7A002DC0DB /* JFLuckyBottleResultView.xib */,
+				B23FB8EC288E9A7A002DC0DB /* JFLuckyBottleResultItemView.h */,
+				B23FB8EA288E9A7A002DC0DB /* JFLuckyBottleResultItemView.m */,
+				B23FB8EE288E9A7A002DC0DB /* JFLuckyBottleResultItemView.xib */,
+			);
+			path = Result;
 			sourceTree = "<group>";
 		};
 		B267AF7B2882D6F800648A02 = {
@@ -1230,6 +1421,62 @@
 			path = GGIBInspectableKit;
 			sourceTree = "<group>";
 		};
+		B289E44F288E7ECE0064D57A /* 星际旅行 */ = {
+			isa = PBXGroup;
+			children = (
+				B289E463288E7ECE0064D57A /* Main */,
+				B289E462288E7ECE0064D57A /* interstellar_travel_open_box.svga */,
+				B289E46A288E7ECE0064D57A /* Assets.xcassets */,
+			);
+			path = "星际旅行";
+			sourceTree = "<group>";
+		};
+		B289E463288E7ECE0064D57A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B289E466288E7ECE0064D57A /* JFInterstellarTravelView.h */,
+				B289E468288E7ECE0064D57A /* JFInterstellarTravelView.m */,
+				B289E469288E7ECE0064D57A /* JFInterstellarTravelView.xib */,
+				B289E467288E7ECE0064D57A /* JFInterstellarTravelResultItemView.h */,
+				B289E465288E7ECE0064D57A /* JFInterstellarTravelResultItemView.m */,
+				B289E464288E7ECE0064D57A /* JFInterstellarTravelResultItemView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B289E4A0288E82680064D57A /* 月球宝藏 */ = {
+			isa = PBXGroup;
+			children = (
+				B289E4AC288E82680064D57A /* Main */,
+				B289E4C2288E82680064D57A /* Result */,
+				B289E4D4288E82680064D57A /* Assets.xcassets */,
+			);
+			path = "月球宝藏";
+			sourceTree = "<group>";
+		};
+		B289E4AC288E82680064D57A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B289E4AD288E82680064D57A /* JFMoonTreasureView.h */,
+				B289E4B1288E82680064D57A /* JFMoonTreasureView.m */,
+				B289E4AE288E82680064D57A /* JFMoonTreasureView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B289E4C2288E82680064D57A /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B289E4C7288E82680064D57A /* JFMoonTreasureResultView.h */,
+				B289E4C3288E82680064D57A /* JFMoonTreasureResultView.m */,
+				B289E4C5288E82680064D57A /* JFMoonTreasureResultView.xib */,
+				B289E4C6288E82680064D57A /* JFMoonTreasureResultItemView.h */,
+				B289E4C4288E82680064D57A /* JFMoonTreasureResultItemView.m */,
+				B289E4C8288E82680064D57A /* JFMoonTreasureResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
 		B2A030A7288522B00024209D /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -1254,6 +1501,11 @@
 				B20A8C97288E6663009861E2 /* 幸运转盘 */,
 				B20A8CEE288E6F87009861E2 /* 幸运大转盘 */,
 				B20A8D47288E7585009861E2 /* 祈福莲华 */,
+				B20A8DA7288E7A47009861E2 /* 比翼转盘 */,
+				B289E44F288E7ECE0064D57A /* 星际旅行 */,
+				B289E4A0288E82680064D57A /* 月球宝藏 */,
+				B23FB87A288E8C21002DC0DB /* 火箭大作战 */,
+				B23FB8C9288E9A7A002DC0DB /* 幸运瓶 */,
 			);
 			path = Lottery;
 			sourceTree = "<group>";
@@ -1376,35 +1628,51 @@
 				B20A8DA3288E7585009861E2 /* pray_lotus_yellow_man.svga in Resources */,
 				B20A8C53288E4D3E009861E2 /* JFMagicTableResultView.xib in Resources */,
 				B267AFEB2882D99700648A02 /* prize_call_open_box.svga in Resources */,
+				B289E4DE288E82680064D57A /* JFMoonTreasureView.xib in Resources */,
+				B23FB904288E9A7A002DC0DB /* JFLuckyBottleView.xib in Resources */,
+				B20A8DFB288E7A48009861E2 /* CCTurntableResultItemView.xib in Resources */,
+				B289E48E288E7ECE0064D57A /* interstellar_travel_open_box.svga in Resources */,
+				B289E4F4288E82680064D57A /* Assets.xcassets in Resources */,
 				B20A8CE5288E6663009861E2 /* AATurntableResultView.xib in Resources */,
 				B20A8C3F288E4D3E009861E2 /* Assets.xcassets in Resources */,
 				B2793ABF288E3E7D000E9230 /* room_twisted_egg_open_box.svga in Resources */,
 				B2AEBF7F28839B1A006C840E /* Main.storyboard in Resources */,
 				B267B0002882D99700648A02 /* Assets.xcassets in Resources */,
+				B289E492288E7ECE0064D57A /* JFInterstellarTravelView.xib in Resources */,
 				B267AFFA2882D99700648A02 /* JFIdolProjectResultCell.xib in Resources */,
 				B20A8C8B288E60B5009861E2 /* JFPentagramBallResultItemView.xib in Resources */,
 				B2793961288E33F0000E9230 /* JFRoomWishView.xib in Resources */,
+				B23FB8B4288E8C21002DC0DB /* JFRocketView.xib in Resources */,
+				B289E493288E7ECE0064D57A /* Assets.xcassets in Resources */,
+				B20A8DFA288E7A48009861E2 /* CCTurntableResultView.xib in Resources */,
 				B2A030AE288522B00024209D /* MBProgressHUD.xcassets in Resources */,
+				B23FB918288E9A7A002DC0DB /* Assets.xcassets in Resources */,
+				B23FB8C7288E8C21002DC0DB /* Assets.xcassets in Resources */,
+				B289E4EE288E82680064D57A /* JFMoonTreasureResultItemView.xib in Resources */,
 				B20A8CE6288E6663009861E2 /* AATurntableResultItemView.xib in Resources */,
 				B20A8D2E288E6F87009861E2 /* BBTurntableView.xib in Resources */,
 				B20A8C3D288E4D3E009861E2 /* JFMagicTableView.xib in Resources */,
 				B2793958288E33F0000E9230 /* Assets.xcassets in Resources */,
 				B2793AB2288E3E7D000E9230 /* Assets.xcassets in Resources */,
 				B2793973288E33F0000E9230 /* JFRoomResultItemView.xib in Resources */,
+				B23FB912288E9A7A002DC0DB /* JFLuckyBottleResultItemView.xib in Resources */,
 				B225308A288D621500D130B8 /* Assets.xcassets in Resources */,
 				B20A8D3E288E6F87009861E2 /* BBTurntableBigPriceResultView.xib in Resources */,
 				B2253080288D621500D130B8 /* JFPetResultView.xib in Resources */,
 				B2253078288D621500D130B8 /* JFPetView.xib in Resources */,
 				B267AF972882D6FA00648A02 /* LaunchScreen.storyboard in Resources */,
 				B2793AAC288E3E7D000E9230 /* JFTwistedEggResultItemView.xib in Resources */,
+				B20A8E01288E7A48009861E2 /* Assets.xcassets in Resources */,
 				B2253081288D621500D130B8 /* JFPetResultCell.xib in Resources */,
 				B20A8CEC288E6663009861E2 /* Assets.xcassets in Resources */,
 				B2793972288E33F0000E9230 /* JFRoomWishResultView.xib in Resources */,
 				B20A8D3F288E6F87009861E2 /* BBTurntableResultItemView.xib in Resources */,
 				B20A8C8D288E60B5009861E2 /* JFPentagramBallResultView.xib in Resources */,
 				B20A8D97288E7585009861E2 /* Assets.xcassets in Resources */,
+				B289E4ED288E82680064D57A /* JFMoonTreasureResultView.xib in Resources */,
 				B20A8D3D288E6F87009861E2 /* BBTurntableResultView.xib in Resources */,
 				B20A8C8F288E60B5009861E2 /* JFPentagramBallView.xib in Resources */,
+				B23FB8C0288E8C21002DC0DB /* JFRocketResultView.xib in Resources */,
 				B2793970288E33F0000E9230 /* room_wish_crystal_animation.svga in Resources */,
 				B2793AAE288E3E7D000E9230 /* JFTwistedEggResultView.xib in Resources */,
 				B20A8DA4288E7585009861E2 /* pray_lotus_dream_wait.mp4 in Resources */,
@@ -1413,12 +1681,16 @@
 				B20A8C96288E60B5009861E2 /* pentagram_ball_open_box.svga in Resources */,
 				B20A8DA5288E7585009861E2 /* pray_lotus_dream_open.mp4 in Resources */,
 				B2793AB1288E3E7D000E9230 /* JFTwistedEggView.xib in Resources */,
+				B23FB8C1288E8C21002DC0DB /* JFRocketResultItemView.xib in Resources */,
 				B267AFE52882D99700648A02 /* prize_call_box_default.svga in Resources */,
 				B20A8C40288E4D3E009861E2 /* magic_table_open.svga in Resources */,
+				B289E48F288E7ECE0064D57A /* JFInterstellarTravelResultItemView.xib in Resources */,
 				B20A8DA6288E7585009861E2 /* pray_lotus_normal_wait.mp4 in Resources */,
 				B267AF942882D6FA00648A02 /* Assets.xcassets in Resources */,
+				B20A8DEA288E7A48009861E2 /* CCTurntableView.xib in Resources */,
 				B225307B288D621500D130B8 /* room_pet_eat.svga in Resources */,
 				B225308D288D621500D130B8 /* room_pet_idel.svga in Resources */,
+				B23FB911288E9A7A002DC0DB /* JFLuckyBottleResultView.xib in Resources */,
 				B20A8D94288E7585009861E2 /* JFPrayLotusView.xib in Resources */,
 				B20A8D92288E7585009861E2 /* JFPrayLotusResultView.xib in Resources */,
 				B20A8D90288E7585009861E2 /* JFPrayLotusResultItemView.xib in Resources */,
@@ -1461,22 +1733,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				B20A8D8F288E7585009861E2 /* JFPrayLotusResultView.m in Sources */,
+				B20A8DF8288E7A48009861E2 /* CCTurntableResultView.m in Sources */,
 				B2793A43288E38D2000E9230 /* UIApplication+YYAdd.m in Sources */,
 				B2253077288D621500D130B8 /* JFPetView.m in Sources */,
 				B2793AAD288E3E7D000E9230 /* JFTwistedEggResultItemView.m in Sources */,
+				B20A8DF9288E7A48009861E2 /* CCTurntableResultItemView.m in Sources */,
 				B2793A54288E38D2000E9230 /* NSTimer+YYAdd.m in Sources */,
 				B2793A4F288E38D2000E9230 /* NSBundle+YYAdd.m in Sources */,
+				B23FB8B5288E8C21002DC0DB /* JFRocketView.m in Sources */,
 				B2253095288D62EA00D130B8 /* JFNoHighlightButton.m in Sources */,
 				B2793A2F288E38D2000E9230 /* YYLabel.m in Sources */,
 				B2253082288D621500D130B8 /* JFPetResultView.m in Sources */,
+				B23FB90F288E9A7A002DC0DB /* JFLuckyBottleResultView.m in Sources */,
 				B20A8C8C288E60B5009861E2 /* JFPentagramBallResultItemView.m in Sources */,
 				B2793A44288E38D2000E9230 /* UITableView+YYAdd.m in Sources */,
 				B2793A31288E38D2000E9230 /* YYTextParser.m in Sources */,
 				B267AF8F2882D6F800648A02 /* ViewController.m in Sources */,
 				B20A8CE3288E6663009861E2 /* AATurntableResultView.m in Sources */,
+				B289E4E0288E82680064D57A /* JFMoonTreasureView.m in Sources */,
+				B289E4EB288E82680064D57A /* JFMoonTreasureResultView.m in Sources */,
 				B2793A35288E38D2000E9230 /* YYTextUtilities.m in Sources */,
 				B20A8D2F288E6F87009861E2 /* BBTurntableView.m in Sources */,
 				B2AEBF7528839599006C840E /* JFLotteryListCell.m in Sources */,
+				B20A8DED288E7A48009861E2 /* CCTurntableAnimView.m in Sources */,
 				B2793A22288E38D2000E9230 /* YYImageCoder.m in Sources */,
 				B2793AAB288E3E7D000E9230 /* JFTwistedEggResultView.m in Sources */,
 				B2793A23288E38D2000E9230 /* YYFrameImage.m in Sources */,
@@ -1487,10 +1766,12 @@
 				B2793A63288E38D2000E9230 /* UIImage+YYWebImage.m in Sources */,
 				B2793A64288E38D2000E9230 /* CALayer+YYWebImage.m in Sources */,
 				B2793A2B288E38D2000E9230 /* YYTextLine.m in Sources */,
+				B23FB910288E9A7A002DC0DB /* JFLuckyBottleResultItemView.m in Sources */,
 				B2793A62288E38D2000E9230 /* MKAnnotationView+YYWebImage.m in Sources */,
 				B20A8CD8288E6663009861E2 /* AATurntableView.m in Sources */,
 				B2793A36288E38D2000E9230 /* NSParagraphStyle+YYText.m in Sources */,
 				B2793A5D288E38D2000E9230 /* YYImageCache.m in Sources */,
+				B289E4EC288E82680064D57A /* JFMoonTreasureResultItemView.m in Sources */,
 				B2793A46288E38D2000E9230 /* UIScreen+YYAdd.m in Sources */,
 				B20A8D93288E7585009861E2 /* JFPrayLotusView.m in Sources */,
 				B20A8CD9288E6663009861E2 /* AATurntableAnimView.m in Sources */,
@@ -1504,9 +1785,11 @@
 				B2793A4A288E38D2000E9230 /* UIImage+YYAdd.m in Sources */,
 				B2793A39288E38D2000E9230 /* YYTextTransaction.m in Sources */,
 				B2793A5A288E38D2000E9230 /* NSObject+YYAddForKVO.m in Sources */,
+				B23FB905288E9A7A002DC0DB /* JFLuckyBottleView.m in Sources */,
 				B2793A25288E38D2000E9230 /* YYTextView.m in Sources */,
 				B20A8D91288E7585009861E2 /* JFPrayLotusResultItemView.m in Sources */,
 				B2793A60288E38D2000E9230 /* UIButton+YYWebImage.m in Sources */,
+				B23FB8BF288E8C21002DC0DB /* JFRocketResultItemView.m in Sources */,
 				B2793A5E288E38D2000E9230 /* YYWebImageManager.m in Sources */,
 				B2793ACA288E4015000E9230 /* GGButton.m in Sources */,
 				B2793A50288E38D2000E9230 /* NSObject+YYAdd.m in Sources */,
@@ -1520,7 +1803,9 @@
 				B20A8D3C288E6F87009861E2 /* BBTurntableResultItemView.m in Sources */,
 				B267AFF72882D99700648A02 /* JFIdolProjectResultView.m in Sources */,
 				B2793A28288E38D2000E9230 /* YYTextEffectWindow.m in Sources */,
+				B20A8DE9288E7A48009861E2 /* CCTurntableOptionView.m in Sources */,
 				B2793A2D288E38D2000E9230 /* YYTextKeyboardManager.m in Sources */,
+				B289E490288E7ECE0064D57A /* JFInterstellarTravelResultItemView.m in Sources */,
 				B2793A59288E38D2000E9230 /* NSDictionary+YYAdd.m in Sources */,
 				B20A8CD6288E6663009861E2 /* AATurntableOptionView.m in Sources */,
 				B2793A56288E38D2000E9230 /* NSDate+YYAdd.m in Sources */,
@@ -1544,6 +1829,7 @@
 				B2793A2A288E38D2000E9230 /* YYTextLayout.m in Sources */,
 				B2793A1F288E38D2000E9230 /* YYMemoryCache.m in Sources */,
 				B2793A5C288E38D2000E9230 /* CALayer+YYAdd.m in Sources */,
+				B20A8DEC288E7A48009861E2 /* CCTurntableView.m in Sources */,
 				B2793AB0288E3E7D000E9230 /* JFTwistedEggView.m in Sources */,
 				B267AFE12882D99700648A02 /* JFIdolProjectView.m in Sources */,
 				B2793971288E33F0000E9230 /* JFRoomWishResultView.m in Sources */,
@@ -1560,6 +1846,7 @@
 				B2793962288E33F0000E9230 /* JFRoomWishView.m in Sources */,
 				B2793A30288E38D2000E9230 /* YYTextRunDelegate.m in Sources */,
 				B2A030AF288522B00024209D /* MBProgressHUD+YY.m in Sources */,
+				B289E491288E7ECE0064D57A /* JFInterstellarTravelView.m in Sources */,
 				B2793A47288E38D2000E9230 /* UIView+YYAdd.m in Sources */,
 				B2793A38288E38D2000E9230 /* UIPasteboard+YYText.m in Sources */,
 				B2793A37288E38D2000E9230 /* NSAttributedString+YYText.m in Sources */,
@@ -1569,6 +1856,7 @@
 				B2253083288D621500D130B8 /* JFPetResultCell.m in Sources */,
 				B2793A2C288E38D2000E9230 /* YYTextSelectionView.m in Sources */,
 				B2793A1C288E38D2000E9230 /* YYDiskCache.m in Sources */,
+				B23FB8BE288E8C21002DC0DB /* JFRocketResultView.m in Sources */,
 				B2793A4B288E38D2000E9230 /* UIControl+YYAdd.m in Sources */,
 				B2793A24288E38D2000E9230 /* YYAnimatedImageView.m in Sources */,
 				B20A8C3E288E4D3E009861E2 /* JFMagicTableView.m in Sources */,

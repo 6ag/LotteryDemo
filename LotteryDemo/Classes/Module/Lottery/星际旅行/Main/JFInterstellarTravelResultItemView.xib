@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="abm-s3-j2f" customClass="JFInterstellarTravelResultItemView">
+            <rect key="frame" x="0.0" y="0.0" width="85" height="124"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="vMY-5d-X1I">
+                <rect key="frame" x="0.0" y="0.0" width="85" height="124"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jmV-fK-CAv">
+                        <rect key="frame" x="8" y="0.0" width="69" height="69"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="jmV-fK-CAv" secondAttribute="height" multiplier="1:1" id="s9j-q4-C9P"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="棒棒糖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Lo-7l-Isv">
+                        <rect key="frame" x="24.5" y="69" width="36" height="17"/>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MtO-02-sMW">
+                        <rect key="frame" x="20.5" y="86" width="44.5" height="16"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w8S-l1-zzQ">
+                                <rect key="frame" x="0.0" y="1" width="9.5" height="14"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(13444)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d74-NT-q4R">
+                                <rect key="frame" x="9.5" y="1" width="35" height="14"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="d74-NT-q4R" firstAttribute="centerY" secondItem="MtO-02-sMW" secondAttribute="centerY" id="CeC-K0-ssN"/>
+                            <constraint firstItem="d74-NT-q4R" firstAttribute="leading" secondItem="w8S-l1-zzQ" secondAttribute="trailing" id="E0n-Ar-W5u"/>
+                            <constraint firstAttribute="height" constant="16" id="XZl-Zb-rqk"/>
+                            <constraint firstItem="w8S-l1-zzQ" firstAttribute="centerY" secondItem="MtO-02-sMW" secondAttribute="centerY" id="Yzq-nh-igw"/>
+                            <constraint firstItem="w8S-l1-zzQ" firstAttribute="leading" secondItem="MtO-02-sMW" secondAttribute="leading" id="oqz-UO-H6N"/>
+                            <constraint firstAttribute="trailing" secondItem="d74-NT-q4R" secondAttribute="trailing" id="wBC-Qz-Vc2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jmV-fK-CAv" firstAttribute="top" secondItem="vMY-5d-X1I" secondAttribute="top" id="EAU-dV-Ne9"/>
+                    <constraint firstItem="9Lo-7l-Isv" firstAttribute="centerX" secondItem="vMY-5d-X1I" secondAttribute="centerX" id="NdK-rC-j79"/>
+                    <constraint firstItem="9Lo-7l-Isv" firstAttribute="top" secondItem="jmV-fK-CAv" secondAttribute="bottom" id="T8a-NF-kvN"/>
+                    <constraint firstAttribute="trailing" secondItem="jmV-fK-CAv" secondAttribute="trailing" constant="8" id="Tzv-fT-OHb"/>
+                    <constraint firstItem="jmV-fK-CAv" firstAttribute="leading" secondItem="vMY-5d-X1I" secondAttribute="leading" constant="8" id="i4Y-Nc-njp"/>
+                    <constraint firstItem="MtO-02-sMW" firstAttribute="top" secondItem="9Lo-7l-Isv" secondAttribute="bottom" id="jfz-K1-elU"/>
+                    <constraint firstItem="MtO-02-sMW" firstAttribute="centerX" secondItem="vMY-5d-X1I" secondAttribute="centerX" id="zgg-aZ-wqu"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="85" height="124"/>
+            <connections>
+                <outlet property="giftImageView" destination="jmV-fK-CAv" id="clY-6s-wjP"/>
+                <outlet property="nameLabel" destination="9Lo-7l-Isv" id="ePa-SU-nq9"/>
+                <outlet property="numLabel" destination="w8S-l1-zzQ" id="yQT-MY-IL1"/>
+                <outlet property="priceLabel" destination="d74-NT-q4R" id="jqj-WD-BnU"/>
+            </connections>
+            <point key="canvasLocation" x="-135.50724637681159" y="-89.732142857142847"/>
+        </collectionViewCell>
+    </objects>
+</document>
