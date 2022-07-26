@@ -89,7 +89,9 @@
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFRocketView") image:@"lottery_rocket" title:@"火箭大作战"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFLuckyBottleView") image:@"lottery_lucky_bottle" title:@"幸运瓶"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFTreasureBoxView") image:@"lottery_treasure_box" title:@"开宝箱"]];
-        
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFOrchardView") image:@"lottery_orchard" title:@"果农乐园"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFMiningView") image:@"lottery_mining" title:@"挖矿"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFDragonSlayerView") image:@"lottery_dragon_slayer" title:@"屠龙勇士"]];
         
     }
     return _lotteryList;
