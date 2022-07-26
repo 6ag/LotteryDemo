@@ -92,6 +92,17 @@
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFOrchardView") image:@"lottery_orchard" title:@"果农乐园"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFMiningView") image:@"lottery_mining" title:@"挖矿"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFDragonSlayerView") image:@"lottery_dragon_slayer" title:@"屠龙勇士"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFDollMachineView") image:@"lottery_doll_machine" title:@"抓娃娃"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFMagicPrayView") image:@"lottery_magic_pray" title:@"魔法祈愿池"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("DDTurntableView") image:@"lottery_dd_turntable" title:@"幸运大转盘2"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFSummonBeastView") image:@"lottery_summon_beast" title:@"召唤神兽"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFMakeCandyView") image:@"lottery_make_candy" title:@"糖果制造机"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFPenguinMinerView") image:@"lottery_penguin_miner" title:@"企鹅矿工"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFTarotView") image:@"lottery_tarot" title:@"塔罗牌"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFCatteryView") image:@"lottery_cattery_cat" title:@"幸运猫舍"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFWaterTreeView") image:@"lottery_water_tree" title:@"给树浇水"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFUnlimitedTreasureChestView") image:@"lottery_unlimited_treasure_chest" title:@"无限宝箱"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFWhackMoleView") image:@"lottery_whack_mole" title:@"打地鼠"]];
         
     }
     return _lotteryList;

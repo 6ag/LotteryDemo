@@ -66,6 +66,23 @@
 		B20A8DFA288E7A48009861E2 /* CCTurntableResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8DD0288E7A47009861E2 /* CCTurntableResultView.xib */; };
 		B20A8DFB288E7A48009861E2 /* CCTurntableResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20A8DD3288E7A47009861E2 /* CCTurntableResultItemView.xib */; };
 		B20A8E01288E7A48009861E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20A8DDF288E7A47009861E2 /* Assets.xcassets */; };
+		B20CE0B9288FE16A00CC152B /* JFWhackMoleItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20CE093288FE16A00CC152B /* JFWhackMoleItemView.xib */; };
+		B20CE0BA288FE16A00CC152B /* JFWhackMoleItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20CE094288FE16A00CC152B /* JFWhackMoleItemView.m */; };
+		B20CE0BC288FE16A00CC152B /* JFWhackMoleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20CE096288FE16A00CC152B /* JFWhackMoleView.xib */; };
+		B20CE0BD288FE16A00CC152B /* JFWhackMoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B20CE097288FE16A00CC152B /* JFWhackMoleView.m */; };
+		B20CE0CA288FE16A00CC152B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20CE0A5288FE16A00CC152B /* Assets.xcassets */; };
+		B20CE0E1288FE24B00CC152B /* whack_mole_open_item_2_stun.gif in Resources */ = {isa = PBXBuildFile; fileRef = B20CE0D5288FE24B00CC152B /* whack_mole_open_item_2_stun.gif */; };
+		B20CE0E2288FE24B00CC152B /* whack_mole_open_item_3_stun.gif in Resources */ = {isa = PBXBuildFile; fileRef = B20CE0D6288FE24B00CC152B /* whack_mole_open_item_3_stun.gif */; };
+		B20CE0E3288FE24B00CC152B /* whack_mole_open_item_3_dead.png in Resources */ = {isa = PBXBuildFile; fileRef = B20CE0D7288FE24B00CC152B /* whack_mole_open_item_3_dead.png */; };
+		B20CE0E4288FE24B00CC152B /* whack_mole_open_item_2_dead.png in Resources */ = {isa = PBXBuildFile; fileRef = B20CE0D8288FE24B00CC152B /* whack_mole_open_item_2_dead.png */; };
+		B20CE0E5288FE24B00CC152B /* whack_mole_open_item_2_normal.gif in Resources */ = {isa = PBXBuildFile; fileRef = B20CE0D9288FE24B00CC152B /* whack_mole_open_item_2_normal.gif */; };
+		B20CE0E6288FE24B00CC152B /* whack_mole_open_item_4_stun.gif in Resources */ = {isa = PBXBuildFile; fileRef = B20CE0DA288FE24B00CC152B /* whack_mole_open_item_4_stun.gif */; };
+		B20CE0E7288FE24B00CC152B /* whack_mole_open_item_4_dead.png in Resources */ = {isa = PBXBuildFile; fileRef = B20CE0DB288FE24B00CC152B /* whack_mole_open_item_4_dead.png */; };
+		B20CE0E8288FE24B00CC152B /* whack_mole_open_item_4_normal.gif in Resources */ = {isa = PBXBuildFile; fileRef = B20CE0DC288FE24B00CC152B /* whack_mole_open_item_4_normal.gif */; };
+		B20CE0E9288FE24B00CC152B /* whack_mole_open_item_1_dead.png in Resources */ = {isa = PBXBuildFile; fileRef = B20CE0DD288FE24B00CC152B /* whack_mole_open_item_1_dead.png */; };
+		B20CE0EA288FE24B00CC152B /* whack_mole_open_item_1_normal.gif in Resources */ = {isa = PBXBuildFile; fileRef = B20CE0DE288FE24B00CC152B /* whack_mole_open_item_1_normal.gif */; };
+		B20CE0EB288FE24B00CC152B /* whack_mole_open_item_1_stun.gif in Resources */ = {isa = PBXBuildFile; fileRef = B20CE0DF288FE24B00CC152B /* whack_mole_open_item_1_stun.gif */; };
+		B20CE0EC288FE24B00CC152B /* whack_mole_open_item_3_normal.gif in Resources */ = {isa = PBXBuildFile; fileRef = B20CE0E0288FE24B00CC152B /* whack_mole_open_item_3_normal.gif */; };
 		B2253077288D621500D130B8 /* JFPetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2253047288D621500D130B8 /* JFPetView.m */; };
 		B2253078288D621500D130B8 /* JFPetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2253049288D621500D130B8 /* JFPetView.xib */; };
 		B225307B288D621500D130B8 /* room_pet_eat.svga in Resources */ = {isa = PBXBuildFile; fileRef = B225304E288D621500D130B8 /* room_pet_eat.svga */; };
@@ -147,6 +164,203 @@
 		B26F7D89288F959700D005B6 /* JFDragonSlayerBigResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F7D5F288F959700D005B6 /* JFDragonSlayerBigResultItemView.xib */; };
 		B26F7D8A288F959700D005B6 /* JFDragonSlayerResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F7D63288F959700D005B6 /* JFDragonSlayerResultItemView.xib */; };
 		B26F7D90288F959700D005B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26F7D6F288F959700D005B6 /* Assets.xcassets */; };
+		B26F7DCF288FB1ED00D005B6 /* JFDollMachineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F7DA0288FB1ED00D005B6 /* JFDollMachineView.xib */; };
+		B26F7DD1288FB1ED00D005B6 /* JFDollMachineView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7DA3288FB1ED00D005B6 /* JFDollMachineView.m */; };
+		B26F7DDB288FB1ED00D005B6 /* JFDollMachineResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7DB4288FB1ED00D005B6 /* JFDollMachineResultView.m */; };
+		B26F7DDC288FB1ED00D005B6 /* JFDollMachineResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7DB5288FB1ED00D005B6 /* JFDollMachineResultItemView.m */; };
+		B26F7DDD288FB1ED00D005B6 /* JFDollMachineResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F7DB6288FB1ED00D005B6 /* JFDollMachineResultView.xib */; };
+		B26F7DDE288FB1ED00D005B6 /* JFDollMachineResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F7DB9288FB1ED00D005B6 /* JFDollMachineResultItemView.xib */; };
+		B26F7DE4288FB1ED00D005B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26F7DC5288FB1ED00D005B6 /* Assets.xcassets */; };
+		B26F7E86288FB9A400D005B6 /* JFMagicPrayResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7E1A288FB9A400D005B6 /* JFMagicPrayResultView.m */; };
+		B26F7E87288FB9A400D005B6 /* JFMagicPrayResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F7E1B288FB9A400D005B6 /* JFMagicPrayResultItemView.xib */; };
+		B26F7E88288FB9A400D005B6 /* JFMagicPrayResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7E1C288FB9A400D005B6 /* JFMagicPrayResultItemView.m */; };
+		B26F7E89288FB9A400D005B6 /* JFMagicPrayResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F7E1D288FB9A400D005B6 /* JFMagicPrayResultView.xib */; };
+		B26F7EAB288FB9A400D005B6 /* JFMagicPrayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7E45288FB9A400D005B6 /* JFMagicPrayView.m */; };
+		B26F7EAC288FB9A400D005B6 /* JFMagicPrayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F7E46288FB9A400D005B6 /* JFMagicPrayView.xib */; };
+		B26F7EAD288FB9A400D005B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26F7E47288FB9A400D005B6 /* Assets.xcassets */; };
+		B26F7EF8288FBB1A00D005B6 /* magic_pray_anim_luxury_40.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EB9288FBB1A00D005B6 /* magic_pray_anim_luxury_40.png */; };
+		B26F7EF9288FBB1A00D005B6 /* magic_pray_anim_luxury_35.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EBA288FBB1A00D005B6 /* magic_pray_anim_luxury_35.png */; };
+		B26F7EFA288FBB1A00D005B6 /* magic_pray_anim_luxury_21.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EBB288FBB1A00D005B6 /* magic_pray_anim_luxury_21.png */; };
+		B26F7EFB288FBB1A00D005B6 /* magic_pray_anim_luxury_20.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EBC288FBB1A00D005B6 /* magic_pray_anim_luxury_20.png */; };
+		B26F7EFC288FBB1A00D005B6 /* magic_pray_anim_luxury_34.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EBD288FBB1A00D005B6 /* magic_pray_anim_luxury_34.png */; };
+		B26F7EFD288FBB1A00D005B6 /* magic_pray_anim_luxury_22.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EBE288FBB1A00D005B6 /* magic_pray_anim_luxury_22.png */; };
+		B26F7EFE288FBB1A00D005B6 /* magic_pray_anim_luxury_36.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EBF288FBB1A00D005B6 /* magic_pray_anim_luxury_36.png */; };
+		B26F7EFF288FBB1A00D005B6 /* magic_pray_anim_luxury_37.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EC0288FBB1A00D005B6 /* magic_pray_anim_luxury_37.png */; };
+		B26F7F00288FBB1A00D005B6 /* magic_pray_anim_luxury_23.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EC1288FBB1A00D005B6 /* magic_pray_anim_luxury_23.png */; };
+		B26F7F01288FBB1A00D005B6 /* magic_pray_anim_luxury_27.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EC2288FBB1A00D005B6 /* magic_pray_anim_luxury_27.png */; };
+		B26F7F02288FBB1A00D005B6 /* magic_pray_anim_luxury_33.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EC3288FBB1A00D005B6 /* magic_pray_anim_luxury_33.png */; };
+		B26F7F03288FBB1A00D005B6 /* magic_pray_anim_luxury_32.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EC4288FBB1A00D005B6 /* magic_pray_anim_luxury_32.png */; };
+		B26F7F04288FBB1A00D005B6 /* magic_pray_anim_luxury_26.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EC5288FBB1A00D005B6 /* magic_pray_anim_luxury_26.png */; };
+		B26F7F05288FBB1A00D005B6 /* magic_pray_anim_luxury_18.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EC6288FBB1A00D005B6 /* magic_pray_anim_luxury_18.png */; };
+		B26F7F06288FBB1A00D005B6 /* magic_pray_anim_luxury_30.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EC7288FBB1A00D005B6 /* magic_pray_anim_luxury_30.png */; };
+		B26F7F07288FBB1A00D005B6 /* magic_pray_anim_luxury_24.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EC8288FBB1A00D005B6 /* magic_pray_anim_luxury_24.png */; };
+		B26F7F08288FBB1A00D005B6 /* magic_pray_anim_luxury_25.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EC9288FBB1A00D005B6 /* magic_pray_anim_luxury_25.png */; };
+		B26F7F09288FBB1A00D005B6 /* magic_pray_anim_luxury_31.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7ECA288FBB1A00D005B6 /* magic_pray_anim_luxury_31.png */; };
+		B26F7F0A288FBB1A00D005B6 /* magic_pray_anim_luxury_19.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7ECB288FBB1A00D005B6 /* magic_pray_anim_luxury_19.png */; };
+		B26F7F0B288FBB1A00D005B6 /* magic_pray_anim_luxury_14.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7ECC288FBB1A00D005B6 /* magic_pray_anim_luxury_14.png */; };
+		B26F7F0C288FBB1A00D005B6 /* magic_pray_anim_luxury_28.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7ECD288FBB1A00D005B6 /* magic_pray_anim_luxury_28.png */; };
+		B26F7F0D288FBB1A00D005B6 /* magic_pray_anim_luxury_29.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7ECE288FBB1A00D005B6 /* magic_pray_anim_luxury_29.png */; };
+		B26F7F0E288FBB1A00D005B6 /* magic_pray_anim_luxury_15.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7ECF288FBB1A00D005B6 /* magic_pray_anim_luxury_15.png */; };
+		B26F7F0F288FBB1A00D005B6 /* magic_pray_anim_luxury_17.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7ED0288FBB1A00D005B6 /* magic_pray_anim_luxury_17.png */; };
+		B26F7F10288FBB1A00D005B6 /* magic_pray_anim_luxury_16.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7ED1288FBB1A00D005B6 /* magic_pray_anim_luxury_16.png */; };
+		B26F7F11288FBB1A00D005B6 /* magic_pray_anim_luxury_12.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7ED2288FBB1A00D005B6 /* magic_pray_anim_luxury_12.png */; };
+		B26F7F12288FBB1A00D005B6 /* magic_pray_anim_luxury_13.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7ED3288FBB1A00D005B6 /* magic_pray_anim_luxury_13.png */; };
+		B26F7F13288FBB1A00D005B6 /* magic_pray_anim_luxury_39.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7ED4288FBB1A00D005B6 /* magic_pray_anim_luxury_39.png */; };
+		B26F7F14288FBB1A00D005B6 /* magic_pray_anim_luxury_11.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7ED5288FBB1A00D005B6 /* magic_pray_anim_luxury_11.png */; };
+		B26F7F15288FBB1A00D005B6 /* magic_pray_anim_luxury_10.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7ED6288FBB1A00D005B6 /* magic_pray_anim_luxury_10.png */; };
+		B26F7F16288FBB1A00D005B6 /* magic_pray_anim_luxury_38.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7ED7288FBB1A00D005B6 /* magic_pray_anim_luxury_38.png */; };
+		B26F7F17288FBB1A00D005B6 /* magic_pray_anim_normal_35.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7ED9288FBB1A00D005B6 /* magic_pray_anim_normal_35.png */; };
+		B26F7F18288FBB1A00D005B6 /* magic_pray_anim_normal_21.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EDA288FBB1A00D005B6 /* magic_pray_anim_normal_21.png */; };
+		B26F7F19288FBB1A00D005B6 /* magic_pray_anim_normal_20.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EDB288FBB1A00D005B6 /* magic_pray_anim_normal_20.png */; };
+		B26F7F1A288FBB1A00D005B6 /* magic_pray_anim_normal_34.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EDC288FBB1A00D005B6 /* magic_pray_anim_normal_34.png */; };
+		B26F7F1B288FBB1A00D005B6 /* magic_pray_anim_normal_22.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EDD288FBB1A00D005B6 /* magic_pray_anim_normal_22.png */; };
+		B26F7F1C288FBB1A00D005B6 /* magic_pray_anim_normal_36.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EDE288FBB1A00D005B6 /* magic_pray_anim_normal_36.png */; };
+		B26F7F1D288FBB1A00D005B6 /* magic_pray_anim_normal_37.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EDF288FBB1A00D005B6 /* magic_pray_anim_normal_37.png */; };
+		B26F7F1E288FBB1A00D005B6 /* magic_pray_anim_normal_23.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EE0288FBB1A00D005B6 /* magic_pray_anim_normal_23.png */; };
+		B26F7F1F288FBB1A00D005B6 /* magic_pray_anim_normal_27.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EE1288FBB1A00D005B6 /* magic_pray_anim_normal_27.png */; };
+		B26F7F20288FBB1A00D005B6 /* magic_pray_anim_normal_33.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EE2288FBB1A00D005B6 /* magic_pray_anim_normal_33.png */; };
+		B26F7F21288FBB1A00D005B6 /* magic_pray_anim_normal_32.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EE3288FBB1A00D005B6 /* magic_pray_anim_normal_32.png */; };
+		B26F7F22288FBB1A00D005B6 /* magic_pray_anim_normal_26.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EE4288FBB1A00D005B6 /* magic_pray_anim_normal_26.png */; };
+		B26F7F23288FBB1A00D005B6 /* magic_pray_anim_normal_30.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EE5288FBB1A00D005B6 /* magic_pray_anim_normal_30.png */; };
+		B26F7F24288FBB1A00D005B6 /* magic_pray_anim_normal_24.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EE6288FBB1A00D005B6 /* magic_pray_anim_normal_24.png */; };
+		B26F7F25288FBB1A00D005B6 /* magic_pray_anim_normal_18.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EE7288FBB1A00D005B6 /* magic_pray_anim_normal_18.png */; };
+		B26F7F26288FBB1A00D005B6 /* magic_pray_anim_normal_19.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EE8288FBB1A00D005B6 /* magic_pray_anim_normal_19.png */; };
+		B26F7F27288FBB1A00D005B6 /* magic_pray_anim_normal_25.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EE9288FBB1A00D005B6 /* magic_pray_anim_normal_25.png */; };
+		B26F7F28288FBB1A00D005B6 /* magic_pray_anim_normal_31.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EEA288FBB1A00D005B6 /* magic_pray_anim_normal_31.png */; };
+		B26F7F29288FBB1A00D005B6 /* magic_pray_anim_normal_40.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EEB288FBB1A00D005B6 /* magic_pray_anim_normal_40.png */; };
+		B26F7F2A288FBB1A00D005B6 /* magic_pray_anim_normal_28.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EEC288FBB1A00D005B6 /* magic_pray_anim_normal_28.png */; };
+		B26F7F2B288FBB1A00D005B6 /* magic_pray_anim_normal_14.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EED288FBB1A00D005B6 /* magic_pray_anim_normal_14.png */; };
+		B26F7F2C288FBB1A00D005B6 /* magic_pray_anim_normal_15.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EEE288FBB1A00D005B6 /* magic_pray_anim_normal_15.png */; };
+		B26F7F2D288FBB1A00D005B6 /* magic_pray_anim_normal_29.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EEF288FBB1A00D005B6 /* magic_pray_anim_normal_29.png */; };
+		B26F7F2E288FBB1A00D005B6 /* magic_pray_anim_normal_17.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EF0288FBB1A00D005B6 /* magic_pray_anim_normal_17.png */; };
+		B26F7F2F288FBB1A00D005B6 /* magic_pray_anim_normal_16.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EF1288FBB1A00D005B6 /* magic_pray_anim_normal_16.png */; };
+		B26F7F30288FBB1A00D005B6 /* magic_pray_anim_normal_12.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EF2288FBB1A00D005B6 /* magic_pray_anim_normal_12.png */; };
+		B26F7F31288FBB1A00D005B6 /* magic_pray_anim_normal_13.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EF3288FBB1A00D005B6 /* magic_pray_anim_normal_13.png */; };
+		B26F7F32288FBB1A00D005B6 /* magic_pray_anim_normal_11.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EF4288FBB1A00D005B6 /* magic_pray_anim_normal_11.png */; };
+		B26F7F33288FBB1A00D005B6 /* magic_pray_anim_normal_39.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EF5288FBB1A00D005B6 /* magic_pray_anim_normal_39.png */; };
+		B26F7F34288FBB1A00D005B6 /* magic_pray_anim_normal_38.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EF6288FBB1A00D005B6 /* magic_pray_anim_normal_38.png */; };
+		B26F7F35288FBB1A00D005B6 /* magic_pray_anim_normal_10.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F7EF7288FBB1A00D005B6 /* magic_pray_anim_normal_10.png */; };
+		B26F7F48288FBD7C00D005B6 /* FXAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7F39288FBD7C00D005B6 /* FXAnimation.m */; };
+		B26F7F49288FBD7C00D005B6 /* CALayer+FXAnimationEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7F3D288FBD7C00D005B6 /* CALayer+FXAnimationEngine.m */; };
+		B26F7F4A288FBD7C00D005B6 /* CADisplayLink+FXWeakTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7F3F288FBD7C00D005B6 /* CADisplayLink+FXWeakTarget.m */; };
+		B26F7F4B288FBD7C00D005B6 /* FXKeyframeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7F40288FBD7C00D005B6 /* FXKeyframeAnimation.m */; };
+		B26F7F4C288FBD7C00D005B6 /* FXImageDecodeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7F41288FBD7C00D005B6 /* FXImageDecodeOperation.m */; };
+		B26F7F4D288FBD7C00D005B6 /* FXAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7F44288FBD7C00D005B6 /* FXAnimationGroup.m */; };
+		B26F7F4E288FBD7C00D005B6 /* UIImage+FXDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7F47288FBD7C00D005B6 /* UIImage+FXDecoder.m */; };
+		B26F7F90288FBF0C00D005B6 /* DDTurntableOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7F5D288FBF0C00D005B6 /* DDTurntableOptionView.m */; };
+		B26F7F91288FBF0C00D005B6 /* DDTurntableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F7F5E288FBF0C00D005B6 /* DDTurntableView.xib */; };
+		B26F7F93288FBF0C00D005B6 /* DDTurntableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7F63288FBF0C00D005B6 /* DDTurntableView.m */; };
+		B26F7F94288FBF0C00D005B6 /* DDTurntableAnimView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7F64288FBF0C00D005B6 /* DDTurntableAnimView.m */; };
+		B26F7F9E288FBF0C00D005B6 /* DDTurntableResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7F75288FBF0C00D005B6 /* DDTurntableResultView.m */; };
+		B26F7F9F288FBF0C00D005B6 /* DDTurntableResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7F76288FBF0C00D005B6 /* DDTurntableResultItemView.m */; };
+		B26F7FA0288FBF0C00D005B6 /* DDTurntableResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F7F77288FBF0C00D005B6 /* DDTurntableResultView.xib */; };
+		B26F7FA1288FBF0C00D005B6 /* DDTurntableResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F7F7A288FBF0C00D005B6 /* DDTurntableResultItemView.xib */; };
+		B26F7FA7288FBF0C00D005B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26F7F86288FBF0C00D005B6 /* Assets.xcassets */; };
+		B26F8015288FC33500D005B6 /* JFSummonBeastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F7FB7288FC33500D005B6 /* JFSummonBeastView.xib */; };
+		B26F8017288FC33500D005B6 /* JFSummonBeastView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7FBA288FC33500D005B6 /* JFSummonBeastView.m */; };
+		B26F8022288FC33500D005B6 /* JFSummonBeastResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7FCC288FC33500D005B6 /* JFSummonBeastResultView.m */; };
+		B26F8023288FC33500D005B6 /* JFSummonBeastResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F7FCD288FC33500D005B6 /* JFSummonBeastResultItemView.m */; };
+		B26F8024288FC33500D005B6 /* JFSummonBeastResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F7FCE288FC33500D005B6 /* JFSummonBeastResultView.xib */; };
+		B26F8025288FC33500D005B6 /* JFSummonBeastResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F7FD1288FC33500D005B6 /* JFSummonBeastResultItemView.xib */; };
+		B26F802B288FC33500D005B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26F7FDD288FC33500D005B6 /* Assets.xcassets */; };
+		B26F8088288FC4DF00D005B6 /* summon_beast_weapon_044.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F805B288FC4DF00D005B6 /* summon_beast_weapon_044.png */; };
+		B26F8089288FC4DF00D005B6 /* summon_beast_weapon_041.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F805C288FC4DF00D005B6 /* summon_beast_weapon_041.png */; };
+		B26F808A288FC4DF00D005B6 /* summon_beast_weapon_040.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F805D288FC4DF00D005B6 /* summon_beast_weapon_040.png */; };
+		B26F808B288FC4DF00D005B6 /* summon_beast_weapon_042.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F805E288FC4DF00D005B6 /* summon_beast_weapon_042.png */; };
+		B26F808C288FC4DF00D005B6 /* summon_beast_weapon_043.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F805F288FC4DF00D005B6 /* summon_beast_weapon_043.png */; };
+		B26F808D288FC4DF00D005B6 /* summon_beast_weapon_018.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8060288FC4DF00D005B6 /* summon_beast_weapon_018.png */; };
+		B26F808E288FC4DF00D005B6 /* summon_beast_weapon_024.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8061288FC4DF00D005B6 /* summon_beast_weapon_024.png */; };
+		B26F808F288FC4DF00D005B6 /* summon_beast_weapon_030.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8062288FC4DF00D005B6 /* summon_beast_weapon_030.png */; };
+		B26F8090288FC4DF00D005B6 /* summon_beast_weapon_031.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8063288FC4DF00D005B6 /* summon_beast_weapon_031.png */; };
+		B26F8091288FC4DF00D005B6 /* summon_beast_weapon_025.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8064288FC4DF00D005B6 /* summon_beast_weapon_025.png */; };
+		B26F8092288FC4DF00D005B6 /* summon_beast_weapon_019.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8065288FC4DF00D005B6 /* summon_beast_weapon_019.png */; };
+		B26F8093288FC4DF00D005B6 /* summon_beast_weapon_033.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8066288FC4DF00D005B6 /* summon_beast_weapon_033.png */; };
+		B26F8094288FC4DF00D005B6 /* summon_beast_weapon_027.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8067288FC4DF00D005B6 /* summon_beast_weapon_027.png */; };
+		B26F8095288FC4DF00D005B6 /* summon_beast_weapon_026.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8068288FC4DF00D005B6 /* summon_beast_weapon_026.png */; };
+		B26F8096288FC4DF00D005B6 /* summon_beast_weapon_032.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8069288FC4DF00D005B6 /* summon_beast_weapon_032.png */; };
+		B26F8097288FC4DF00D005B6 /* summon_beast_weapon_036.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F806A288FC4DF00D005B6 /* summon_beast_weapon_036.png */; };
+		B26F8098288FC4DF00D005B6 /* summon_beast_weapon_022.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F806B288FC4DF00D005B6 /* summon_beast_weapon_022.png */; };
+		B26F8099288FC4DF00D005B6 /* summon_beast_weapon_023.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F806C288FC4DF00D005B6 /* summon_beast_weapon_023.png */; };
+		B26F809A288FC4DF00D005B6 /* summon_beast_weapon_037.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F806D288FC4DF00D005B6 /* summon_beast_weapon_037.png */; };
+		B26F809B288FC4DF00D005B6 /* summon_beast_weapon_021.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F806E288FC4DF00D005B6 /* summon_beast_weapon_021.png */; };
+		B26F809C288FC4DF00D005B6 /* summon_beast_weapon_035.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F806F288FC4DF00D005B6 /* summon_beast_weapon_035.png */; };
+		B26F809D288FC4DF00D005B6 /* summon_beast_weapon_009.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8070288FC4DF00D005B6 /* summon_beast_weapon_009.png */; };
+		B26F809E288FC4DF00D005B6 /* summon_beast_weapon_008.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8071288FC4DF00D005B6 /* summon_beast_weapon_008.png */; };
+		B26F809F288FC4DF00D005B6 /* summon_beast_weapon_034.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8072288FC4DF00D005B6 /* summon_beast_weapon_034.png */; };
+		B26F80A0288FC4DF00D005B6 /* summon_beast_weapon_020.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8073288FC4DF00D005B6 /* summon_beast_weapon_020.png */; };
+		B26F80A1288FC4DF00D005B6 /* summon_beast_weapon_039.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8074288FC4DF00D005B6 /* summon_beast_weapon_039.png */; };
+		B26F80A2288FC4DF00D005B6 /* summon_beast_weapon_005.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8075288FC4DF00D005B6 /* summon_beast_weapon_005.png */; };
+		B26F80A3288FC4DF00D005B6 /* summon_beast_weapon_011.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8076288FC4DF00D005B6 /* summon_beast_weapon_011.png */; };
+		B26F80A4288FC4DF00D005B6 /* summon_beast_weapon_010.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8077288FC4DF00D005B6 /* summon_beast_weapon_010.png */; };
+		B26F80A5288FC4DF00D005B6 /* summon_beast_weapon_004.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8078288FC4DF00D005B6 /* summon_beast_weapon_004.png */; };
+		B26F80A6288FC4DF00D005B6 /* summon_beast_weapon_038.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8079288FC4DF00D005B6 /* summon_beast_weapon_038.png */; };
+		B26F80A7288FC4DF00D005B6 /* summon_beast_weapon_012.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F807A288FC4DF00D005B6 /* summon_beast_weapon_012.png */; };
+		B26F80A8288FC4DF00D005B6 /* summon_beast_weapon_006.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F807B288FC4DF00D005B6 /* summon_beast_weapon_006.png */; };
+		B26F80A9288FC4DF00D005B6 /* summon_beast_weapon_007.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F807C288FC4DF00D005B6 /* summon_beast_weapon_007.png */; };
+		B26F80AA288FC4DF00D005B6 /* summon_beast_weapon_013.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F807D288FC4DF00D005B6 /* summon_beast_weapon_013.png */; };
+		B26F80AB288FC4DF00D005B6 /* summon_beast_weapon_017.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F807E288FC4DF00D005B6 /* summon_beast_weapon_017.png */; };
+		B26F80AC288FC4DF00D005B6 /* summon_beast_weapon_003.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F807F288FC4DF00D005B6 /* summon_beast_weapon_003.png */; };
+		B26F80AD288FC4DF00D005B6 /* summon_beast_weapon_002.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8080288FC4DF00D005B6 /* summon_beast_weapon_002.png */; };
+		B26F80AE288FC4DF00D005B6 /* summon_beast_weapon_016.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8081288FC4DF00D005B6 /* summon_beast_weapon_016.png */; };
+		B26F80AF288FC4DF00D005B6 /* summon_beast_weapon_000.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8082288FC4DF00D005B6 /* summon_beast_weapon_000.png */; };
+		B26F80B0288FC4DF00D005B6 /* summon_beast_weapon_014.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8083288FC4DF00D005B6 /* summon_beast_weapon_014.png */; };
+		B26F80B1288FC4DF00D005B6 /* summon_beast_weapon_028.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8084288FC4DF00D005B6 /* summon_beast_weapon_028.png */; };
+		B26F80B2288FC4DF00D005B6 /* summon_beast_weapon_029.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8085288FC4DF00D005B6 /* summon_beast_weapon_029.png */; };
+		B26F80B3288FC4DF00D005B6 /* summon_beast_weapon_015.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8086288FC4DF00D005B6 /* summon_beast_weapon_015.png */; };
+		B26F80B4288FC4DF00D005B6 /* summon_beast_weapon_001.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F8087288FC4DF00D005B6 /* summon_beast_weapon_001.png */; };
+		B26F80F7288FC69B00D005B6 /* JFMakeCandyBallView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F80C7288FC69A00D005B6 /* JFMakeCandyBallView.m */; };
+		B26F80FA288FC69B00D005B6 /* JFMakeCandyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F80CA288FC69A00D005B6 /* JFMakeCandyView.m */; };
+		B26F80FB288FC69B00D005B6 /* JFMakeCandyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F80CB288FC69A00D005B6 /* JFMakeCandyView.xib */; };
+		B26F80FF288FC69B00D005B6 /* JFMakeCandyResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F80D3288FC69A00D005B6 /* JFMakeCandyResultView.m */; };
+		B26F8100288FC69B00D005B6 /* JFMakeCandyResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F80D4288FC69A00D005B6 /* JFMakeCandyResultItemView.xib */; };
+		B26F8101288FC69B00D005B6 /* JFMakeCandyResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F80D5288FC69A00D005B6 /* JFMakeCandyResultItemView.m */; };
+		B26F8102288FC69B00D005B6 /* JFMakeCandyResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F80D6288FC69A00D005B6 /* JFMakeCandyResultView.xib */; };
+		B26F8103288FC69B00D005B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26F80D9288FC69A00D005B6 /* Assets.xcassets */; };
+		B26F8148288FCBC800D005B6 /* JFPenguinMinerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F811C288FCBC800D005B6 /* JFPenguinMinerView.m */; };
+		B26F8149288FCBC800D005B6 /* JFPenguinMinerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F811D288FCBC800D005B6 /* JFPenguinMinerView.xib */; };
+		B26F814A288FCBC800D005B6 /* JFPenguinMinerGiftListCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F811E288FCBC800D005B6 /* JFPenguinMinerGiftListCCell.m */; };
+		B26F814B288FCBC800D005B6 /* JFPenguinMinerGiftListCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F811F288FCBC800D005B6 /* JFPenguinMinerGiftListCCell.xib */; };
+		B26F814E288FCBC800D005B6 /* JFPenguinMinerResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F8125288FCBC800D005B6 /* JFPenguinMinerResultView.m */; };
+		B26F814F288FCBC800D005B6 /* JFPenguinMinerResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F8126288FCBC800D005B6 /* JFPenguinMinerResultItemView.xib */; };
+		B26F8150288FCBC800D005B6 /* JFPenguinMinerResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F8127288FCBC800D005B6 /* JFPenguinMinerResultItemView.m */; };
+		B26F8151288FCBC800D005B6 /* JFPenguinMinerResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F8128288FCBC800D005B6 /* JFPenguinMinerResultView.xib */; };
+		B26F8152288FCBC800D005B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26F812B288FCBC800D005B6 /* Assets.xcassets */; };
+		B26F815D288FCBC800D005B6 /* penguin_miner_open.svga in Resources */ = {isa = PBXBuildFile; fileRef = B26F8141288FCBC800D005B6 /* penguin_miner_open.svga */; };
+		B26F817A288FD03700D005B6 /* JFTarotItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F8162288FD03700D005B6 /* JFTarotItemView.xib */; };
+		B26F817B288FD03700D005B6 /* JFTarotItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F8163288FD03700D005B6 /* JFTarotItemView.m */; };
+		B26F817C288FD03700D005B6 /* JFTarotView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F8164288FD03700D005B6 /* JFTarotView.xib */; };
+		B26F817D288FD03700D005B6 /* JFTarotView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F8165288FD03700D005B6 /* JFTarotView.m */; };
+		B26F817E288FD03700D005B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26F8166288FD03700D005B6 /* Assets.xcassets */; };
+		B26F81C3288FD4A400D005B6 /* cattery_cat_normal_0.svga in Resources */ = {isa = PBXBuildFile; fileRef = B26F8189288FD4A300D005B6 /* cattery_cat_normal_0.svga */; };
+		B26F81C5288FD4A400D005B6 /* cattery_cat_normal_1.svga in Resources */ = {isa = PBXBuildFile; fileRef = B26F818B288FD4A300D005B6 /* cattery_cat_normal_1.svga */; };
+		B26F81CE288FD4A400D005B6 /* cattery_cat_feeding_2.svga in Resources */ = {isa = PBXBuildFile; fileRef = B26F819A288FD4A300D005B6 /* cattery_cat_feeding_2.svga */; };
+		B26F81CF288FD4A400D005B6 /* cattery_cat_feeding_0.svga in Resources */ = {isa = PBXBuildFile; fileRef = B26F819B288FD4A300D005B6 /* cattery_cat_feeding_0.svga */; };
+		B26F81D2288FD4A400D005B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26F81A0288FD4A300D005B6 /* Assets.xcassets */; };
+		B26F81DC288FD4A400D005B6 /* cattery_cat_feeding_1.svga in Resources */ = {isa = PBXBuildFile; fileRef = B26F81B3288FD4A400D005B6 /* cattery_cat_feeding_1.svga */; };
+		B26F81DE288FD4A400D005B6 /* JFCatteryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F81B9288FD4A400D005B6 /* JFCatteryView.xib */; };
+		B26F81DF288FD4A400D005B6 /* JFCatteryView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F81BA288FD4A400D005B6 /* JFCatteryView.m */; };
+		B26F81E0288FD4A400D005B6 /* JFCatteryResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F81BC288FD4A400D005B6 /* JFCatteryResultView.xib */; };
+		B26F81E1288FD4A400D005B6 /* JFCatteryResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F81BD288FD4A400D005B6 /* JFCatteryResultView.m */; };
+		B26F81E2288FD4A400D005B6 /* JFCatteryResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F81C0288FD4A400D005B6 /* JFCatteryResultItemView.xib */; };
+		B26F81E3288FD4A400D005B6 /* JFCatteryResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F81C1288FD4A400D005B6 /* JFCatteryResultItemView.m */; };
+		B26F81E4288FD4A400D005B6 /* cattery_cat_normal_2.svga in Resources */ = {isa = PBXBuildFile; fileRef = B26F81C2288FD4A400D005B6 /* cattery_cat_normal_2.svga */; };
+		B26F8227288FD80600D005B6 /* JFWaterTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F81F9288FD80600D005B6 /* JFWaterTreeView.m */; };
+		B26F8228288FD80600D005B6 /* JFWaterTreeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F81FA288FD80600D005B6 /* JFWaterTreeView.xib */; };
+		B26F822B288FD80600D005B6 /* JFWaterTreeResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F8200288FD80600D005B6 /* JFWaterTreeResultView.m */; };
+		B26F822C288FD80600D005B6 /* JFWaterTreeResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F8201288FD80600D005B6 /* JFWaterTreeResultItemView.xib */; };
+		B26F822D288FD80600D005B6 /* JFWaterTreeResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F8202288FD80600D005B6 /* JFWaterTreeResultItemView.m */; };
+		B26F822E288FD80600D005B6 /* JFWaterTreeResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F8203288FD80600D005B6 /* JFWaterTreeResultView.xib */; };
+		B26F822F288FD80600D005B6 /* water_tree_anim.svga in Resources */ = {isa = PBXBuildFile; fileRef = B26F8206288FD80600D005B6 /* water_tree_anim.svga */; };
+		B26F8230288FD80600D005B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26F8207288FD80600D005B6 /* Assets.xcassets */; };
+		B26F8275288FDCCB00D005B6 /* JFUnlimitedTreasureChestView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F8245288FDCCB00D005B6 /* JFUnlimitedTreasureChestView.m */; };
+		B26F8276288FDCCB00D005B6 /* JFUnlimitedTreasureChestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F8246288FDCCB00D005B6 /* JFUnlimitedTreasureChestView.xib */; };
+		B26F8279288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F824C288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultView.m */; };
+		B26F827A288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F824D288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultItemView.xib */; };
+		B26F827B288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F824E288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultItemView.m */; };
+		B26F827C288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26F824F288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultView.xib */; };
+		B26F8281288FDCCB00D005B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26F8259288FDCCB00D005B6 /* Assets.xcassets */; };
+		B26F828C288FDCCB00D005B6 /* unlimited_treasure_chest_open.svga in Resources */ = {isa = PBXBuildFile; fileRef = B26F826F288FDCCB00D005B6 /* unlimited_treasure_chest_open.svga */; };
+		B26F828D288FDCCB00D005B6 /* unlimited_treasure_chest_entrance.svga in Resources */ = {isa = PBXBuildFile; fileRef = B26F8270288FDCCB00D005B6 /* unlimited_treasure_chest_entrance.svga */; };
 		B2793958288E33F0000E9230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2793922288E33F0000E9230 /* Assets.xcassets */; };
 		B2793961288E33F0000E9230 /* JFRoomWishView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2793933288E33F0000E9230 /* JFRoomWishView.xib */; };
 		B2793962288E33F0000E9230 /* JFRoomWishView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2793934288E33F0000E9230 /* JFRoomWishView.m */; };
@@ -352,6 +566,25 @@
 		B20A8DD2288E7A47009861E2 /* CCTurntableResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTurntableResultView.h; sourceTree = "<group>"; };
 		B20A8DD3288E7A47009861E2 /* CCTurntableResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCTurntableResultItemView.xib; sourceTree = "<group>"; };
 		B20A8DDF288E7A47009861E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20CE090288FE16A00CC152B /* JFWhackMoleItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFWhackMoleItemView.h; sourceTree = "<group>"; };
+		B20CE092288FE16A00CC152B /* JFWhackMoleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFWhackMoleView.h; sourceTree = "<group>"; };
+		B20CE093288FE16A00CC152B /* JFWhackMoleItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFWhackMoleItemView.xib; sourceTree = "<group>"; };
+		B20CE094288FE16A00CC152B /* JFWhackMoleItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFWhackMoleItemView.m; sourceTree = "<group>"; };
+		B20CE096288FE16A00CC152B /* JFWhackMoleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFWhackMoleView.xib; sourceTree = "<group>"; };
+		B20CE097288FE16A00CC152B /* JFWhackMoleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFWhackMoleView.m; sourceTree = "<group>"; };
+		B20CE0A5288FE16A00CC152B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20CE0D5288FE24B00CC152B /* whack_mole_open_item_2_stun.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = whack_mole_open_item_2_stun.gif; sourceTree = "<group>"; };
+		B20CE0D6288FE24B00CC152B /* whack_mole_open_item_3_stun.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = whack_mole_open_item_3_stun.gif; sourceTree = "<group>"; };
+		B20CE0D7288FE24B00CC152B /* whack_mole_open_item_3_dead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whack_mole_open_item_3_dead.png; sourceTree = "<group>"; };
+		B20CE0D8288FE24B00CC152B /* whack_mole_open_item_2_dead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whack_mole_open_item_2_dead.png; sourceTree = "<group>"; };
+		B20CE0D9288FE24B00CC152B /* whack_mole_open_item_2_normal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = whack_mole_open_item_2_normal.gif; sourceTree = "<group>"; };
+		B20CE0DA288FE24B00CC152B /* whack_mole_open_item_4_stun.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = whack_mole_open_item_4_stun.gif; sourceTree = "<group>"; };
+		B20CE0DB288FE24B00CC152B /* whack_mole_open_item_4_dead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whack_mole_open_item_4_dead.png; sourceTree = "<group>"; };
+		B20CE0DC288FE24B00CC152B /* whack_mole_open_item_4_normal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = whack_mole_open_item_4_normal.gif; sourceTree = "<group>"; };
+		B20CE0DD288FE24B00CC152B /* whack_mole_open_item_1_dead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whack_mole_open_item_1_dead.png; sourceTree = "<group>"; };
+		B20CE0DE288FE24B00CC152B /* whack_mole_open_item_1_normal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = whack_mole_open_item_1_normal.gif; sourceTree = "<group>"; };
+		B20CE0DF288FE24B00CC152B /* whack_mole_open_item_1_stun.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = whack_mole_open_item_1_stun.gif; sourceTree = "<group>"; };
+		B20CE0E0288FE24B00CC152B /* whack_mole_open_item_3_normal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = whack_mole_open_item_3_normal.gif; sourceTree = "<group>"; };
 		B2253047288D621500D130B8 /* JFPetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPetView.m; sourceTree = "<group>"; };
 		B2253048288D621500D130B8 /* JFPetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPetView.h; sourceTree = "<group>"; };
 		B2253049288D621500D130B8 /* JFPetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFPetView.xib; sourceTree = "<group>"; };
@@ -469,6 +702,246 @@
 		B26F7D62288F959700D005B6 /* JFDragonSlayerResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFDragonSlayerResultView.h; sourceTree = "<group>"; };
 		B26F7D63288F959700D005B6 /* JFDragonSlayerResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFDragonSlayerResultItemView.xib; sourceTree = "<group>"; };
 		B26F7D6F288F959700D005B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26F7D9F288FB1ED00D005B6 /* JFDollMachineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFDollMachineView.h; sourceTree = "<group>"; };
+		B26F7DA0288FB1ED00D005B6 /* JFDollMachineView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFDollMachineView.xib; sourceTree = "<group>"; };
+		B26F7DA3288FB1ED00D005B6 /* JFDollMachineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFDollMachineView.m; sourceTree = "<group>"; };
+		B26F7DB4288FB1ED00D005B6 /* JFDollMachineResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFDollMachineResultView.m; sourceTree = "<group>"; };
+		B26F7DB5288FB1ED00D005B6 /* JFDollMachineResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFDollMachineResultItemView.m; sourceTree = "<group>"; };
+		B26F7DB6288FB1ED00D005B6 /* JFDollMachineResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFDollMachineResultView.xib; sourceTree = "<group>"; };
+		B26F7DB7288FB1ED00D005B6 /* JFDollMachineResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFDollMachineResultItemView.h; sourceTree = "<group>"; };
+		B26F7DB8288FB1ED00D005B6 /* JFDollMachineResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFDollMachineResultView.h; sourceTree = "<group>"; };
+		B26F7DB9288FB1ED00D005B6 /* JFDollMachineResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFDollMachineResultItemView.xib; sourceTree = "<group>"; };
+		B26F7DC5288FB1ED00D005B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26F7E1A288FB9A400D005B6 /* JFMagicPrayResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMagicPrayResultView.m; sourceTree = "<group>"; };
+		B26F7E1B288FB9A400D005B6 /* JFMagicPrayResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFMagicPrayResultItemView.xib; sourceTree = "<group>"; };
+		B26F7E1C288FB9A400D005B6 /* JFMagicPrayResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMagicPrayResultItemView.m; sourceTree = "<group>"; };
+		B26F7E1D288FB9A400D005B6 /* JFMagicPrayResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFMagicPrayResultView.xib; sourceTree = "<group>"; };
+		B26F7E1E288FB9A400D005B6 /* JFMagicPrayResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMagicPrayResultItemView.h; sourceTree = "<group>"; };
+		B26F7E1F288FB9A400D005B6 /* JFMagicPrayResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMagicPrayResultView.h; sourceTree = "<group>"; };
+		B26F7E42288FB9A400D005B6 /* JFMagicPrayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMagicPrayView.h; sourceTree = "<group>"; };
+		B26F7E45288FB9A400D005B6 /* JFMagicPrayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMagicPrayView.m; sourceTree = "<group>"; };
+		B26F7E46288FB9A400D005B6 /* JFMagicPrayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFMagicPrayView.xib; sourceTree = "<group>"; };
+		B26F7E47288FB9A400D005B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26F7EB9288FBB1A00D005B6 /* magic_pray_anim_luxury_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_40.png; sourceTree = "<group>"; };
+		B26F7EBA288FBB1A00D005B6 /* magic_pray_anim_luxury_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_35.png; sourceTree = "<group>"; };
+		B26F7EBB288FBB1A00D005B6 /* magic_pray_anim_luxury_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_21.png; sourceTree = "<group>"; };
+		B26F7EBC288FBB1A00D005B6 /* magic_pray_anim_luxury_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_20.png; sourceTree = "<group>"; };
+		B26F7EBD288FBB1A00D005B6 /* magic_pray_anim_luxury_34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_34.png; sourceTree = "<group>"; };
+		B26F7EBE288FBB1A00D005B6 /* magic_pray_anim_luxury_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_22.png; sourceTree = "<group>"; };
+		B26F7EBF288FBB1A00D005B6 /* magic_pray_anim_luxury_36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_36.png; sourceTree = "<group>"; };
+		B26F7EC0288FBB1A00D005B6 /* magic_pray_anim_luxury_37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_37.png; sourceTree = "<group>"; };
+		B26F7EC1288FBB1A00D005B6 /* magic_pray_anim_luxury_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_23.png; sourceTree = "<group>"; };
+		B26F7EC2288FBB1A00D005B6 /* magic_pray_anim_luxury_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_27.png; sourceTree = "<group>"; };
+		B26F7EC3288FBB1A00D005B6 /* magic_pray_anim_luxury_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_33.png; sourceTree = "<group>"; };
+		B26F7EC4288FBB1A00D005B6 /* magic_pray_anim_luxury_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_32.png; sourceTree = "<group>"; };
+		B26F7EC5288FBB1A00D005B6 /* magic_pray_anim_luxury_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_26.png; sourceTree = "<group>"; };
+		B26F7EC6288FBB1A00D005B6 /* magic_pray_anim_luxury_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_18.png; sourceTree = "<group>"; };
+		B26F7EC7288FBB1A00D005B6 /* magic_pray_anim_luxury_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_30.png; sourceTree = "<group>"; };
+		B26F7EC8288FBB1A00D005B6 /* magic_pray_anim_luxury_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_24.png; sourceTree = "<group>"; };
+		B26F7EC9288FBB1A00D005B6 /* magic_pray_anim_luxury_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_25.png; sourceTree = "<group>"; };
+		B26F7ECA288FBB1A00D005B6 /* magic_pray_anim_luxury_31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_31.png; sourceTree = "<group>"; };
+		B26F7ECB288FBB1A00D005B6 /* magic_pray_anim_luxury_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_19.png; sourceTree = "<group>"; };
+		B26F7ECC288FBB1A00D005B6 /* magic_pray_anim_luxury_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_14.png; sourceTree = "<group>"; };
+		B26F7ECD288FBB1A00D005B6 /* magic_pray_anim_luxury_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_28.png; sourceTree = "<group>"; };
+		B26F7ECE288FBB1A00D005B6 /* magic_pray_anim_luxury_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_29.png; sourceTree = "<group>"; };
+		B26F7ECF288FBB1A00D005B6 /* magic_pray_anim_luxury_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_15.png; sourceTree = "<group>"; };
+		B26F7ED0288FBB1A00D005B6 /* magic_pray_anim_luxury_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_17.png; sourceTree = "<group>"; };
+		B26F7ED1288FBB1A00D005B6 /* magic_pray_anim_luxury_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_16.png; sourceTree = "<group>"; };
+		B26F7ED2288FBB1A00D005B6 /* magic_pray_anim_luxury_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_12.png; sourceTree = "<group>"; };
+		B26F7ED3288FBB1A00D005B6 /* magic_pray_anim_luxury_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_13.png; sourceTree = "<group>"; };
+		B26F7ED4288FBB1A00D005B6 /* magic_pray_anim_luxury_39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_39.png; sourceTree = "<group>"; };
+		B26F7ED5288FBB1A00D005B6 /* magic_pray_anim_luxury_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_11.png; sourceTree = "<group>"; };
+		B26F7ED6288FBB1A00D005B6 /* magic_pray_anim_luxury_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_10.png; sourceTree = "<group>"; };
+		B26F7ED7288FBB1A00D005B6 /* magic_pray_anim_luxury_38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_luxury_38.png; sourceTree = "<group>"; };
+		B26F7ED9288FBB1A00D005B6 /* magic_pray_anim_normal_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_35.png; sourceTree = "<group>"; };
+		B26F7EDA288FBB1A00D005B6 /* magic_pray_anim_normal_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_21.png; sourceTree = "<group>"; };
+		B26F7EDB288FBB1A00D005B6 /* magic_pray_anim_normal_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_20.png; sourceTree = "<group>"; };
+		B26F7EDC288FBB1A00D005B6 /* magic_pray_anim_normal_34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_34.png; sourceTree = "<group>"; };
+		B26F7EDD288FBB1A00D005B6 /* magic_pray_anim_normal_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_22.png; sourceTree = "<group>"; };
+		B26F7EDE288FBB1A00D005B6 /* magic_pray_anim_normal_36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_36.png; sourceTree = "<group>"; };
+		B26F7EDF288FBB1A00D005B6 /* magic_pray_anim_normal_37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_37.png; sourceTree = "<group>"; };
+		B26F7EE0288FBB1A00D005B6 /* magic_pray_anim_normal_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_23.png; sourceTree = "<group>"; };
+		B26F7EE1288FBB1A00D005B6 /* magic_pray_anim_normal_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_27.png; sourceTree = "<group>"; };
+		B26F7EE2288FBB1A00D005B6 /* magic_pray_anim_normal_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_33.png; sourceTree = "<group>"; };
+		B26F7EE3288FBB1A00D005B6 /* magic_pray_anim_normal_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_32.png; sourceTree = "<group>"; };
+		B26F7EE4288FBB1A00D005B6 /* magic_pray_anim_normal_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_26.png; sourceTree = "<group>"; };
+		B26F7EE5288FBB1A00D005B6 /* magic_pray_anim_normal_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_30.png; sourceTree = "<group>"; };
+		B26F7EE6288FBB1A00D005B6 /* magic_pray_anim_normal_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_24.png; sourceTree = "<group>"; };
+		B26F7EE7288FBB1A00D005B6 /* magic_pray_anim_normal_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_18.png; sourceTree = "<group>"; };
+		B26F7EE8288FBB1A00D005B6 /* magic_pray_anim_normal_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_19.png; sourceTree = "<group>"; };
+		B26F7EE9288FBB1A00D005B6 /* magic_pray_anim_normal_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_25.png; sourceTree = "<group>"; };
+		B26F7EEA288FBB1A00D005B6 /* magic_pray_anim_normal_31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_31.png; sourceTree = "<group>"; };
+		B26F7EEB288FBB1A00D005B6 /* magic_pray_anim_normal_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_40.png; sourceTree = "<group>"; };
+		B26F7EEC288FBB1A00D005B6 /* magic_pray_anim_normal_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_28.png; sourceTree = "<group>"; };
+		B26F7EED288FBB1A00D005B6 /* magic_pray_anim_normal_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_14.png; sourceTree = "<group>"; };
+		B26F7EEE288FBB1A00D005B6 /* magic_pray_anim_normal_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_15.png; sourceTree = "<group>"; };
+		B26F7EEF288FBB1A00D005B6 /* magic_pray_anim_normal_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_29.png; sourceTree = "<group>"; };
+		B26F7EF0288FBB1A00D005B6 /* magic_pray_anim_normal_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_17.png; sourceTree = "<group>"; };
+		B26F7EF1288FBB1A00D005B6 /* magic_pray_anim_normal_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_16.png; sourceTree = "<group>"; };
+		B26F7EF2288FBB1A00D005B6 /* magic_pray_anim_normal_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_12.png; sourceTree = "<group>"; };
+		B26F7EF3288FBB1A00D005B6 /* magic_pray_anim_normal_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_13.png; sourceTree = "<group>"; };
+		B26F7EF4288FBB1A00D005B6 /* magic_pray_anim_normal_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_11.png; sourceTree = "<group>"; };
+		B26F7EF5288FBB1A00D005B6 /* magic_pray_anim_normal_39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_39.png; sourceTree = "<group>"; };
+		B26F7EF6288FBB1A00D005B6 /* magic_pray_anim_normal_38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_38.png; sourceTree = "<group>"; };
+		B26F7EF7288FBB1A00D005B6 /* magic_pray_anim_normal_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_pray_anim_normal_10.png; sourceTree = "<group>"; };
+		B26F7F37288FBD7C00D005B6 /* FXKeyframeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXKeyframeAnimation.h; sourceTree = "<group>"; };
+		B26F7F38288FBD7C00D005B6 /* FXKeyframeAnimation_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXKeyframeAnimation_Private.h; sourceTree = "<group>"; };
+		B26F7F39288FBD7C00D005B6 /* FXAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXAnimation.m; sourceTree = "<group>"; };
+		B26F7F3A288FBD7C00D005B6 /* FXImageDecodeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXImageDecodeOperation.h; sourceTree = "<group>"; };
+		B26F7F3B288FBD7C00D005B6 /* FXAnimaionEngineMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXAnimaionEngineMacro.h; sourceTree = "<group>"; };
+		B26F7F3C288FBD7C00D005B6 /* FXAnimationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXAnimationGroup.h; sourceTree = "<group>"; };
+		B26F7F3D288FBD7C00D005B6 /* CALayer+FXAnimationEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+FXAnimationEngine.m"; sourceTree = "<group>"; };
+		B26F7F3E288FBD7C00D005B6 /* UIImage+FXDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FXDecoder.h"; sourceTree = "<group>"; };
+		B26F7F3F288FBD7C00D005B6 /* CADisplayLink+FXWeakTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CADisplayLink+FXWeakTarget.m"; sourceTree = "<group>"; };
+		B26F7F40288FBD7C00D005B6 /* FXKeyframeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXKeyframeAnimation.m; sourceTree = "<group>"; };
+		B26F7F41288FBD7C00D005B6 /* FXImageDecodeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXImageDecodeOperation.m; sourceTree = "<group>"; };
+		B26F7F42288FBD7C00D005B6 /* FXAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXAnimation.h; sourceTree = "<group>"; };
+		B26F7F43288FBD7C00D005B6 /* CALayer+FXAnimationEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+FXAnimationEngine.h"; sourceTree = "<group>"; };
+		B26F7F44288FBD7C00D005B6 /* FXAnimationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXAnimationGroup.m; sourceTree = "<group>"; };
+		B26F7F45288FBD7C00D005B6 /* FXAnimationGroup_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXAnimationGroup_Private.h; sourceTree = "<group>"; };
+		B26F7F46288FBD7C00D005B6 /* CADisplayLink+FXWeakTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CADisplayLink+FXWeakTarget.h"; sourceTree = "<group>"; };
+		B26F7F47288FBD7C00D005B6 /* UIImage+FXDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FXDecoder.m"; sourceTree = "<group>"; };
+		B26F7F5C288FBF0C00D005B6 /* DDTurntableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTurntableView.h; sourceTree = "<group>"; };
+		B26F7F5D288FBF0C00D005B6 /* DDTurntableOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTurntableOptionView.m; sourceTree = "<group>"; };
+		B26F7F5E288FBF0C00D005B6 /* DDTurntableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDTurntableView.xib; sourceTree = "<group>"; };
+		B26F7F5F288FBF0C00D005B6 /* DDTurntableAnimView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTurntableAnimView.h; sourceTree = "<group>"; };
+		B26F7F62288FBF0C00D005B6 /* DDTurntableOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTurntableOptionView.h; sourceTree = "<group>"; };
+		B26F7F63288FBF0C00D005B6 /* DDTurntableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTurntableView.m; sourceTree = "<group>"; };
+		B26F7F64288FBF0C00D005B6 /* DDTurntableAnimView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTurntableAnimView.m; sourceTree = "<group>"; };
+		B26F7F75288FBF0C00D005B6 /* DDTurntableResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTurntableResultView.m; sourceTree = "<group>"; };
+		B26F7F76288FBF0C00D005B6 /* DDTurntableResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTurntableResultItemView.m; sourceTree = "<group>"; };
+		B26F7F77288FBF0C00D005B6 /* DDTurntableResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDTurntableResultView.xib; sourceTree = "<group>"; };
+		B26F7F78288FBF0C00D005B6 /* DDTurntableResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTurntableResultItemView.h; sourceTree = "<group>"; };
+		B26F7F79288FBF0C00D005B6 /* DDTurntableResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTurntableResultView.h; sourceTree = "<group>"; };
+		B26F7F7A288FBF0C00D005B6 /* DDTurntableResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDTurntableResultItemView.xib; sourceTree = "<group>"; };
+		B26F7F86288FBF0C00D005B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26F7FB6288FC33500D005B6 /* JFSummonBeastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSummonBeastView.h; sourceTree = "<group>"; };
+		B26F7FB7288FC33500D005B6 /* JFSummonBeastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFSummonBeastView.xib; sourceTree = "<group>"; };
+		B26F7FBA288FC33500D005B6 /* JFSummonBeastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSummonBeastView.m; sourceTree = "<group>"; };
+		B26F7FCC288FC33500D005B6 /* JFSummonBeastResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSummonBeastResultView.m; sourceTree = "<group>"; };
+		B26F7FCD288FC33500D005B6 /* JFSummonBeastResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSummonBeastResultItemView.m; sourceTree = "<group>"; };
+		B26F7FCE288FC33500D005B6 /* JFSummonBeastResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFSummonBeastResultView.xib; sourceTree = "<group>"; };
+		B26F7FCF288FC33500D005B6 /* JFSummonBeastResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSummonBeastResultItemView.h; sourceTree = "<group>"; };
+		B26F7FD0288FC33500D005B6 /* JFSummonBeastResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSummonBeastResultView.h; sourceTree = "<group>"; };
+		B26F7FD1288FC33500D005B6 /* JFSummonBeastResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFSummonBeastResultItemView.xib; sourceTree = "<group>"; };
+		B26F7FDD288FC33500D005B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26F805B288FC4DF00D005B6 /* summon_beast_weapon_044.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_044.png; sourceTree = "<group>"; };
+		B26F805C288FC4DF00D005B6 /* summon_beast_weapon_041.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_041.png; sourceTree = "<group>"; };
+		B26F805D288FC4DF00D005B6 /* summon_beast_weapon_040.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_040.png; sourceTree = "<group>"; };
+		B26F805E288FC4DF00D005B6 /* summon_beast_weapon_042.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_042.png; sourceTree = "<group>"; };
+		B26F805F288FC4DF00D005B6 /* summon_beast_weapon_043.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_043.png; sourceTree = "<group>"; };
+		B26F8060288FC4DF00D005B6 /* summon_beast_weapon_018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_018.png; sourceTree = "<group>"; };
+		B26F8061288FC4DF00D005B6 /* summon_beast_weapon_024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_024.png; sourceTree = "<group>"; };
+		B26F8062288FC4DF00D005B6 /* summon_beast_weapon_030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_030.png; sourceTree = "<group>"; };
+		B26F8063288FC4DF00D005B6 /* summon_beast_weapon_031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_031.png; sourceTree = "<group>"; };
+		B26F8064288FC4DF00D005B6 /* summon_beast_weapon_025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_025.png; sourceTree = "<group>"; };
+		B26F8065288FC4DF00D005B6 /* summon_beast_weapon_019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_019.png; sourceTree = "<group>"; };
+		B26F8066288FC4DF00D005B6 /* summon_beast_weapon_033.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_033.png; sourceTree = "<group>"; };
+		B26F8067288FC4DF00D005B6 /* summon_beast_weapon_027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_027.png; sourceTree = "<group>"; };
+		B26F8068288FC4DF00D005B6 /* summon_beast_weapon_026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_026.png; sourceTree = "<group>"; };
+		B26F8069288FC4DF00D005B6 /* summon_beast_weapon_032.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_032.png; sourceTree = "<group>"; };
+		B26F806A288FC4DF00D005B6 /* summon_beast_weapon_036.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_036.png; sourceTree = "<group>"; };
+		B26F806B288FC4DF00D005B6 /* summon_beast_weapon_022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_022.png; sourceTree = "<group>"; };
+		B26F806C288FC4DF00D005B6 /* summon_beast_weapon_023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_023.png; sourceTree = "<group>"; };
+		B26F806D288FC4DF00D005B6 /* summon_beast_weapon_037.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_037.png; sourceTree = "<group>"; };
+		B26F806E288FC4DF00D005B6 /* summon_beast_weapon_021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_021.png; sourceTree = "<group>"; };
+		B26F806F288FC4DF00D005B6 /* summon_beast_weapon_035.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_035.png; sourceTree = "<group>"; };
+		B26F8070288FC4DF00D005B6 /* summon_beast_weapon_009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_009.png; sourceTree = "<group>"; };
+		B26F8071288FC4DF00D005B6 /* summon_beast_weapon_008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_008.png; sourceTree = "<group>"; };
+		B26F8072288FC4DF00D005B6 /* summon_beast_weapon_034.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_034.png; sourceTree = "<group>"; };
+		B26F8073288FC4DF00D005B6 /* summon_beast_weapon_020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_020.png; sourceTree = "<group>"; };
+		B26F8074288FC4DF00D005B6 /* summon_beast_weapon_039.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_039.png; sourceTree = "<group>"; };
+		B26F8075288FC4DF00D005B6 /* summon_beast_weapon_005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_005.png; sourceTree = "<group>"; };
+		B26F8076288FC4DF00D005B6 /* summon_beast_weapon_011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_011.png; sourceTree = "<group>"; };
+		B26F8077288FC4DF00D005B6 /* summon_beast_weapon_010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_010.png; sourceTree = "<group>"; };
+		B26F8078288FC4DF00D005B6 /* summon_beast_weapon_004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_004.png; sourceTree = "<group>"; };
+		B26F8079288FC4DF00D005B6 /* summon_beast_weapon_038.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_038.png; sourceTree = "<group>"; };
+		B26F807A288FC4DF00D005B6 /* summon_beast_weapon_012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_012.png; sourceTree = "<group>"; };
+		B26F807B288FC4DF00D005B6 /* summon_beast_weapon_006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_006.png; sourceTree = "<group>"; };
+		B26F807C288FC4DF00D005B6 /* summon_beast_weapon_007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_007.png; sourceTree = "<group>"; };
+		B26F807D288FC4DF00D005B6 /* summon_beast_weapon_013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_013.png; sourceTree = "<group>"; };
+		B26F807E288FC4DF00D005B6 /* summon_beast_weapon_017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_017.png; sourceTree = "<group>"; };
+		B26F807F288FC4DF00D005B6 /* summon_beast_weapon_003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_003.png; sourceTree = "<group>"; };
+		B26F8080288FC4DF00D005B6 /* summon_beast_weapon_002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_002.png; sourceTree = "<group>"; };
+		B26F8081288FC4DF00D005B6 /* summon_beast_weapon_016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_016.png; sourceTree = "<group>"; };
+		B26F8082288FC4DF00D005B6 /* summon_beast_weapon_000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_000.png; sourceTree = "<group>"; };
+		B26F8083288FC4DF00D005B6 /* summon_beast_weapon_014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_014.png; sourceTree = "<group>"; };
+		B26F8084288FC4DF00D005B6 /* summon_beast_weapon_028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_028.png; sourceTree = "<group>"; };
+		B26F8085288FC4DF00D005B6 /* summon_beast_weapon_029.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_029.png; sourceTree = "<group>"; };
+		B26F8086288FC4DF00D005B6 /* summon_beast_weapon_015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_015.png; sourceTree = "<group>"; };
+		B26F8087288FC4DF00D005B6 /* summon_beast_weapon_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summon_beast_weapon_001.png; sourceTree = "<group>"; };
+		B26F80C6288FC69A00D005B6 /* JFMakeCandyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMakeCandyView.h; sourceTree = "<group>"; };
+		B26F80C7288FC69A00D005B6 /* JFMakeCandyBallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMakeCandyBallView.m; sourceTree = "<group>"; };
+		B26F80CA288FC69A00D005B6 /* JFMakeCandyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMakeCandyView.m; sourceTree = "<group>"; };
+		B26F80CB288FC69A00D005B6 /* JFMakeCandyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFMakeCandyView.xib; sourceTree = "<group>"; };
+		B26F80CC288FC69A00D005B6 /* JFMakeCandyBallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMakeCandyBallView.h; sourceTree = "<group>"; };
+		B26F80D3288FC69A00D005B6 /* JFMakeCandyResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMakeCandyResultView.m; sourceTree = "<group>"; };
+		B26F80D4288FC69A00D005B6 /* JFMakeCandyResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFMakeCandyResultItemView.xib; sourceTree = "<group>"; };
+		B26F80D5288FC69A00D005B6 /* JFMakeCandyResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMakeCandyResultItemView.m; sourceTree = "<group>"; };
+		B26F80D6288FC69A00D005B6 /* JFMakeCandyResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFMakeCandyResultView.xib; sourceTree = "<group>"; };
+		B26F80D7288FC69A00D005B6 /* JFMakeCandyResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMakeCandyResultItemView.h; sourceTree = "<group>"; };
+		B26F80D8288FC69A00D005B6 /* JFMakeCandyResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMakeCandyResultView.h; sourceTree = "<group>"; };
+		B26F80D9288FC69A00D005B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26F8118288FCBC800D005B6 /* JFPenguinMinerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPenguinMinerView.h; sourceTree = "<group>"; };
+		B26F8119288FCBC800D005B6 /* JFPenguinMinerGiftListCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPenguinMinerGiftListCCell.h; sourceTree = "<group>"; };
+		B26F811C288FCBC800D005B6 /* JFPenguinMinerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPenguinMinerView.m; sourceTree = "<group>"; };
+		B26F811D288FCBC800D005B6 /* JFPenguinMinerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFPenguinMinerView.xib; sourceTree = "<group>"; };
+		B26F811E288FCBC800D005B6 /* JFPenguinMinerGiftListCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPenguinMinerGiftListCCell.m; sourceTree = "<group>"; };
+		B26F811F288FCBC800D005B6 /* JFPenguinMinerGiftListCCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFPenguinMinerGiftListCCell.xib; sourceTree = "<group>"; };
+		B26F8125288FCBC800D005B6 /* JFPenguinMinerResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPenguinMinerResultView.m; sourceTree = "<group>"; };
+		B26F8126288FCBC800D005B6 /* JFPenguinMinerResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFPenguinMinerResultItemView.xib; sourceTree = "<group>"; };
+		B26F8127288FCBC800D005B6 /* JFPenguinMinerResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPenguinMinerResultItemView.m; sourceTree = "<group>"; };
+		B26F8128288FCBC800D005B6 /* JFPenguinMinerResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFPenguinMinerResultView.xib; sourceTree = "<group>"; };
+		B26F8129288FCBC800D005B6 /* JFPenguinMinerResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPenguinMinerResultItemView.h; sourceTree = "<group>"; };
+		B26F812A288FCBC800D005B6 /* JFPenguinMinerResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPenguinMinerResultView.h; sourceTree = "<group>"; };
+		B26F812B288FCBC800D005B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26F8141288FCBC800D005B6 /* penguin_miner_open.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = penguin_miner_open.svga; sourceTree = "<group>"; };
+		B26F8160288FD03700D005B6 /* JFTarotItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTarotItemView.h; sourceTree = "<group>"; };
+		B26F8161288FD03700D005B6 /* JFTarotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTarotView.h; sourceTree = "<group>"; };
+		B26F8162288FD03700D005B6 /* JFTarotItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFTarotItemView.xib; sourceTree = "<group>"; };
+		B26F8163288FD03700D005B6 /* JFTarotItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTarotItemView.m; sourceTree = "<group>"; };
+		B26F8164288FD03700D005B6 /* JFTarotView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFTarotView.xib; sourceTree = "<group>"; };
+		B26F8165288FD03700D005B6 /* JFTarotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTarotView.m; sourceTree = "<group>"; };
+		B26F8166288FD03700D005B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26F8189288FD4A300D005B6 /* cattery_cat_normal_0.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = cattery_cat_normal_0.svga; sourceTree = "<group>"; };
+		B26F818B288FD4A300D005B6 /* cattery_cat_normal_1.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = cattery_cat_normal_1.svga; sourceTree = "<group>"; };
+		B26F819A288FD4A300D005B6 /* cattery_cat_feeding_2.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = cattery_cat_feeding_2.svga; sourceTree = "<group>"; };
+		B26F819B288FD4A300D005B6 /* cattery_cat_feeding_0.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = cattery_cat_feeding_0.svga; sourceTree = "<group>"; };
+		B26F81A0288FD4A300D005B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26F81B3288FD4A400D005B6 /* cattery_cat_feeding_1.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = cattery_cat_feeding_1.svga; sourceTree = "<group>"; };
+		B26F81B8288FD4A400D005B6 /* JFCatteryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCatteryView.h; sourceTree = "<group>"; };
+		B26F81B9288FD4A400D005B6 /* JFCatteryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFCatteryView.xib; sourceTree = "<group>"; };
+		B26F81BA288FD4A400D005B6 /* JFCatteryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCatteryView.m; sourceTree = "<group>"; };
+		B26F81BC288FD4A400D005B6 /* JFCatteryResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFCatteryResultView.xib; sourceTree = "<group>"; };
+		B26F81BD288FD4A400D005B6 /* JFCatteryResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCatteryResultView.m; sourceTree = "<group>"; };
+		B26F81BE288FD4A400D005B6 /* JFCatteryResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCatteryResultItemView.h; sourceTree = "<group>"; };
+		B26F81BF288FD4A400D005B6 /* JFCatteryResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCatteryResultView.h; sourceTree = "<group>"; };
+		B26F81C0288FD4A400D005B6 /* JFCatteryResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFCatteryResultItemView.xib; sourceTree = "<group>"; };
+		B26F81C1288FD4A400D005B6 /* JFCatteryResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCatteryResultItemView.m; sourceTree = "<group>"; };
+		B26F81C2288FD4A400D005B6 /* cattery_cat_normal_2.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = cattery_cat_normal_2.svga; sourceTree = "<group>"; };
+		B26F81F6288FD80600D005B6 /* JFWaterTreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFWaterTreeView.h; sourceTree = "<group>"; };
+		B26F81F9288FD80600D005B6 /* JFWaterTreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFWaterTreeView.m; sourceTree = "<group>"; };
+		B26F81FA288FD80600D005B6 /* JFWaterTreeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFWaterTreeView.xib; sourceTree = "<group>"; };
+		B26F8200288FD80600D005B6 /* JFWaterTreeResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFWaterTreeResultView.m; sourceTree = "<group>"; };
+		B26F8201288FD80600D005B6 /* JFWaterTreeResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFWaterTreeResultItemView.xib; sourceTree = "<group>"; };
+		B26F8202288FD80600D005B6 /* JFWaterTreeResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFWaterTreeResultItemView.m; sourceTree = "<group>"; };
+		B26F8203288FD80600D005B6 /* JFWaterTreeResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFWaterTreeResultView.xib; sourceTree = "<group>"; };
+		B26F8204288FD80600D005B6 /* JFWaterTreeResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFWaterTreeResultItemView.h; sourceTree = "<group>"; };
+		B26F8205288FD80600D005B6 /* JFWaterTreeResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFWaterTreeResultView.h; sourceTree = "<group>"; };
+		B26F8206288FD80600D005B6 /* water_tree_anim.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = water_tree_anim.svga; sourceTree = "<group>"; };
+		B26F8207288FD80600D005B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26F8244288FDCCB00D005B6 /* JFUnlimitedTreasureChestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFUnlimitedTreasureChestView.h; sourceTree = "<group>"; };
+		B26F8245288FDCCB00D005B6 /* JFUnlimitedTreasureChestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFUnlimitedTreasureChestView.m; sourceTree = "<group>"; };
+		B26F8246288FDCCB00D005B6 /* JFUnlimitedTreasureChestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFUnlimitedTreasureChestView.xib; sourceTree = "<group>"; };
+		B26F824C288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFUnlimitedTreasureChestResultView.m; sourceTree = "<group>"; };
+		B26F824D288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFUnlimitedTreasureChestResultItemView.xib; sourceTree = "<group>"; };
+		B26F824E288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFUnlimitedTreasureChestResultItemView.m; sourceTree = "<group>"; };
+		B26F824F288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFUnlimitedTreasureChestResultView.xib; sourceTree = "<group>"; };
+		B26F8250288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFUnlimitedTreasureChestResultItemView.h; sourceTree = "<group>"; };
+		B26F8251288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFUnlimitedTreasureChestResultView.h; sourceTree = "<group>"; };
+		B26F8259288FDCCB00D005B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26F826F288FDCCB00D005B6 /* unlimited_treasure_chest_open.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = unlimited_treasure_chest_open.svga; sourceTree = "<group>"; };
+		B26F8270288FDCCB00D005B6 /* unlimited_treasure_chest_entrance.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = unlimited_treasure_chest_entrance.svga; sourceTree = "<group>"; };
 		B2793922288E33F0000E9230 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2793932288E33F0000E9230 /* JFRoomWishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRoomWishView.h; sourceTree = "<group>"; };
 		B2793933288E33F0000E9230 /* JFRoomWishView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFRoomWishView.xib; sourceTree = "<group>"; };
@@ -950,6 +1423,48 @@
 			path = Result;
 			sourceTree = "<group>";
 		};
+		B20CE08E288FE16A00CC152B /* 打地鼠 */ = {
+			isa = PBXGroup;
+			children = (
+				B20CE08F288FE16A00CC152B /* Main */,
+				B20CE0D4288FE24B00CC152B /* Images */,
+				B20CE0A5288FE16A00CC152B /* Assets.xcassets */,
+			);
+			path = "打地鼠";
+			sourceTree = "<group>";
+		};
+		B20CE08F288FE16A00CC152B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B20CE092288FE16A00CC152B /* JFWhackMoleView.h */,
+				B20CE097288FE16A00CC152B /* JFWhackMoleView.m */,
+				B20CE096288FE16A00CC152B /* JFWhackMoleView.xib */,
+				B20CE090288FE16A00CC152B /* JFWhackMoleItemView.h */,
+				B20CE094288FE16A00CC152B /* JFWhackMoleItemView.m */,
+				B20CE093288FE16A00CC152B /* JFWhackMoleItemView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B20CE0D4288FE24B00CC152B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B20CE0D5288FE24B00CC152B /* whack_mole_open_item_2_stun.gif */,
+				B20CE0D6288FE24B00CC152B /* whack_mole_open_item_3_stun.gif */,
+				B20CE0D7288FE24B00CC152B /* whack_mole_open_item_3_dead.png */,
+				B20CE0D8288FE24B00CC152B /* whack_mole_open_item_2_dead.png */,
+				B20CE0D9288FE24B00CC152B /* whack_mole_open_item_2_normal.gif */,
+				B20CE0DA288FE24B00CC152B /* whack_mole_open_item_4_stun.gif */,
+				B20CE0DB288FE24B00CC152B /* whack_mole_open_item_4_dead.png */,
+				B20CE0DC288FE24B00CC152B /* whack_mole_open_item_4_normal.gif */,
+				B20CE0DD288FE24B00CC152B /* whack_mole_open_item_1_dead.png */,
+				B20CE0DE288FE24B00CC152B /* whack_mole_open_item_1_normal.gif */,
+				B20CE0DF288FE24B00CC152B /* whack_mole_open_item_1_stun.gif */,
+				B20CE0E0288FE24B00CC152B /* whack_mole_open_item_3_normal.gif */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		B2253045288D621500D130B8 /* 萌宠考拉 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1313,6 +1828,499 @@
 				B26F7D60288F959700D005B6 /* JFDragonSlayerBigResultItemView.h */,
 				B26F7D5B288F959700D005B6 /* JFDragonSlayerBigResultItemView.m */,
 				B26F7D5F288F959700D005B6 /* JFDragonSlayerBigResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B26F7D92288FB1ED00D005B6 /* 娃娃机 */ = {
+			isa = PBXGroup;
+			children = (
+				B26F7D9E288FB1ED00D005B6 /* Main */,
+				B26F7DB3288FB1ED00D005B6 /* Result */,
+				B26F7DC5288FB1ED00D005B6 /* Assets.xcassets */,
+			);
+			path = "娃娃机";
+			sourceTree = "<group>";
+		};
+		B26F7D9E288FB1ED00D005B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B26F7D9F288FB1ED00D005B6 /* JFDollMachineView.h */,
+				B26F7DA3288FB1ED00D005B6 /* JFDollMachineView.m */,
+				B26F7DA0288FB1ED00D005B6 /* JFDollMachineView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B26F7DB3288FB1ED00D005B6 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B26F7DB8288FB1ED00D005B6 /* JFDollMachineResultView.h */,
+				B26F7DB4288FB1ED00D005B6 /* JFDollMachineResultView.m */,
+				B26F7DB6288FB1ED00D005B6 /* JFDollMachineResultView.xib */,
+				B26F7DB7288FB1ED00D005B6 /* JFDollMachineResultItemView.h */,
+				B26F7DB5288FB1ED00D005B6 /* JFDollMachineResultItemView.m */,
+				B26F7DB9288FB1ED00D005B6 /* JFDollMachineResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B26F7DE6288FB9A400D005B6 /* 魔法祈愿池 */ = {
+			isa = PBXGroup;
+			children = (
+				B26F7E40288FB9A400D005B6 /* Main */,
+				B26F7E19288FB9A400D005B6 /* Result */,
+				B26F7ED8288FBB1A00D005B6 /* 白银开奖动画 */,
+				B26F7EB8288FBB1A00D005B6 /* 黄金开奖动画 */,
+				B26F7E47288FB9A400D005B6 /* Assets.xcassets */,
+			);
+			path = "魔法祈愿池";
+			sourceTree = "<group>";
+		};
+		B26F7E19288FB9A400D005B6 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B26F7E1F288FB9A400D005B6 /* JFMagicPrayResultView.h */,
+				B26F7E1A288FB9A400D005B6 /* JFMagicPrayResultView.m */,
+				B26F7E1D288FB9A400D005B6 /* JFMagicPrayResultView.xib */,
+				B26F7E1E288FB9A400D005B6 /* JFMagicPrayResultItemView.h */,
+				B26F7E1C288FB9A400D005B6 /* JFMagicPrayResultItemView.m */,
+				B26F7E1B288FB9A400D005B6 /* JFMagicPrayResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B26F7E40288FB9A400D005B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B26F7E42288FB9A400D005B6 /* JFMagicPrayView.h */,
+				B26F7E45288FB9A400D005B6 /* JFMagicPrayView.m */,
+				B26F7E46288FB9A400D005B6 /* JFMagicPrayView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B26F7EB8288FBB1A00D005B6 /* 黄金开奖动画 */ = {
+			isa = PBXGroup;
+			children = (
+				B26F7EB9288FBB1A00D005B6 /* magic_pray_anim_luxury_40.png */,
+				B26F7EBA288FBB1A00D005B6 /* magic_pray_anim_luxury_35.png */,
+				B26F7EBB288FBB1A00D005B6 /* magic_pray_anim_luxury_21.png */,
+				B26F7EBC288FBB1A00D005B6 /* magic_pray_anim_luxury_20.png */,
+				B26F7EBD288FBB1A00D005B6 /* magic_pray_anim_luxury_34.png */,
+				B26F7EBE288FBB1A00D005B6 /* magic_pray_anim_luxury_22.png */,
+				B26F7EBF288FBB1A00D005B6 /* magic_pray_anim_luxury_36.png */,
+				B26F7EC0288FBB1A00D005B6 /* magic_pray_anim_luxury_37.png */,
+				B26F7EC1288FBB1A00D005B6 /* magic_pray_anim_luxury_23.png */,
+				B26F7EC2288FBB1A00D005B6 /* magic_pray_anim_luxury_27.png */,
+				B26F7EC3288FBB1A00D005B6 /* magic_pray_anim_luxury_33.png */,
+				B26F7EC4288FBB1A00D005B6 /* magic_pray_anim_luxury_32.png */,
+				B26F7EC5288FBB1A00D005B6 /* magic_pray_anim_luxury_26.png */,
+				B26F7EC6288FBB1A00D005B6 /* magic_pray_anim_luxury_18.png */,
+				B26F7EC7288FBB1A00D005B6 /* magic_pray_anim_luxury_30.png */,
+				B26F7EC8288FBB1A00D005B6 /* magic_pray_anim_luxury_24.png */,
+				B26F7EC9288FBB1A00D005B6 /* magic_pray_anim_luxury_25.png */,
+				B26F7ECA288FBB1A00D005B6 /* magic_pray_anim_luxury_31.png */,
+				B26F7ECB288FBB1A00D005B6 /* magic_pray_anim_luxury_19.png */,
+				B26F7ECC288FBB1A00D005B6 /* magic_pray_anim_luxury_14.png */,
+				B26F7ECD288FBB1A00D005B6 /* magic_pray_anim_luxury_28.png */,
+				B26F7ECE288FBB1A00D005B6 /* magic_pray_anim_luxury_29.png */,
+				B26F7ECF288FBB1A00D005B6 /* magic_pray_anim_luxury_15.png */,
+				B26F7ED0288FBB1A00D005B6 /* magic_pray_anim_luxury_17.png */,
+				B26F7ED1288FBB1A00D005B6 /* magic_pray_anim_luxury_16.png */,
+				B26F7ED2288FBB1A00D005B6 /* magic_pray_anim_luxury_12.png */,
+				B26F7ED3288FBB1A00D005B6 /* magic_pray_anim_luxury_13.png */,
+				B26F7ED4288FBB1A00D005B6 /* magic_pray_anim_luxury_39.png */,
+				B26F7ED5288FBB1A00D005B6 /* magic_pray_anim_luxury_11.png */,
+				B26F7ED6288FBB1A00D005B6 /* magic_pray_anim_luxury_10.png */,
+				B26F7ED7288FBB1A00D005B6 /* magic_pray_anim_luxury_38.png */,
+			);
+			path = "黄金开奖动画";
+			sourceTree = "<group>";
+		};
+		B26F7ED8288FBB1A00D005B6 /* 白银开奖动画 */ = {
+			isa = PBXGroup;
+			children = (
+				B26F7ED9288FBB1A00D005B6 /* magic_pray_anim_normal_35.png */,
+				B26F7EDA288FBB1A00D005B6 /* magic_pray_anim_normal_21.png */,
+				B26F7EDB288FBB1A00D005B6 /* magic_pray_anim_normal_20.png */,
+				B26F7EDC288FBB1A00D005B6 /* magic_pray_anim_normal_34.png */,
+				B26F7EDD288FBB1A00D005B6 /* magic_pray_anim_normal_22.png */,
+				B26F7EDE288FBB1A00D005B6 /* magic_pray_anim_normal_36.png */,
+				B26F7EDF288FBB1A00D005B6 /* magic_pray_anim_normal_37.png */,
+				B26F7EE0288FBB1A00D005B6 /* magic_pray_anim_normal_23.png */,
+				B26F7EE1288FBB1A00D005B6 /* magic_pray_anim_normal_27.png */,
+				B26F7EE2288FBB1A00D005B6 /* magic_pray_anim_normal_33.png */,
+				B26F7EE3288FBB1A00D005B6 /* magic_pray_anim_normal_32.png */,
+				B26F7EE4288FBB1A00D005B6 /* magic_pray_anim_normal_26.png */,
+				B26F7EE5288FBB1A00D005B6 /* magic_pray_anim_normal_30.png */,
+				B26F7EE6288FBB1A00D005B6 /* magic_pray_anim_normal_24.png */,
+				B26F7EE7288FBB1A00D005B6 /* magic_pray_anim_normal_18.png */,
+				B26F7EE8288FBB1A00D005B6 /* magic_pray_anim_normal_19.png */,
+				B26F7EE9288FBB1A00D005B6 /* magic_pray_anim_normal_25.png */,
+				B26F7EEA288FBB1A00D005B6 /* magic_pray_anim_normal_31.png */,
+				B26F7EEB288FBB1A00D005B6 /* magic_pray_anim_normal_40.png */,
+				B26F7EEC288FBB1A00D005B6 /* magic_pray_anim_normal_28.png */,
+				B26F7EED288FBB1A00D005B6 /* magic_pray_anim_normal_14.png */,
+				B26F7EEE288FBB1A00D005B6 /* magic_pray_anim_normal_15.png */,
+				B26F7EEF288FBB1A00D005B6 /* magic_pray_anim_normal_29.png */,
+				B26F7EF0288FBB1A00D005B6 /* magic_pray_anim_normal_17.png */,
+				B26F7EF1288FBB1A00D005B6 /* magic_pray_anim_normal_16.png */,
+				B26F7EF2288FBB1A00D005B6 /* magic_pray_anim_normal_12.png */,
+				B26F7EF3288FBB1A00D005B6 /* magic_pray_anim_normal_13.png */,
+				B26F7EF4288FBB1A00D005B6 /* magic_pray_anim_normal_11.png */,
+				B26F7EF5288FBB1A00D005B6 /* magic_pray_anim_normal_39.png */,
+				B26F7EF6288FBB1A00D005B6 /* magic_pray_anim_normal_38.png */,
+				B26F7EF7288FBB1A00D005B6 /* magic_pray_anim_normal_10.png */,
+			);
+			path = "白银开奖动画";
+			sourceTree = "<group>";
+		};
+		B26F7F36288FBD7C00D005B6 /* FXAnimationEngine */ = {
+			isa = PBXGroup;
+			children = (
+				B26F7F37288FBD7C00D005B6 /* FXKeyframeAnimation.h */,
+				B26F7F38288FBD7C00D005B6 /* FXKeyframeAnimation_Private.h */,
+				B26F7F39288FBD7C00D005B6 /* FXAnimation.m */,
+				B26F7F3A288FBD7C00D005B6 /* FXImageDecodeOperation.h */,
+				B26F7F3B288FBD7C00D005B6 /* FXAnimaionEngineMacro.h */,
+				B26F7F3C288FBD7C00D005B6 /* FXAnimationGroup.h */,
+				B26F7F3D288FBD7C00D005B6 /* CALayer+FXAnimationEngine.m */,
+				B26F7F3E288FBD7C00D005B6 /* UIImage+FXDecoder.h */,
+				B26F7F3F288FBD7C00D005B6 /* CADisplayLink+FXWeakTarget.m */,
+				B26F7F40288FBD7C00D005B6 /* FXKeyframeAnimation.m */,
+				B26F7F41288FBD7C00D005B6 /* FXImageDecodeOperation.m */,
+				B26F7F42288FBD7C00D005B6 /* FXAnimation.h */,
+				B26F7F43288FBD7C00D005B6 /* CALayer+FXAnimationEngine.h */,
+				B26F7F44288FBD7C00D005B6 /* FXAnimationGroup.m */,
+				B26F7F45288FBD7C00D005B6 /* FXAnimationGroup_Private.h */,
+				B26F7F46288FBD7C00D005B6 /* CADisplayLink+FXWeakTarget.h */,
+				B26F7F47288FBD7C00D005B6 /* UIImage+FXDecoder.m */,
+			);
+			path = FXAnimationEngine;
+			sourceTree = "<group>";
+		};
+		B26F7F4F288FBF0C00D005B6 /* 幸运大转盘2 */ = {
+			isa = PBXGroup;
+			children = (
+				B26F7F5B288FBF0C00D005B6 /* Main */,
+				B26F7F74288FBF0C00D005B6 /* Result */,
+				B26F7F86288FBF0C00D005B6 /* Assets.xcassets */,
+			);
+			path = "幸运大转盘2";
+			sourceTree = "<group>";
+		};
+		B26F7F5B288FBF0C00D005B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B26F7F5C288FBF0C00D005B6 /* DDTurntableView.h */,
+				B26F7F63288FBF0C00D005B6 /* DDTurntableView.m */,
+				B26F7F5E288FBF0C00D005B6 /* DDTurntableView.xib */,
+				B26F7F5F288FBF0C00D005B6 /* DDTurntableAnimView.h */,
+				B26F7F64288FBF0C00D005B6 /* DDTurntableAnimView.m */,
+				B26F7F62288FBF0C00D005B6 /* DDTurntableOptionView.h */,
+				B26F7F5D288FBF0C00D005B6 /* DDTurntableOptionView.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B26F7F74288FBF0C00D005B6 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B26F7F79288FBF0C00D005B6 /* DDTurntableResultView.h */,
+				B26F7F75288FBF0C00D005B6 /* DDTurntableResultView.m */,
+				B26F7F77288FBF0C00D005B6 /* DDTurntableResultView.xib */,
+				B26F7F78288FBF0C00D005B6 /* DDTurntableResultItemView.h */,
+				B26F7F76288FBF0C00D005B6 /* DDTurntableResultItemView.m */,
+				B26F7F7A288FBF0C00D005B6 /* DDTurntableResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B26F7FA9288FC33500D005B6 /* 召唤神兽 */ = {
+			isa = PBXGroup;
+			children = (
+				B26F7FB5288FC33500D005B6 /* Main */,
+				B26F7FCB288FC33500D005B6 /* Result */,
+				B26F805A288FC4DF00D005B6 /* Images */,
+				B26F7FDD288FC33500D005B6 /* Assets.xcassets */,
+			);
+			path = "召唤神兽";
+			sourceTree = "<group>";
+		};
+		B26F7FB5288FC33500D005B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B26F7FB6288FC33500D005B6 /* JFSummonBeastView.h */,
+				B26F7FBA288FC33500D005B6 /* JFSummonBeastView.m */,
+				B26F7FB7288FC33500D005B6 /* JFSummonBeastView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B26F7FCB288FC33500D005B6 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B26F7FD0288FC33500D005B6 /* JFSummonBeastResultView.h */,
+				B26F7FCC288FC33500D005B6 /* JFSummonBeastResultView.m */,
+				B26F7FCE288FC33500D005B6 /* JFSummonBeastResultView.xib */,
+				B26F7FCF288FC33500D005B6 /* JFSummonBeastResultItemView.h */,
+				B26F7FCD288FC33500D005B6 /* JFSummonBeastResultItemView.m */,
+				B26F7FD1288FC33500D005B6 /* JFSummonBeastResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B26F805A288FC4DF00D005B6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B26F805B288FC4DF00D005B6 /* summon_beast_weapon_044.png */,
+				B26F805C288FC4DF00D005B6 /* summon_beast_weapon_041.png */,
+				B26F805D288FC4DF00D005B6 /* summon_beast_weapon_040.png */,
+				B26F805E288FC4DF00D005B6 /* summon_beast_weapon_042.png */,
+				B26F805F288FC4DF00D005B6 /* summon_beast_weapon_043.png */,
+				B26F8060288FC4DF00D005B6 /* summon_beast_weapon_018.png */,
+				B26F8061288FC4DF00D005B6 /* summon_beast_weapon_024.png */,
+				B26F8062288FC4DF00D005B6 /* summon_beast_weapon_030.png */,
+				B26F8063288FC4DF00D005B6 /* summon_beast_weapon_031.png */,
+				B26F8064288FC4DF00D005B6 /* summon_beast_weapon_025.png */,
+				B26F8065288FC4DF00D005B6 /* summon_beast_weapon_019.png */,
+				B26F8066288FC4DF00D005B6 /* summon_beast_weapon_033.png */,
+				B26F8067288FC4DF00D005B6 /* summon_beast_weapon_027.png */,
+				B26F8068288FC4DF00D005B6 /* summon_beast_weapon_026.png */,
+				B26F8069288FC4DF00D005B6 /* summon_beast_weapon_032.png */,
+				B26F806A288FC4DF00D005B6 /* summon_beast_weapon_036.png */,
+				B26F806B288FC4DF00D005B6 /* summon_beast_weapon_022.png */,
+				B26F806C288FC4DF00D005B6 /* summon_beast_weapon_023.png */,
+				B26F806D288FC4DF00D005B6 /* summon_beast_weapon_037.png */,
+				B26F806E288FC4DF00D005B6 /* summon_beast_weapon_021.png */,
+				B26F806F288FC4DF00D005B6 /* summon_beast_weapon_035.png */,
+				B26F8070288FC4DF00D005B6 /* summon_beast_weapon_009.png */,
+				B26F8071288FC4DF00D005B6 /* summon_beast_weapon_008.png */,
+				B26F8072288FC4DF00D005B6 /* summon_beast_weapon_034.png */,
+				B26F8073288FC4DF00D005B6 /* summon_beast_weapon_020.png */,
+				B26F8074288FC4DF00D005B6 /* summon_beast_weapon_039.png */,
+				B26F8075288FC4DF00D005B6 /* summon_beast_weapon_005.png */,
+				B26F8076288FC4DF00D005B6 /* summon_beast_weapon_011.png */,
+				B26F8077288FC4DF00D005B6 /* summon_beast_weapon_010.png */,
+				B26F8078288FC4DF00D005B6 /* summon_beast_weapon_004.png */,
+				B26F8079288FC4DF00D005B6 /* summon_beast_weapon_038.png */,
+				B26F807A288FC4DF00D005B6 /* summon_beast_weapon_012.png */,
+				B26F807B288FC4DF00D005B6 /* summon_beast_weapon_006.png */,
+				B26F807C288FC4DF00D005B6 /* summon_beast_weapon_007.png */,
+				B26F807D288FC4DF00D005B6 /* summon_beast_weapon_013.png */,
+				B26F807E288FC4DF00D005B6 /* summon_beast_weapon_017.png */,
+				B26F807F288FC4DF00D005B6 /* summon_beast_weapon_003.png */,
+				B26F8080288FC4DF00D005B6 /* summon_beast_weapon_002.png */,
+				B26F8081288FC4DF00D005B6 /* summon_beast_weapon_016.png */,
+				B26F8082288FC4DF00D005B6 /* summon_beast_weapon_000.png */,
+				B26F8083288FC4DF00D005B6 /* summon_beast_weapon_014.png */,
+				B26F8084288FC4DF00D005B6 /* summon_beast_weapon_028.png */,
+				B26F8085288FC4DF00D005B6 /* summon_beast_weapon_029.png */,
+				B26F8086288FC4DF00D005B6 /* summon_beast_weapon_015.png */,
+				B26F8087288FC4DF00D005B6 /* summon_beast_weapon_001.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B26F80B5288FC69A00D005B6 /* 糖果制造机 */ = {
+			isa = PBXGroup;
+			children = (
+				B26F80C4288FC69A00D005B6 /* Main */,
+				B26F80D2288FC69A00D005B6 /* Result */,
+				B26F80D9288FC69A00D005B6 /* Assets.xcassets */,
+			);
+			path = "糖果制造机";
+			sourceTree = "<group>";
+		};
+		B26F80C4288FC69A00D005B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B26F80C6288FC69A00D005B6 /* JFMakeCandyView.h */,
+				B26F80CA288FC69A00D005B6 /* JFMakeCandyView.m */,
+				B26F80CB288FC69A00D005B6 /* JFMakeCandyView.xib */,
+				B26F80CC288FC69A00D005B6 /* JFMakeCandyBallView.h */,
+				B26F80C7288FC69A00D005B6 /* JFMakeCandyBallView.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B26F80D2288FC69A00D005B6 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B26F80D8288FC69A00D005B6 /* JFMakeCandyResultView.h */,
+				B26F80D3288FC69A00D005B6 /* JFMakeCandyResultView.m */,
+				B26F80D6288FC69A00D005B6 /* JFMakeCandyResultView.xib */,
+				B26F80D7288FC69A00D005B6 /* JFMakeCandyResultItemView.h */,
+				B26F80D5288FC69A00D005B6 /* JFMakeCandyResultItemView.m */,
+				B26F80D4288FC69A00D005B6 /* JFMakeCandyResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B26F810E288FCBC800D005B6 /* 企鹅矿工 */ = {
+			isa = PBXGroup;
+			children = (
+				B26F8116288FCBC800D005B6 /* Main */,
+				B26F8124288FCBC800D005B6 /* Result */,
+				B26F8141288FCBC800D005B6 /* penguin_miner_open.svga */,
+				B26F812B288FCBC800D005B6 /* Assets.xcassets */,
+			);
+			path = "企鹅矿工";
+			sourceTree = "<group>";
+		};
+		B26F8116288FCBC800D005B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B26F8118288FCBC800D005B6 /* JFPenguinMinerView.h */,
+				B26F811C288FCBC800D005B6 /* JFPenguinMinerView.m */,
+				B26F811D288FCBC800D005B6 /* JFPenguinMinerView.xib */,
+				B26F8119288FCBC800D005B6 /* JFPenguinMinerGiftListCCell.h */,
+				B26F811E288FCBC800D005B6 /* JFPenguinMinerGiftListCCell.m */,
+				B26F811F288FCBC800D005B6 /* JFPenguinMinerGiftListCCell.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B26F8124288FCBC800D005B6 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B26F812A288FCBC800D005B6 /* JFPenguinMinerResultView.h */,
+				B26F8125288FCBC800D005B6 /* JFPenguinMinerResultView.m */,
+				B26F8128288FCBC800D005B6 /* JFPenguinMinerResultView.xib */,
+				B26F8129288FCBC800D005B6 /* JFPenguinMinerResultItemView.h */,
+				B26F8127288FCBC800D005B6 /* JFPenguinMinerResultItemView.m */,
+				B26F8126288FCBC800D005B6 /* JFPenguinMinerResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B26F815E288FD03700D005B6 /* 塔罗牌 */ = {
+			isa = PBXGroup;
+			children = (
+				B26F815F288FD03700D005B6 /* Main */,
+				B26F8166288FD03700D005B6 /* Assets.xcassets */,
+			);
+			path = "塔罗牌";
+			sourceTree = "<group>";
+		};
+		B26F815F288FD03700D005B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B26F8161288FD03700D005B6 /* JFTarotView.h */,
+				B26F8165288FD03700D005B6 /* JFTarotView.m */,
+				B26F8164288FD03700D005B6 /* JFTarotView.xib */,
+				B26F8160288FD03700D005B6 /* JFTarotItemView.h */,
+				B26F8163288FD03700D005B6 /* JFTarotItemView.m */,
+				B26F8162288FD03700D005B6 /* JFTarotItemView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B26F8188288FD4A300D005B6 /* 幸运猫舍 */ = {
+			isa = PBXGroup;
+			children = (
+				B26F81B7288FD4A400D005B6 /* Main */,
+				B26F81BB288FD4A400D005B6 /* Result */,
+				B26F8189288FD4A300D005B6 /* cattery_cat_normal_0.svga */,
+				B26F818B288FD4A300D005B6 /* cattery_cat_normal_1.svga */,
+				B26F81C2288FD4A400D005B6 /* cattery_cat_normal_2.svga */,
+				B26F819B288FD4A300D005B6 /* cattery_cat_feeding_0.svga */,
+				B26F81B3288FD4A400D005B6 /* cattery_cat_feeding_1.svga */,
+				B26F819A288FD4A300D005B6 /* cattery_cat_feeding_2.svga */,
+				B26F81A0288FD4A300D005B6 /* Assets.xcassets */,
+			);
+			path = "幸运猫舍";
+			sourceTree = "<group>";
+		};
+		B26F81B7288FD4A400D005B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B26F81B8288FD4A400D005B6 /* JFCatteryView.h */,
+				B26F81BA288FD4A400D005B6 /* JFCatteryView.m */,
+				B26F81B9288FD4A400D005B6 /* JFCatteryView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B26F81BB288FD4A400D005B6 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B26F81BF288FD4A400D005B6 /* JFCatteryResultView.h */,
+				B26F81BD288FD4A400D005B6 /* JFCatteryResultView.m */,
+				B26F81BC288FD4A400D005B6 /* JFCatteryResultView.xib */,
+				B26F81BE288FD4A400D005B6 /* JFCatteryResultItemView.h */,
+				B26F81C1288FD4A400D005B6 /* JFCatteryResultItemView.m */,
+				B26F81C0288FD4A400D005B6 /* JFCatteryResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B26F81E5288FD80600D005B6 /* 给树浇水 */ = {
+			isa = PBXGroup;
+			children = (
+				B26F81F4288FD80600D005B6 /* Main */,
+				B26F81FF288FD80600D005B6 /* Result */,
+				B26F8206288FD80600D005B6 /* water_tree_anim.svga */,
+				B26F8207288FD80600D005B6 /* Assets.xcassets */,
+			);
+			path = "给树浇水";
+			sourceTree = "<group>";
+		};
+		B26F81F4288FD80600D005B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B26F81F6288FD80600D005B6 /* JFWaterTreeView.h */,
+				B26F81F9288FD80600D005B6 /* JFWaterTreeView.m */,
+				B26F81FA288FD80600D005B6 /* JFWaterTreeView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B26F81FF288FD80600D005B6 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B26F8205288FD80600D005B6 /* JFWaterTreeResultView.h */,
+				B26F8200288FD80600D005B6 /* JFWaterTreeResultView.m */,
+				B26F8203288FD80600D005B6 /* JFWaterTreeResultView.xib */,
+				B26F8204288FD80600D005B6 /* JFWaterTreeResultItemView.h */,
+				B26F8202288FD80600D005B6 /* JFWaterTreeResultItemView.m */,
+				B26F8201288FD80600D005B6 /* JFWaterTreeResultItemView.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B26F823B288FDCCB00D005B6 /* 无限宝箱 */ = {
+			isa = PBXGroup;
+			children = (
+				B26F8243288FDCCB00D005B6 /* Main */,
+				B26F824B288FDCCB00D005B6 /* Result */,
+				B26F826F288FDCCB00D005B6 /* unlimited_treasure_chest_open.svga */,
+				B26F8270288FDCCB00D005B6 /* unlimited_treasure_chest_entrance.svga */,
+				B26F8259288FDCCB00D005B6 /* Assets.xcassets */,
+			);
+			path = "无限宝箱";
+			sourceTree = "<group>";
+		};
+		B26F8243288FDCCB00D005B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B26F8244288FDCCB00D005B6 /* JFUnlimitedTreasureChestView.h */,
+				B26F8245288FDCCB00D005B6 /* JFUnlimitedTreasureChestView.m */,
+				B26F8246288FDCCB00D005B6 /* JFUnlimitedTreasureChestView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B26F824B288FDCCB00D005B6 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B26F8251288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultView.h */,
+				B26F824C288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultView.m */,
+				B26F824F288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultView.xib */,
+				B26F8250288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultItemView.h */,
+				B26F824E288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultItemView.m */,
+				B26F824D288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultItemView.xib */,
 			);
 			path = Result;
 			sourceTree = "<group>";
@@ -1754,6 +2762,17 @@
 				B26F7C9B288F84BB00D005B6 /* 果农乐园 */,
 				B26F7CEA288F885C00D005B6 /* 挖矿 */,
 				B26F7D39288F959700D005B6 /* 屠龙勇士 */,
+				B26F7D92288FB1ED00D005B6 /* 娃娃机 */,
+				B26F7DE6288FB9A400D005B6 /* 魔法祈愿池 */,
+				B26F7F4F288FBF0C00D005B6 /* 幸运大转盘2 */,
+				B26F7FA9288FC33500D005B6 /* 召唤神兽 */,
+				B26F80B5288FC69A00D005B6 /* 糖果制造机 */,
+				B26F810E288FCBC800D005B6 /* 企鹅矿工 */,
+				B26F815E288FD03700D005B6 /* 塔罗牌 */,
+				B26F8188288FD4A300D005B6 /* 幸运猫舍 */,
+				B26F81E5288FD80600D005B6 /* 给树浇水 */,
+				B26F823B288FDCCB00D005B6 /* 无限宝箱 */,
+				B20CE08E288FE16A00CC152B /* 打地鼠 */,
 			);
 			path = Lottery;
 			sourceTree = "<group>";
@@ -1799,6 +2818,7 @@
 		B2AEBF7C28839A5B006C840E /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				B26F7F36288FBD7C00D005B6 /* FXAnimationEngine */,
 				B2793975288E38D1000E9230 /* YYKit */,
 			);
 			path = Vendor;
@@ -1871,103 +2891,275 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26F7F21288FBB1A00D005B6 /* magic_pray_anim_normal_32.png in Resources */,
+				B26F81CF288FD4A400D005B6 /* cattery_cat_feeding_0.svga in Resources */,
+				B26F7F33288FBB1A00D005B6 /* magic_pray_anim_normal_39.png in Resources */,
+				B26F7F01288FBB1A00D005B6 /* magic_pray_anim_luxury_27.png in Resources */,
+				B26F7F30288FBB1A00D005B6 /* magic_pray_anim_normal_12.png in Resources */,
+				B26F7F31288FBB1A00D005B6 /* magic_pray_anim_normal_13.png in Resources */,
+				B20CE0BC288FE16A00CC152B /* JFWhackMoleView.xib in Resources */,
 				B26F7D79288F959700D005B6 /* JFDragonSlayerView.xib in Resources */,
+				B26F7F11288FBB1A00D005B6 /* magic_pray_anim_luxury_12.png in Resources */,
+				B26F822E288FD80600D005B6 /* JFWaterTreeResultView.xib in Resources */,
 				B20A8CD7288E6663009861E2 /* AATurntableView.xib in Resources */,
 				B267AFE22882D99700648A02 /* JFIdolProjectView.xib in Resources */,
+				B26F7F2C288FBB1A00D005B6 /* magic_pray_anim_normal_15.png in Resources */,
 				B26F7D31288F885C00D005B6 /* JFMiningResultItemView.xib in Resources */,
 				B20A8DA3288E7585009861E2 /* pray_lotus_yellow_man.svga in Resources */,
+				B26F7F22288FBB1A00D005B6 /* magic_pray_anim_normal_26.png in Resources */,
 				B20A8C53288E4D3E009861E2 /* JFMagicTableResultView.xib in Resources */,
 				B267AFEB2882D99700648A02 /* prize_call_open_box.svga in Resources */,
+				B20CE0EA288FE24B00CC152B /* whack_mole_open_item_1_normal.gif in Resources */,
 				B289E4DE288E82680064D57A /* JFMoonTreasureView.xib in Resources */,
 				B23FB904288E9A7A002DC0DB /* JFLuckyBottleView.xib in Resources */,
 				B26F7D89288F959700D005B6 /* JFDragonSlayerBigResultItemView.xib in Resources */,
 				B20A8DFB288E7A48009861E2 /* CCTurntableResultItemView.xib in Resources */,
 				B23FB972288EBDE1002DC0DB /* JFTreasureBoxResultItemView.xib in Resources */,
+				B26F8098288FC4DF00D005B6 /* summon_beast_weapon_022.png in Resources */,
 				B23FB971288EBDE1002DC0DB /* JFTreasureBoxBigResultItemView.xib in Resources */,
+				B26F7F1B288FBB1A00D005B6 /* magic_pray_anim_normal_22.png in Resources */,
+				B26F80A6288FC4DF00D005B6 /* summon_beast_weapon_038.png in Resources */,
+				B26F827C288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultView.xib in Resources */,
 				B289E48E288E7ECE0064D57A /* interstellar_travel_open_box.svga in Resources */,
+				B26F7F0F288FBB1A00D005B6 /* magic_pray_anim_luxury_17.png in Resources */,
 				B289E4F4288E82680064D57A /* Assets.xcassets in Resources */,
 				B20A8CE5288E6663009861E2 /* AATurntableResultView.xib in Resources */,
+				B26F81CE288FD4A400D005B6 /* cattery_cat_feeding_2.svga in Resources */,
+				B26F7F28288FBB1A00D005B6 /* magic_pray_anim_normal_31.png in Resources */,
 				B26F7D8A288F959700D005B6 /* JFDragonSlayerResultItemView.xib in Resources */,
+				B26F7F2A288FBB1A00D005B6 /* magic_pray_anim_normal_28.png in Resources */,
+				B26F7F32288FBB1A00D005B6 /* magic_pray_anim_normal_11.png in Resources */,
+				B26F7F0D288FBB1A00D005B6 /* magic_pray_anim_luxury_29.png in Resources */,
+				B26F7F12288FBB1A00D005B6 /* magic_pray_anim_luxury_13.png in Resources */,
 				B20A8C3F288E4D3E009861E2 /* Assets.xcassets in Resources */,
 				B2793ABF288E3E7D000E9230 /* room_twisted_egg_open_box.svga in Resources */,
+				B26F7F06288FBB1A00D005B6 /* magic_pray_anim_luxury_30.png in Resources */,
+				B26F7EF9288FBB1A00D005B6 /* magic_pray_anim_luxury_35.png in Resources */,
+				B26F8089288FC4DF00D005B6 /* summon_beast_weapon_041.png in Resources */,
+				B26F81E2288FD4A400D005B6 /* JFCatteryResultItemView.xib in Resources */,
+				B26F8102288FC69B00D005B6 /* JFMakeCandyResultView.xib in Resources */,
+				B26F7EF8288FBB1A00D005B6 /* magic_pray_anim_luxury_40.png in Resources */,
+				B20CE0EC288FE24B00CC152B /* whack_mole_open_item_3_normal.gif in Resources */,
+				B26F80A5288FC4DF00D005B6 /* summon_beast_weapon_004.png in Resources */,
+				B26F7F09288FBB1A00D005B6 /* magic_pray_anim_luxury_31.png in Resources */,
+				B20CE0E4288FE24B00CC152B /* whack_mole_open_item_2_dead.png in Resources */,
+				B26F827A288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultItemView.xib in Resources */,
 				B2AEBF7F28839B1A006C840E /* Main.storyboard in Resources */,
+				B26F80AB288FC4DF00D005B6 /* summon_beast_weapon_017.png in Resources */,
 				B267B0002882D99700648A02 /* Assets.xcassets in Resources */,
+				B26F7F2E288FBB1A00D005B6 /* magic_pray_anim_normal_17.png in Resources */,
+				B26F7FA7288FBF0C00D005B6 /* Assets.xcassets in Resources */,
 				B289E492288E7ECE0064D57A /* JFInterstellarTravelView.xib in Resources */,
 				B267AFFA2882D99700648A02 /* JFIdolProjectResultCell.xib in Resources */,
 				B20A8C8B288E60B5009861E2 /* JFPentagramBallResultItemView.xib in Resources */,
 				B2793961288E33F0000E9230 /* JFRoomWishView.xib in Resources */,
 				B23FB8B4288E8C21002DC0DB /* JFRocketView.xib in Resources */,
 				B289E493288E7ECE0064D57A /* Assets.xcassets in Resources */,
+				B26F81C3288FD4A400D005B6 /* cattery_cat_normal_0.svga in Resources */,
+				B26F814F288FCBC800D005B6 /* JFPenguinMinerResultItemView.xib in Resources */,
+				B26F80B4288FC4DF00D005B6 /* summon_beast_weapon_001.png in Resources */,
 				B26F7D30288F885C00D005B6 /* JFMiningResultView.xib in Resources */,
+				B26F7F91288FBF0C00D005B6 /* DDTurntableView.xib in Resources */,
+				B26F7EFA288FBB1A00D005B6 /* magic_pray_anim_luxury_21.png in Resources */,
+				B26F809A288FC4DF00D005B6 /* summon_beast_weapon_037.png in Resources */,
+				B26F8091288FC4DF00D005B6 /* summon_beast_weapon_025.png in Resources */,
+				B26F7F14288FBB1A00D005B6 /* magic_pray_anim_luxury_11.png in Resources */,
+				B26F7DCF288FB1ED00D005B6 /* JFDollMachineView.xib in Resources */,
 				B20A8DFA288E7A48009861E2 /* CCTurntableResultView.xib in Resources */,
 				B23FB970288EBDE1002DC0DB /* JFTreasureBoxResultView.xib in Resources */,
+				B20CE0B9288FE16A00CC152B /* JFWhackMoleItemView.xib in Resources */,
 				B23FB973288EBDE1002DC0DB /* treasure_box_open_box_open_luxury.svga in Resources */,
+				B26F7F0B288FBB1A00D005B6 /* magic_pray_anim_luxury_14.png in Resources */,
+				B26F80A3288FC4DF00D005B6 /* summon_beast_weapon_011.png in Resources */,
+				B26F7F08288FBB1A00D005B6 /* magic_pray_anim_luxury_25.png in Resources */,
+				B26F8090288FC4DF00D005B6 /* summon_beast_weapon_031.png in Resources */,
 				B2A030AE288522B00024209D /* MBProgressHUD.xcassets in Resources */,
+				B26F80A0288FC4DF00D005B6 /* summon_beast_weapon_020.png in Resources */,
+				B26F8228288FD80600D005B6 /* JFWaterTreeView.xib in Resources */,
+				B26F80A9288FC4DF00D005B6 /* summon_beast_weapon_007.png in Resources */,
 				B23FB918288E9A7A002DC0DB /* Assets.xcassets in Resources */,
+				B26F80B1288FC4DF00D005B6 /* summon_beast_weapon_028.png in Resources */,
 				B23FB8C7288E8C21002DC0DB /* Assets.xcassets in Resources */,
 				B289E4EE288E82680064D57A /* JFMoonTreasureResultItemView.xib in Resources */,
+				B26F7F1F288FBB1A00D005B6 /* magic_pray_anim_normal_27.png in Resources */,
+				B26F7F19288FBB1A00D005B6 /* magic_pray_anim_normal_20.png in Resources */,
+				B20CE0CA288FE16A00CC152B /* Assets.xcassets in Resources */,
+				B26F7F23288FBB1A00D005B6 /* magic_pray_anim_normal_30.png in Resources */,
 				B23FB966288EBDE1002DC0DB /* treasure_box_open_box_idel_normal.svga in Resources */,
+				B26F7F25288FBB1A00D005B6 /* magic_pray_anim_normal_18.png in Resources */,
 				B20A8CE6288E6663009861E2 /* AATurntableResultItemView.xib in Resources */,
 				B20A8D2E288E6F87009861E2 /* BBTurntableView.xib in Resources */,
 				B20A8C3D288E4D3E009861E2 /* JFMagicTableView.xib in Resources */,
+				B26F7F07288FBB1A00D005B6 /* magic_pray_anim_luxury_24.png in Resources */,
+				B26F8151288FCBC800D005B6 /* JFPenguinMinerResultView.xib in Resources */,
+				B26F7EFD288FBB1A00D005B6 /* magic_pray_anim_luxury_22.png in Resources */,
 				B2793958288E33F0000E9230 /* Assets.xcassets in Resources */,
 				B2793AB2288E3E7D000E9230 /* Assets.xcassets in Resources */,
+				B26F8096288FC4DF00D005B6 /* summon_beast_weapon_032.png in Resources */,
 				B2793973288E33F0000E9230 /* JFRoomResultItemView.xib in Resources */,
+				B26F8099288FC4DF00D005B6 /* summon_beast_weapon_023.png in Resources */,
+				B26F7F13288FBB1A00D005B6 /* magic_pray_anim_luxury_39.png in Resources */,
+				B26F7F20288FBB1A00D005B6 /* magic_pray_anim_normal_33.png in Resources */,
 				B23FB979288EBDE1002DC0DB /* Assets.xcassets in Resources */,
 				B23FB912288E9A7A002DC0DB /* JFLuckyBottleResultItemView.xib in Resources */,
 				B225308A288D621500D130B8 /* Assets.xcassets in Resources */,
 				B20A8D3E288E6F87009861E2 /* BBTurntableBigPriceResultView.xib in Resources */,
 				B2253080288D621500D130B8 /* JFPetResultView.xib in Resources */,
 				B26F7CE8288F84BB00D005B6 /* Assets.xcassets in Resources */,
+				B26F7F17288FBB1A00D005B6 /* magic_pray_anim_normal_35.png in Resources */,
 				B2253078288D621500D130B8 /* JFPetView.xib in Resources */,
+				B26F828D288FDCCB00D005B6 /* unlimited_treasure_chest_entrance.svga in Resources */,
+				B26F7FA1288FBF0C00D005B6 /* DDTurntableResultItemView.xib in Resources */,
+				B26F81D2288FD4A400D005B6 /* Assets.xcassets in Resources */,
+				B20CE0E9288FE24B00CC152B /* whack_mole_open_item_1_dead.png in Resources */,
+				B26F8095288FC4DF00D005B6 /* summon_beast_weapon_026.png in Resources */,
+				B26F809B288FC4DF00D005B6 /* summon_beast_weapon_021.png in Resources */,
+				B20CE0E7288FE24B00CC152B /* whack_mole_open_item_4_dead.png in Resources */,
+				B26F7F1A288FBB1A00D005B6 /* magic_pray_anim_normal_34.png in Resources */,
+				B26F7EAD288FB9A400D005B6 /* Assets.xcassets in Resources */,
 				B267AF972882D6FA00648A02 /* LaunchScreen.storyboard in Resources */,
+				B26F80A7288FC4DF00D005B6 /* summon_beast_weapon_012.png in Resources */,
 				B2793AAC288E3E7D000E9230 /* JFTwistedEggResultItemView.xib in Resources */,
+				B26F80A4288FC4DF00D005B6 /* summon_beast_weapon_010.png in Resources */,
+				B26F7F16288FBB1A00D005B6 /* magic_pray_anim_luxury_38.png in Resources */,
 				B20A8E01288E7A48009861E2 /* Assets.xcassets in Resources */,
+				B26F81E4288FD4A400D005B6 /* cattery_cat_normal_2.svga in Resources */,
+				B26F814B288FCBC800D005B6 /* JFPenguinMinerGiftListCCell.xib in Resources */,
+				B26F808B288FC4DF00D005B6 /* summon_beast_weapon_042.png in Resources */,
+				B26F81DC288FD4A400D005B6 /* cattery_cat_feeding_1.svga in Resources */,
+				B26F802B288FC33500D005B6 /* Assets.xcassets in Resources */,
+				B26F8094288FC4DF00D005B6 /* summon_beast_weapon_027.png in Resources */,
+				B20CE0E8288FE24B00CC152B /* whack_mole_open_item_4_normal.gif in Resources */,
+				B26F7F00288FBB1A00D005B6 /* magic_pray_anim_luxury_23.png in Resources */,
+				B26F7F29288FBB1A00D005B6 /* magic_pray_anim_normal_40.png in Resources */,
+				B26F817A288FD03700D005B6 /* JFTarotItemView.xib in Resources */,
+				B20CE0E1288FE24B00CC152B /* whack_mole_open_item_2_stun.gif in Resources */,
+				B26F80A8288FC4DF00D005B6 /* summon_beast_weapon_006.png in Resources */,
+				B26F809F288FC4DF00D005B6 /* summon_beast_weapon_034.png in Resources */,
 				B2253081288D621500D130B8 /* JFPetResultCell.xib in Resources */,
 				B20A8CEC288E6663009861E2 /* Assets.xcassets in Resources */,
 				B26F7CE1288F84BB00D005B6 /* JFOrchardResultView.xib in Resources */,
+				B26F80A2288FC4DF00D005B6 /* summon_beast_weapon_005.png in Resources */,
+				B26F7E89288FB9A400D005B6 /* JFMagicPrayResultView.xib in Resources */,
 				B23FB97B288EBDE1002DC0DB /* treasure_box_open_box_idel_luxury.svga in Resources */,
 				B23FB96B288EBDE1002DC0DB /* JFTreasureBoxBigResultView.xib in Resources */,
+				B26F8230288FD80600D005B6 /* Assets.xcassets in Resources */,
 				B2793972288E33F0000E9230 /* JFRoomWishResultView.xib in Resources */,
 				B20A8D3F288E6F87009861E2 /* BBTurntableResultItemView.xib in Resources */,
 				B20A8C8D288E60B5009861E2 /* JFPentagramBallResultView.xib in Resources */,
+				B26F7F2F288FBB1A00D005B6 /* magic_pray_anim_normal_16.png in Resources */,
 				B20A8D97288E7585009861E2 /* Assets.xcassets in Resources */,
 				B289E4ED288E82680064D57A /* JFMoonTreasureResultView.xib in Resources */,
 				B20A8D3D288E6F87009861E2 /* BBTurntableResultView.xib in Resources */,
 				B20A8C8F288E60B5009861E2 /* JFPentagramBallView.xib in Resources */,
 				B23FB8C0288E8C21002DC0DB /* JFRocketResultView.xib in Resources */,
+				B26F7F03288FBB1A00D005B6 /* magic_pray_anim_luxury_32.png in Resources */,
 				B2793970288E33F0000E9230 /* room_wish_crystal_animation.svga in Resources */,
+				B26F80AE288FC4DF00D005B6 /* summon_beast_weapon_016.png in Resources */,
 				B26F7CE2288F84BB00D005B6 /* JFOrchardResultItemView.xib in Resources */,
+				B26F7F15288FBB1A00D005B6 /* magic_pray_anim_luxury_10.png in Resources */,
+				B26F7FA0288FBF0C00D005B6 /* DDTurntableResultView.xib in Resources */,
+				B26F7F0A288FBB1A00D005B6 /* magic_pray_anim_luxury_19.png in Resources */,
+				B26F7F24288FBB1A00D005B6 /* magic_pray_anim_normal_24.png in Resources */,
+				B26F8093288FC4DF00D005B6 /* summon_beast_weapon_033.png in Resources */,
 				B23FB95F288EBDE1002DC0DB /* JFTreasureBoxView.xib in Resources */,
+				B26F7F18288FBB1A00D005B6 /* magic_pray_anim_normal_21.png in Resources */,
 				B26F7D37288F885C00D005B6 /* Assets.xcassets in Resources */,
+				B26F808A288FC4DF00D005B6 /* summon_beast_weapon_040.png in Resources */,
+				B26F7EFB288FBB1A00D005B6 /* magic_pray_anim_luxury_20.png in Resources */,
+				B26F808E288FC4DF00D005B6 /* summon_beast_weapon_024.png in Resources */,
+				B26F7F02288FBB1A00D005B6 /* magic_pray_anim_luxury_33.png in Resources */,
 				B2793AAE288E3E7D000E9230 /* JFTwistedEggResultView.xib in Resources */,
+				B26F7F0E288FBB1A00D005B6 /* magic_pray_anim_luxury_15.png in Resources */,
+				B26F809E288FC4DF00D005B6 /* summon_beast_weapon_008.png in Resources */,
 				B20A8DA4288E7585009861E2 /* pray_lotus_dream_wait.mp4 in Resources */,
 				B20A8C90288E60B5009861E2 /* Assets.xcassets in Resources */,
 				B20A8D45288E6F87009861E2 /* Assets.xcassets in Resources */,
+				B26F7F0C288FBB1A00D005B6 /* magic_pray_anim_luxury_28.png in Resources */,
 				B20A8C96288E60B5009861E2 /* pentagram_ball_open_box.svga in Resources */,
+				B26F8088288FC4DF00D005B6 /* summon_beast_weapon_044.png in Resources */,
+				B26F80A1288FC4DF00D005B6 /* summon_beast_weapon_039.png in Resources */,
+				B26F808C288FC4DF00D005B6 /* summon_beast_weapon_043.png in Resources */,
 				B20A8DA5288E7585009861E2 /* pray_lotus_dream_open.mp4 in Resources */,
+				B26F809D288FC4DF00D005B6 /* summon_beast_weapon_009.png in Resources */,
+				B26F7EAC288FB9A400D005B6 /* JFMagicPrayView.xib in Resources */,
+				B26F7F05288FBB1A00D005B6 /* magic_pray_anim_luxury_18.png in Resources */,
 				B2793AB1288E3E7D000E9230 /* JFTwistedEggView.xib in Resources */,
 				B23FB8C1288E8C21002DC0DB /* JFRocketResultItemView.xib in Resources */,
+				B26F7DDD288FB1ED00D005B6 /* JFDollMachineResultView.xib in Resources */,
+				B26F7F1D288FBB1A00D005B6 /* magic_pray_anim_normal_37.png in Resources */,
+				B26F8152288FCBC800D005B6 /* Assets.xcassets in Resources */,
+				B26F7F10288FBB1A00D005B6 /* magic_pray_anim_luxury_16.png in Resources */,
 				B267AFE52882D99700648A02 /* prize_call_box_default.svga in Resources */,
+				B26F8025288FC33500D005B6 /* JFSummonBeastResultItemView.xib in Resources */,
 				B20A8C40288E4D3E009861E2 /* magic_table_open.svga in Resources */,
+				B26F80AF288FC4DF00D005B6 /* summon_beast_weapon_000.png in Resources */,
+				B26F80B0288FC4DF00D005B6 /* summon_beast_weapon_014.png in Resources */,
 				B26F7CD5288F84BB00D005B6 /* JFOrchardView.xib in Resources */,
+				B20CE0E6288FE24B00CC152B /* whack_mole_open_item_4_stun.gif in Resources */,
 				B289E48F288E7ECE0064D57A /* JFInterstellarTravelResultItemView.xib in Resources */,
+				B26F815D288FCBC800D005B6 /* penguin_miner_open.svga in Resources */,
+				B26F7F35288FBB1A00D005B6 /* magic_pray_anim_normal_10.png in Resources */,
+				B26F7F2D288FBB1A00D005B6 /* magic_pray_anim_normal_29.png in Resources */,
 				B26F7D88288F959700D005B6 /* JFDragonSlayerResultView.xib in Resources */,
+				B26F7EFC288FBB1A00D005B6 /* magic_pray_anim_luxury_34.png in Resources */,
+				B26F7F04288FBB1A00D005B6 /* magic_pray_anim_luxury_26.png in Resources */,
+				B26F809C288FC4DF00D005B6 /* summon_beast_weapon_035.png in Resources */,
+				B26F7EFE288FBB1A00D005B6 /* magic_pray_anim_luxury_36.png in Resources */,
+				B26F822F288FD80600D005B6 /* water_tree_anim.svga in Resources */,
+				B26F81E0288FD4A400D005B6 /* JFCatteryResultView.xib in Resources */,
+				B26F817C288FD03700D005B6 /* JFTarotView.xib in Resources */,
+				B26F8149288FCBC800D005B6 /* JFPenguinMinerView.xib in Resources */,
+				B26F7F1C288FBB1A00D005B6 /* magic_pray_anim_normal_36.png in Resources */,
+				B26F81DE288FD4A400D005B6 /* JFCatteryView.xib in Resources */,
 				B20A8DA6288E7585009861E2 /* pray_lotus_normal_wait.mp4 in Resources */,
+				B26F8092288FC4DF00D005B6 /* summon_beast_weapon_019.png in Resources */,
+				B26F7F26288FBB1A00D005B6 /* magic_pray_anim_normal_19.png in Resources */,
 				B26F7D83288F959700D005B6 /* JFDragonSlayerBigResultView.xib in Resources */,
+				B26F7F27288FBB1A00D005B6 /* magic_pray_anim_normal_25.png in Resources */,
+				B20CE0EB288FE24B00CC152B /* whack_mole_open_item_1_stun.gif in Resources */,
+				B20CE0E2288FE24B00CC152B /* whack_mole_open_item_3_stun.gif in Resources */,
+				B26F8103288FC69B00D005B6 /* Assets.xcassets in Resources */,
+				B26F7F2B288FBB1A00D005B6 /* magic_pray_anim_normal_14.png in Resources */,
 				B267AF942882D6FA00648A02 /* Assets.xcassets in Resources */,
+				B26F817E288FD03700D005B6 /* Assets.xcassets in Resources */,
+				B26F808D288FC4DF00D005B6 /* summon_beast_weapon_018.png in Resources */,
 				B26F7D24288F885C00D005B6 /* JFMiningView.xib in Resources */,
+				B26F828C288FDCCB00D005B6 /* unlimited_treasure_chest_open.svga in Resources */,
 				B20A8DEA288E7A48009861E2 /* CCTurntableView.xib in Resources */,
 				B225307B288D621500D130B8 /* room_pet_eat.svga in Resources */,
 				B225308D288D621500D130B8 /* room_pet_idel.svga in Resources */,
+				B26F8100288FC69B00D005B6 /* JFMakeCandyResultItemView.xib in Resources */,
+				B26F8015288FC33500D005B6 /* JFSummonBeastView.xib in Resources */,
+				B26F80AD288FC4DF00D005B6 /* summon_beast_weapon_002.png in Resources */,
+				B20CE0E3288FE24B00CC152B /* whack_mole_open_item_3_dead.png in Resources */,
+				B26F7DDE288FB1ED00D005B6 /* JFDollMachineResultItemView.xib in Resources */,
+				B26F80AA288FC4DF00D005B6 /* summon_beast_weapon_013.png in Resources */,
 				B23FB911288E9A7A002DC0DB /* JFLuckyBottleResultView.xib in Resources */,
 				B20A8D94288E7585009861E2 /* JFPrayLotusView.xib in Resources */,
+				B26F822C288FD80600D005B6 /* JFWaterTreeResultItemView.xib in Resources */,
 				B20A8D92288E7585009861E2 /* JFPrayLotusResultView.xib in Resources */,
+				B26F7F34288FBB1A00D005B6 /* magic_pray_anim_normal_38.png in Resources */,
+				B26F7EFF288FBB1A00D005B6 /* magic_pray_anim_luxury_37.png in Resources */,
+				B26F80B3288FC4DF00D005B6 /* summon_beast_weapon_015.png in Resources */,
+				B26F8276288FDCCB00D005B6 /* JFUnlimitedTreasureChestView.xib in Resources */,
+				B26F7DE4288FB1ED00D005B6 /* Assets.xcassets in Resources */,
+				B20CE0E5288FE24B00CC152B /* whack_mole_open_item_2_normal.gif in Resources */,
+				B26F808F288FC4DF00D005B6 /* summon_beast_weapon_030.png in Resources */,
 				B20A8D90288E7585009861E2 /* JFPrayLotusResultItemView.xib in Resources */,
+				B26F80B2288FC4DF00D005B6 /* summon_beast_weapon_029.png in Resources */,
+				B26F8024288FC33500D005B6 /* JFSummonBeastResultView.xib in Resources */,
+				B26F80AC288FC4DF00D005B6 /* summon_beast_weapon_003.png in Resources */,
 				B267AFF82882D99700648A02 /* JFIdolProjectResultView.xib in Resources */,
 				B20A8DA2288E7585009861E2 /* pray_lotus_normal_open.mp4 in Resources */,
+				B26F81C5288FD4A400D005B6 /* cattery_cat_normal_1.svga in Resources */,
 				B26F7D90288F959700D005B6 /* Assets.xcassets in Resources */,
+				B26F7E87288FB9A400D005B6 /* JFMagicPrayResultItemView.xib in Resources */,
+				B26F80FB288FC69B00D005B6 /* JFMakeCandyView.xib in Resources */,
+				B26F8097288FC4DF00D005B6 /* summon_beast_weapon_036.png in Resources */,
 				B20A8C55288E4D3E009861E2 /* JFMagicTableResultCell.xib in Resources */,
+				B26F8281288FDCCB00D005B6 /* Assets.xcassets in Resources */,
+				B26F7F1E288FBB1A00D005B6 /* magic_pray_anim_normal_23.png in Resources */,
 				B23FB965288EBDE1002DC0DB /* treasure_box_open_box_open_normal.svga in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2006,12 +3198,18 @@
 			files = (
 				B20A8D8F288E7585009861E2 /* JFPrayLotusResultView.m in Sources */,
 				B20A8DF8288E7A48009861E2 /* CCTurntableResultView.m in Sources */,
+				B26F80F7288FC69B00D005B6 /* JFMakeCandyBallView.m in Sources */,
 				B2793A43288E38D2000E9230 /* UIApplication+YYAdd.m in Sources */,
 				B2253077288D621500D130B8 /* JFPetView.m in Sources */,
 				B2793AAD288E3E7D000E9230 /* JFTwistedEggResultItemView.m in Sources */,
+				B26F7DDC288FB1ED00D005B6 /* JFDollMachineResultItemView.m in Sources */,
 				B20A8DF9288E7A48009861E2 /* CCTurntableResultItemView.m in Sources */,
+				B26F8101288FC69B00D005B6 /* JFMakeCandyResultItemView.m in Sources */,
 				B2793A54288E38D2000E9230 /* NSTimer+YYAdd.m in Sources */,
+				B26F7F93288FBF0C00D005B6 /* DDTurntableView.m in Sources */,
 				B2793A4F288E38D2000E9230 /* NSBundle+YYAdd.m in Sources */,
+				B26F7F48288FBD7C00D005B6 /* FXAnimation.m in Sources */,
+				B26F7F9E288FBF0C00D005B6 /* DDTurntableResultView.m in Sources */,
 				B23FB8B5288E8C21002DC0DB /* JFRocketView.m in Sources */,
 				B2253095288D62EA00D130B8 /* JFNoHighlightButton.m in Sources */,
 				B2793A2F288E38D2000E9230 /* YYLabel.m in Sources */,
@@ -2020,10 +3218,14 @@
 				B23FB90F288E9A7A002DC0DB /* JFLuckyBottleResultView.m in Sources */,
 				B20A8C8C288E60B5009861E2 /* JFPentagramBallResultItemView.m in Sources */,
 				B2793A44288E38D2000E9230 /* UITableView+YYAdd.m in Sources */,
+				B20CE0BD288FE16A00CC152B /* JFWhackMoleView.m in Sources */,
+				B20CE0BA288FE16A00CC152B /* JFWhackMoleItemView.m in Sources */,
 				B2793A31288E38D2000E9230 /* YYTextParser.m in Sources */,
 				B267AF8F2882D6F800648A02 /* ViewController.m in Sources */,
 				B20A8CE3288E6663009861E2 /* AATurntableResultView.m in Sources */,
+				B26F7DDB288FB1ED00D005B6 /* JFDollMachineResultView.m in Sources */,
 				B23FB96C288EBDE1002DC0DB /* JFTreasureBoxBigResultView.m in Sources */,
+				B26F8023288FC33500D005B6 /* JFSummonBeastResultItemView.m in Sources */,
 				B289E4E0288E82680064D57A /* JFMoonTreasureView.m in Sources */,
 				B23FB96E288EBDE1002DC0DB /* JFTreasureBoxBigResultItemView.m in Sources */,
 				B289E4EB288E82680064D57A /* JFMoonTreasureResultView.m in Sources */,
@@ -2033,6 +3235,7 @@
 				B2AEBF7528839599006C840E /* JFLotteryListCell.m in Sources */,
 				B20A8DED288E7A48009861E2 /* CCTurntableAnimView.m in Sources */,
 				B2793A22288E38D2000E9230 /* YYImageCoder.m in Sources */,
+				B26F7F4E288FBD7C00D005B6 /* UIImage+FXDecoder.m in Sources */,
 				B26F7CDF288F84BB00D005B6 /* JFOrchardResultView.m in Sources */,
 				B2793AAB288E3E7D000E9230 /* JFTwistedEggResultView.m in Sources */,
 				B2793A23288E38D2000E9230 /* YYFrameImage.m in Sources */,
@@ -2041,7 +3244,9 @@
 				B2793A4D288E38D2000E9230 /* NSArray+YYAdd.m in Sources */,
 				B20A8D95288E7585009861E2 /* filter.metal in Sources */,
 				B2793A63288E38D2000E9230 /* UIImage+YYWebImage.m in Sources */,
+				B26F8022288FC33500D005B6 /* JFSummonBeastResultView.m in Sources */,
 				B2793A64288E38D2000E9230 /* CALayer+YYWebImage.m in Sources */,
+				B26F817B288FD03700D005B6 /* JFTarotItemView.m in Sources */,
 				B2793A2B288E38D2000E9230 /* YYTextLine.m in Sources */,
 				B23FB910288E9A7A002DC0DB /* JFLuckyBottleResultItemView.m in Sources */,
 				B2793A62288E38D2000E9230 /* MKAnnotationView+YYWebImage.m in Sources */,
@@ -2058,6 +3263,8 @@
 				B26F7D86288F959700D005B6 /* JFDragonSlayerBigResultItemView.m in Sources */,
 				B2793A26288E38D2000E9230 /* YYTextMagnifier.m in Sources */,
 				B267AF892882D6F800648A02 /* AppDelegate.m in Sources */,
+				B26F81DF288FD4A400D005B6 /* JFCatteryView.m in Sources */,
+				B26F814E288FCBC800D005B6 /* JFPenguinMinerResultView.m in Sources */,
 				B26F7D2F288F885C00D005B6 /* JFMiningResultItemView.m in Sources */,
 				B2793A53288E38D2000E9230 /* NSKeyedUnarchiver+YYAdd.m in Sources */,
 				B2793A5B288E38D2000E9230 /* YYCGUtilities.m in Sources */,
@@ -2066,20 +3273,30 @@
 				B2793A5A288E38D2000E9230 /* NSObject+YYAddForKVO.m in Sources */,
 				B23FB960288EBDE1002DC0DB /* JFTreasureBoxView.m in Sources */,
 				B23FB905288E9A7A002DC0DB /* JFLuckyBottleView.m in Sources */,
+				B26F8227288FD80600D005B6 /* JFWaterTreeView.m in Sources */,
 				B2793A25288E38D2000E9230 /* YYTextView.m in Sources */,
+				B26F8275288FDCCB00D005B6 /* JFUnlimitedTreasureChestView.m in Sources */,
+				B26F7E88288FB9A400D005B6 /* JFMagicPrayResultItemView.m in Sources */,
 				B20A8D91288E7585009861E2 /* JFPrayLotusResultItemView.m in Sources */,
 				B2793A60288E38D2000E9230 /* UIButton+YYWebImage.m in Sources */,
 				B23FB8BF288E8C21002DC0DB /* JFRocketResultItemView.m in Sources */,
+				B26F7F49288FBD7C00D005B6 /* CALayer+FXAnimationEngine.m in Sources */,
 				B2793A5E288E38D2000E9230 /* YYWebImageManager.m in Sources */,
 				B2793ACA288E4015000E9230 /* GGButton.m in Sources */,
 				B2793A50288E38D2000E9230 /* NSObject+YYAdd.m in Sources */,
 				B2793A3C288E38D2000E9230 /* YYTextWeakProxy.m in Sources */,
 				B20A8C52288E4D3E009861E2 /* JFMagicTableResultView.m in Sources */,
+				B26F7F4C288FBD7C00D005B6 /* FXImageDecodeOperation.m in Sources */,
 				B26F7D87288F959700D005B6 /* JFDragonSlayerResultItemView.m in Sources */,
+				B26F822B288FD80600D005B6 /* JFWaterTreeResultView.m in Sources */,
+				B26F8279288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultView.m in Sources */,
+				B26F7F4D288FBD7C00D005B6 /* FXAnimationGroup.m in Sources */,
 				B2793A48288E38D2000E9230 /* UIBarButtonItem+YYAdd.m in Sources */,
 				B2793A42288E38D2000E9230 /* UIDevice+YYAdd.m in Sources */,
 				B20A8C8E288E60B5009861E2 /* JFPentagramBallView.m in Sources */,
+				B26F80FF288FC69B00D005B6 /* JFMakeCandyResultView.m in Sources */,
 				B2793A29288E38D2000E9230 /* YYTextInput.m in Sources */,
+				B26F7EAB288FB9A400D005B6 /* JFMagicPrayView.m in Sources */,
 				B20A8D96288E7585009861E2 /* SLMaskVideoPlayerLayer.m in Sources */,
 				B20A8D3C288E6F87009861E2 /* BBTurntableResultItemView.m in Sources */,
 				B267AFF72882D99700648A02 /* JFIdolProjectResultView.m in Sources */,
@@ -2091,15 +3308,24 @@
 				B20A8CD6288E6663009861E2 /* AATurntableOptionView.m in Sources */,
 				B2793A56288E38D2000E9230 /* NSDate+YYAdd.m in Sources */,
 				B267AFF92882D99700648A02 /* JFIdolProjectResultCell.m in Sources */,
+				B26F827B288FDCCB00D005B6 /* JFUnlimitedTreasureChestResultItemView.m in Sources */,
+				B26F822D288FD80600D005B6 /* JFWaterTreeResultItemView.m in Sources */,
 				B267AF9A2882D6FA00648A02 /* main.m in Sources */,
 				B2793A40288E38D2000E9230 /* UIBezierPath+YYAdd.m in Sources */,
+				B26F817D288FD03700D005B6 /* JFTarotView.m in Sources */,
+				B26F81E3288FD4A400D005B6 /* JFCatteryResultItemView.m in Sources */,
 				B20A8D3A288E6F87009861E2 /* BBTurntableBigPriceResultView.m in Sources */,
 				B2793A3A288E38D2000E9230 /* UIView+YYText.m in Sources */,
 				B2793A2E288E38D2000E9230 /* YYTextDebugOption.m in Sources */,
+				B26F7F94288FBF0C00D005B6 /* DDTurntableAnimView.m in Sources */,
 				B26F7D2E288F885C00D005B6 /* JFMiningResultView.m in Sources */,
 				B2793AC8288E4015000E9230 /* GGImageView.m in Sources */,
+				B26F7DD1288FB1ED00D005B6 /* JFDollMachineView.m in Sources */,
+				B26F7F4A288FBD7C00D005B6 /* CADisplayLink+FXWeakTarget.m in Sources */,
 				B20A8C00288E4B49009861E2 /* JFVerticalButton.m in Sources */,
+				B26F8148288FCBC800D005B6 /* JFPenguinMinerView.m in Sources */,
 				B26F7D85288F959700D005B6 /* JFDragonSlayerResultView.m in Sources */,
+				B26F8150288FCBC800D005B6 /* JFPenguinMinerResultItemView.m in Sources */,
 				B2793A49288E38D2000E9230 /* UIGestureRecognizer+YYAdd.m in Sources */,
 				B2793A34288E38D2000E9230 /* YYTextRubyAnnotation.m in Sources */,
 				B2793A21288E38D2000E9230 /* YYImage.m in Sources */,
@@ -2108,6 +3334,7 @@
 				B2793AAF288E3E7D000E9230 /* JFTwistedEggOptionView.m in Sources */,
 				B2793AC9288E4015000E9230 /* GGLabel.m in Sources */,
 				B2793A45288E38D2000E9230 /* UIScrollView+YYAdd.m in Sources */,
+				B26F8017288FC33500D005B6 /* JFSummonBeastView.m in Sources */,
 				B2793A3D288E38D2000E9230 /* NSObject+YYModel.m in Sources */,
 				B2793A2A288E38D2000E9230 /* YYTextLayout.m in Sources */,
 				B2793A1F288E38D2000E9230 /* YYMemoryCache.m in Sources */,
@@ -2115,21 +3342,26 @@
 				B20A8DEC288E7A48009861E2 /* CCTurntableView.m in Sources */,
 				B2793AB0288E3E7D000E9230 /* JFTwistedEggView.m in Sources */,
 				B267AFE12882D99700648A02 /* JFIdolProjectView.m in Sources */,
+				B26F7F90288FBF0C00D005B6 /* DDTurntableOptionView.m in Sources */,
 				B2793971288E33F0000E9230 /* JFRoomWishResultView.m in Sources */,
 				B2793A52288E38D2000E9230 /* NSThread+YYAdd.m in Sources */,
 				B2793A41288E38D2000E9230 /* UIColor+YYAdd.m in Sources */,
 				B2793A3B288E38D2000E9230 /* YYTextAsyncLayer.m in Sources */,
 				B2793A20288E38D2000E9230 /* YYSpriteSheetImage.m in Sources */,
 				B267AFFB2882D99700648A02 /* JFHttpRequestHelper.m in Sources */,
+				B26F814A288FCBC800D005B6 /* JFPenguinMinerGiftListCCell.m in Sources */,
 				B2793974288E33F0000E9230 /* JFRoomResultItemView.m in Sources */,
 				B20A8CE4288E6663009861E2 /* AATurntableResultItemView.m in Sources */,
+				B26F7F9F288FBF0C00D005B6 /* DDTurntableResultItemView.m in Sources */,
 				B267AF8C2882D6F800648A02 /* SceneDelegate.m in Sources */,
 				B2793A32288E38D2000E9230 /* YYTextAttribute.m in Sources */,
 				B2793A5F288E38D2000E9230 /* _YYWebImageSetter.m in Sources */,
 				B2793962288E33F0000E9230 /* JFRoomWishView.m in Sources */,
 				B2793A30288E38D2000E9230 /* YYTextRunDelegate.m in Sources */,
 				B2A030AF288522B00024209D /* MBProgressHUD+YY.m in Sources */,
+				B26F81E1288FD4A400D005B6 /* JFCatteryResultView.m in Sources */,
 				B289E491288E7ECE0064D57A /* JFInterstellarTravelView.m in Sources */,
+				B26F7F4B288FBD7C00D005B6 /* FXKeyframeAnimation.m in Sources */,
 				B2793A47288E38D2000E9230 /* UIView+YYAdd.m in Sources */,
 				B2793A38288E38D2000E9230 /* UIPasteboard+YYText.m in Sources */,
 				B2793A37288E38D2000E9230 /* NSAttributedString+YYText.m in Sources */,
@@ -2143,6 +3375,7 @@
 				B2793A4B288E38D2000E9230 /* UIControl+YYAdd.m in Sources */,
 				B2793A24288E38D2000E9230 /* YYAnimatedImageView.m in Sources */,
 				B20A8C3E288E4D3E009861E2 /* JFMagicTableView.m in Sources */,
+				B26F7E86288FB9A400D005B6 /* JFMagicPrayResultView.m in Sources */,
 				B26F7CE0288F84BB00D005B6 /* JFOrchardResultItemView.m in Sources */,
 				B23FB96D288EBDE1002DC0DB /* JFTreasureBoxResultView.m in Sources */,
 				B2793A61288E38D2000E9230 /* UIImageView+YYWebImage.m in Sources */,
@@ -2150,6 +3383,7 @@
 				B2793A57288E38D2000E9230 /* NSString+YYAdd.m in Sources */,
 				B2793A27288E38D2000E9230 /* YYTextContainerView.m in Sources */,
 				B26F7D7A288F959700D005B6 /* JFDragonSlayerView.m in Sources */,
+				B26F80FA288FC69B00D005B6 /* JFMakeCandyView.m in Sources */,
 				B2AEBF7828839602006C840E /* JFLotteryListModel.m in Sources */,
 				B267AFF32882D99700648A02 /* JFLotteryResultItem.m in Sources */,
 				B26F7D25288F885C00D005B6 /* JFMiningView.m in Sources */,

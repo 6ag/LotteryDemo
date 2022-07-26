@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JFPenguinMinerView">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmE-Ca-Ezn">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="3Ka-x2-iSD" appends="YES" id="HV3-e3-mp0"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7MT-un-tlM" userLabel="ContentView">
+                    <rect key="frame" x="0.0" y="290.66666666666669" width="390" height="553.33333333333326"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="penguin_miner_open_bg_normal" translatesAutoresizingMaskIntoConstraints="NO" id="sKj-CT-vjY">
+                            <rect key="frame" x="0.0" y="46.999999999999972" width="390" height="506.33333333333326"/>
+                        </imageView>
+                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZn-12-2ug" userLabel="SvgaView" customClass="SVGAImageView">
+                            <rect key="frame" x="0.0" y="-74.666666666666686" width="390" height="553"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="eZn-12-2ug" secondAttribute="height" multiplier="390:553" id="eaW-jC-OTX"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="loops">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="clearsAfterStop" value="NO"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="imageName" value="penguin_miner_open"/>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="autoPlay" value="NO"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="penguin_miner_open_rotation_normal" translatesAutoresizingMaskIntoConstraints="NO" id="M1f-KJ-mNG">
+                            <rect key="frame" x="93.333333333333329" y="130.33333333333331" width="203.66666666666669" height="190"/>
+                        </imageView>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="FSM-Di-7l6">
+                            <rect key="frame" x="15" y="335.33333333333331" width="345" height="85"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="85" id="FZN-jB-VJY"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="CZ4-Pp-eTt">
+                                <size key="itemSize" width="128" height="128"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <connections>
+                                <outlet property="dataSource" destination="iN0-l3-epB" id="Nxq-hd-KQg"/>
+                                <outlet property="delegate" destination="iN0-l3-epB" id="YTQ-7q-arp"/>
+                            </connections>
+                        </collectionView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bd5-HW-0ZC" userLabel="TitleView">
+                            <rect key="frame" x="0.0" y="0.0" width="390" height="53"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="penguin_miner_open_title_bg" translatesAutoresizingMaskIntoConstraints="NO" id="75E-UB-8Yz">
+                                    <rect key="frame" x="0.0" y="0.0" width="390" height="53"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJI-Qh-jS3" userLabel="排行">
+                                    <rect key="frame" x="6" y="12.666666666666629" width="28" height="28"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="28" id="a7y-ki-1Xy"/>
+                                        <constraint firstAttribute="height" constant="28" id="phG-qb-n3r"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="12"/>
+                                    <state key="normal" image="penguin_miner_open_rank">
+                                        <color key="titleColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onClickRankBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="1Wi-Up-Kua"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3f-lA-T24" userLabel="记录">
+                                    <rect key="frame" x="320" y="12.666666666666629" width="28" height="28"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="28" id="KQ0-28-un7"/>
+                                        <constraint firstAttribute="width" constant="28" id="fcY-9K-OZ8"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="12"/>
+                                    <state key="normal" image="penguin_miner_open_record">
+                                        <color key="titleColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onClickRecordBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="kZa-Vh-4qq"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jlu-6n-8rR" userLabel="规则">
+                                    <rect key="frame" x="42" y="12.666666666666629" width="28" height="28"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="28" id="6hp-o6-vSl"/>
+                                        <constraint firstAttribute="width" constant="28" id="Pfy-1E-vsf"/>
+                                    </constraints>
+                                    <state key="normal" image="penguin_miner_open_rule"/>
+                                    <connections>
+                                        <action selector="onClickRuleBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="9hT-TK-Wfw"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVV-rc-I1l" userLabel="关闭">
+                                    <rect key="frame" x="356" y="12.666666666666629" width="28" height="28"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="28" id="APo-8J-4QG"/>
+                                        <constraint firstAttribute="width" constant="28" id="iU6-2Y-1hV"/>
+                                    </constraints>
+                                    <state key="normal" image="penguin_miner_open_close"/>
+                                    <connections>
+                                        <action selector="onClickCloseBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="6No-9e-Y7V"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="KVV-rc-I1l" firstAttribute="leading" secondItem="h3f-lA-T24" secondAttribute="trailing" constant="8" id="BKd-PA-MmH"/>
+                                <constraint firstItem="75E-UB-8Yz" firstAttribute="leading" secondItem="Bd5-HW-0ZC" secondAttribute="leading" id="KeV-m0-GR9"/>
+                                <constraint firstItem="h3f-lA-T24" firstAttribute="centerY" secondItem="Bd5-HW-0ZC" secondAttribute="centerY" id="YE3-d2-slA"/>
+                                <constraint firstItem="Jlu-6n-8rR" firstAttribute="centerY" secondItem="Bd5-HW-0ZC" secondAttribute="centerY" id="bB7-dB-Pj9"/>
+                                <constraint firstAttribute="width" secondItem="Bd5-HW-0ZC" secondAttribute="height" multiplier="375:51" id="eWE-RG-4GF"/>
+                                <constraint firstItem="Jlu-6n-8rR" firstAttribute="leading" secondItem="RJI-Qh-jS3" secondAttribute="trailing" constant="8" id="gMc-2C-d0D"/>
+                                <constraint firstItem="RJI-Qh-jS3" firstAttribute="leading" secondItem="Bd5-HW-0ZC" secondAttribute="leading" constant="6" id="hdV-5G-h9x"/>
+                                <constraint firstItem="KVV-rc-I1l" firstAttribute="centerY" secondItem="Bd5-HW-0ZC" secondAttribute="centerY" id="oES-nf-UYX"/>
+                                <constraint firstItem="RJI-Qh-jS3" firstAttribute="centerY" secondItem="Bd5-HW-0ZC" secondAttribute="centerY" id="orM-ZG-nwb"/>
+                                <constraint firstAttribute="trailing" secondItem="KVV-rc-I1l" secondAttribute="trailing" constant="6" id="sB9-CW-8cT"/>
+                                <constraint firstAttribute="trailing" secondItem="75E-UB-8Yz" secondAttribute="trailing" id="siT-tt-ru7"/>
+                                <constraint firstAttribute="bottom" secondItem="75E-UB-8Yz" secondAttribute="bottom" id="uid-Q0-KI4"/>
+                                <constraint firstItem="75E-UB-8Yz" firstAttribute="top" secondItem="Bd5-HW-0ZC" secondAttribute="top" id="vcA-qt-4qg"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ssr-Tb-QTn" userLabel="NoticeView">
+                            <rect key="frame" x="15" y="59" width="360" height="25"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pKm-4v-ISq" customClass="GGImageView">
+                                    <rect key="frame" x="0.0" y="0.0" width="360" height="25"/>
+                                    <color key="backgroundColor" red="0.14117647058823529" green="0.070588235294117646" blue="0.12156862745098039" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </imageView>
+                                <view alpha="0.69999998807907104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UQe-mk-45c">
+                                    <rect key="frame" x="74.666666666666686" y="0.0" width="211" height="25"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昵称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VpZ-Sw-Hef">
+                                            <rect key="frame" x="22" y="4.6666666666666279" width="22" height="15.666666666666664"/>
+                                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="11"/>
+                                            <color key="textColor" red="0.86666666670000003" green="0.70588235290000001" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="挖矿获得了" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XGP-an-mZU">
+                                            <rect key="frame" x="48.999999999999986" y="4.6666666666666279" width="55" height="15.666666666666664"/>
+                                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="11"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="50c96713694f9301144ff5c2316d3a3d" translatesAutoresizingMaskIntoConstraints="NO" id="X02-XI-0Ef">
+                                            <rect key="frame" x="150" y="5" width="15" height="15"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="15" id="0om-3w-Rpx"/>
+                                                <constraint firstAttribute="height" constant="15" id="3We-2C-36I"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="礼物名称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crj-Rb-Xlg">
+                                            <rect key="frame" x="103.99999999999999" y="4.6666666666666279" width="44.000000000000014" height="15.666666666666664"/>
+                                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="11"/>
+                                            <color key="textColor" red="0.86666666670000003" green="0.70588235290000001" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(1000)x3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3RI-wM-Lz7">
+                                            <rect key="frame" x="167" y="4.6666666666666279" width="44" height="15.666666666666664"/>
+                                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="11"/>
+                                            <color key="textColor" red="0.86666666670000003" green="0.70588235290000001" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="penguin_miner_open_notice" translatesAutoresizingMaskIntoConstraints="NO" id="QkX-ND-1wQ">
+                                            <rect key="frame" x="0.0" y="5.6666666666666288" width="17" height="14"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="3RI-wM-Lz7" secondAttribute="trailing" id="0S7-Co-M9v"/>
+                                        <constraint firstItem="QkX-ND-1wQ" firstAttribute="centerY" secondItem="UQe-mk-45c" secondAttribute="centerY" id="1k7-ua-7KC"/>
+                                        <constraint firstItem="crj-Rb-Xlg" firstAttribute="centerY" secondItem="UQe-mk-45c" secondAttribute="centerY" id="4Tm-YM-KOd"/>
+                                        <constraint firstItem="X02-XI-0Ef" firstAttribute="centerY" secondItem="UQe-mk-45c" secondAttribute="centerY" id="72N-Hf-JSL"/>
+                                        <constraint firstItem="crj-Rb-Xlg" firstAttribute="leading" secondItem="XGP-an-mZU" secondAttribute="trailing" id="7Er-oF-un0"/>
+                                        <constraint firstItem="QkX-ND-1wQ" firstAttribute="leading" secondItem="UQe-mk-45c" secondAttribute="leading" id="DMy-jf-WoL"/>
+                                        <constraint firstItem="VpZ-Sw-Hef" firstAttribute="leading" secondItem="QkX-ND-1wQ" secondAttribute="trailing" constant="5" id="OR0-ZH-tsG"/>
+                                        <constraint firstItem="3RI-wM-Lz7" firstAttribute="leading" secondItem="X02-XI-0Ef" secondAttribute="trailing" constant="2" id="Pqb-HD-cEW"/>
+                                        <constraint firstItem="XGP-an-mZU" firstAttribute="leading" secondItem="VpZ-Sw-Hef" secondAttribute="trailing" constant="5" id="Svd-cc-KyV"/>
+                                        <constraint firstItem="3RI-wM-Lz7" firstAttribute="centerY" secondItem="UQe-mk-45c" secondAttribute="centerY" id="hyR-WZ-90B"/>
+                                        <constraint firstItem="X02-XI-0Ef" firstAttribute="leading" secondItem="crj-Rb-Xlg" secondAttribute="trailing" constant="2" id="mx8-7z-G6O"/>
+                                        <constraint firstItem="VpZ-Sw-Hef" firstAttribute="centerY" secondItem="UQe-mk-45c" secondAttribute="centerY" id="qcn-lE-M4k"/>
+                                        <constraint firstItem="XGP-an-mZU" firstAttribute="centerY" secondItem="UQe-mk-45c" secondAttribute="centerY" id="xC7-3i-54G"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="UQe-mk-45c" firstAttribute="centerX" secondItem="ssr-Tb-QTn" secondAttribute="centerX" id="1z8-6C-Iy5"/>
+                                <constraint firstItem="pKm-4v-ISq" firstAttribute="top" secondItem="ssr-Tb-QTn" secondAttribute="top" id="7FH-Lp-VJE"/>
+                                <constraint firstAttribute="trailing" secondItem="pKm-4v-ISq" secondAttribute="trailing" id="GPh-tt-vi9"/>
+                                <constraint firstItem="pKm-4v-ISq" firstAttribute="leading" secondItem="ssr-Tb-QTn" secondAttribute="leading" id="ITV-4g-Pqm"/>
+                                <constraint firstAttribute="width" secondItem="ssr-Tb-QTn" secondAttribute="height" multiplier="345:24" id="cre-dg-32D"/>
+                                <constraint firstItem="UQe-mk-45c" firstAttribute="top" secondItem="ssr-Tb-QTn" secondAttribute="top" id="gNK-Uq-D7D"/>
+                                <constraint firstAttribute="bottom" secondItem="UQe-mk-45c" secondAttribute="bottom" id="i5v-RL-ZwJ"/>
+                                <constraint firstAttribute="bottom" secondItem="pKm-4v-ISq" secondAttribute="bottom" id="k8g-pS-DaN"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i5i-Ox-Ypj" userLabel="TypeView">
+                            <rect key="frame" x="45" y="89" width="300" height="40"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="g2T-5J-j9x">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="40"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1g8-Sc-O6J">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="40"/>
+                                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="13"/>
+                                            <inset key="imageEdgeInsets" minX="2" minY="5" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" image="penguin_miner_open_title_1">
+                                                <color key="titleColor" red="0.792156862745098" green="0.78823529411764703" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <state key="selected" title=" " image="penguin_miner_open_title_1_sel">
+                                                <color key="titleColor" red="0.79215686269999996" green="0.78823529410000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="onClickNormalBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="OMf-JT-BjN"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6R-xR-qu2">
+                                            <rect key="frame" x="150" y="0.0" width="150" height="40"/>
+                                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="13"/>
+                                            <inset key="imageEdgeInsets" minX="2" minY="5" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" image="penguin_miner_open_title_2">
+                                                <color key="titleColor" red="0.792156862745098" green="0.78823529411764703" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <state key="selected" title=" " image="penguin_miner_open_title_2_sel">
+                                                <color key="titleColor" red="0.79215686269999996" green="0.78823529410000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="onClickLuxuryBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="DQm-3n-Bde"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="DFV-pM-Djv">
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="widthRadioScreen" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </constraint>
+                                <constraint firstAttribute="bottom" secondItem="g2T-5J-j9x" secondAttribute="bottom" id="DgS-j6-1Lu"/>
+                                <constraint firstAttribute="trailing" secondItem="g2T-5J-j9x" secondAttribute="trailing" id="M6L-Ub-W6V"/>
+                                <constraint firstItem="g2T-5J-j9x" firstAttribute="top" secondItem="i5i-Ox-Ypj" secondAttribute="top" id="ZwM-Ll-6LN"/>
+                                <constraint firstAttribute="width" secondItem="i5i-Ox-Ypj" secondAttribute="height" multiplier="7.5" id="gtm-FH-93r"/>
+                                <constraint firstItem="g2T-5J-j9x" firstAttribute="leading" secondItem="i5i-Ox-Ypj" secondAttribute="leading" id="wbU-G3-DdL"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="1lb-F9-U2j">
+                            <rect key="frame" x="0.0" y="428.33333333333331" width="375" height="94.999999999999943"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J2X-wM-z5m" userLabel="GoldView">
+                                    <rect key="frame" x="0.0" y="0.0" width="93.666666666666671" height="95"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QUL-Kj-lbO">
+                                            <rect key="frame" x="12" y="7" width="76.666666666666671" height="93"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Cq-HF-IEg">
+                                                    <rect key="frame" x="9.6666666666666679" y="32.333333333333371" width="57.666666666666657" height="22.666666666666671"/>
+                                                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="16"/>
+                                                    <color key="textColor" red="0.99607843137254903" green="0.80000000000000004" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vzx-c3-CqA">
+                                                    <rect key="frame" x="4" y="61.333333333333364" width="69" height="31.666666666666664"/>
+                                                    <state key="normal" image="penguin_miner_open_buy"/>
+                                                    <connections>
+                                                        <action selector="onClickCoinBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="XoR-xp-zDB"/>
+                                                    </connections>
+                                                </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold_coin_icon" translatesAutoresizingMaskIntoConstraints="NO" id="1R9-lG-2ew">
+                                                    <rect key="frame" x="30" y="10" width="17" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="17" id="izz-Vt-11D"/>
+                                                        <constraint firstAttribute="height" constant="17" id="vPc-Os-FsT"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="1R9-lG-2ew" firstAttribute="top" secondItem="QUL-Kj-lbO" secondAttribute="top" constant="10" id="3c1-Mg-jY2"/>
+                                                <constraint firstItem="2Cq-HF-IEg" firstAttribute="centerY" secondItem="QUL-Kj-lbO" secondAttribute="centerY" constant="-3" id="70c-0e-gPY"/>
+                                                <constraint firstAttribute="bottom" secondItem="Vzx-c3-CqA" secondAttribute="bottom" id="Bwf-WP-1qL"/>
+                                                <constraint firstItem="Vzx-c3-CqA" firstAttribute="centerX" secondItem="QUL-Kj-lbO" secondAttribute="centerX" id="I2D-Kx-mdS"/>
+                                                <constraint firstItem="1R9-lG-2ew" firstAttribute="centerX" secondItem="QUL-Kj-lbO" secondAttribute="centerX" id="M2M-iZ-ajg"/>
+                                                <constraint firstItem="2Cq-HF-IEg" firstAttribute="centerX" secondItem="QUL-Kj-lbO" secondAttribute="centerX" id="iBI-oc-2fV"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="QUL-Kj-lbO" firstAttribute="leading" secondItem="J2X-wM-z5m" secondAttribute="leading" constant="12" id="0GI-kI-vK7"/>
+                                        <constraint firstItem="QUL-Kj-lbO" firstAttribute="top" secondItem="J2X-wM-z5m" secondAttribute="top" constant="7" id="4fQ-5K-hLn"/>
+                                        <constraint firstAttribute="bottom" secondItem="QUL-Kj-lbO" secondAttribute="bottom" constant="-5" id="AKE-dH-0mA"/>
+                                        <constraint firstAttribute="trailing" secondItem="QUL-Kj-lbO" secondAttribute="trailing" constant="5" id="RcR-Ox-5N9"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AnB-oQ-GLx">
+                                    <rect key="frame" x="93.666666666666686" y="0.0" width="94" height="95"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y46-qM-16r" customClass="JFNoHighlightButton">
+                                            <rect key="frame" x="6" y="0.0" width="82" height="94"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" image="penguin_miner_open_count_1"/>
+                                            <connections>
+                                                <action selector="onClickOptionBtn1:" destination="iN0-l3-epB" eventType="touchUpInside" id="Vmg-6p-8Sw"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="666" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2L-G0-gvN">
+                                            <rect key="frame" x="42.999999999999986" y="94" width="18" height="14"/>
+                                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="10"/>
+                                            <color key="textColor" red="0.80000000000000004" green="0.76862745098039209" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold_coin_icon" translatesAutoresizingMaskIntoConstraints="NO" id="UlM-Kx-MR6">
+                                            <rect key="frame" x="31" y="96" width="10" height="10"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="10" id="8ng-4k-GzQ"/>
+                                                <constraint firstAttribute="width" constant="10" id="xWh-Xq-V7N"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="UlM-Kx-MR6" firstAttribute="centerY" secondItem="o2L-G0-gvN" secondAttribute="centerY" id="7Iq-hA-D8k"/>
+                                        <constraint firstItem="y46-qM-16r" firstAttribute="top" secondItem="AnB-oQ-GLx" secondAttribute="top" id="LBh-u6-Bfj"/>
+                                        <constraint firstItem="o2L-G0-gvN" firstAttribute="leading" secondItem="UlM-Kx-MR6" secondAttribute="trailing" constant="2" id="OIZ-z0-ofj"/>
+                                        <constraint firstItem="y46-qM-16r" firstAttribute="centerX" secondItem="AnB-oQ-GLx" secondAttribute="centerX" id="mTV-Ts-wcu"/>
+                                        <constraint firstItem="o2L-G0-gvN" firstAttribute="centerX" secondItem="AnB-oQ-GLx" secondAttribute="centerX" constant="5" id="ol3-jR-VXC"/>
+                                        <constraint firstItem="o2L-G0-gvN" firstAttribute="top" secondItem="y46-qM-16r" secondAttribute="bottom" id="rNg-Tw-lWs"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Wz-kr-r4Y">
+                                    <rect key="frame" x="187.66666666666666" y="0.0" width="93.666666666666657" height="95"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePa-dd-jj4" customClass="JFNoHighlightButton">
+                                            <rect key="frame" x="5.3333333333333428" y="0.0" width="82.666666666666671" height="94.666666666666671"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" image="penguin_miner_open_count_10"/>
+                                            <connections>
+                                                <action selector="onClickOptionBtn2:" destination="iN0-l3-epB" eventType="touchUpInside" id="X3H-tu-gJL"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="666" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gI-ey-PCo">
+                                            <rect key="frame" x="42.666666666666686" y="94.666666666666629" width="18" height="14"/>
+                                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="10"/>
+                                            <color key="textColor" red="0.80000000000000004" green="0.76862745099999996" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold_coin_icon" translatesAutoresizingMaskIntoConstraints="NO" id="7sd-A1-5X0">
+                                            <rect key="frame" x="30.666666666666686" y="96.666666666666629" width="10" height="10"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="10" id="3Fx-o9-hfx"/>
+                                                <constraint firstAttribute="width" constant="10" id="4F3-ey-mWr"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="7sd-A1-5X0" firstAttribute="centerY" secondItem="4gI-ey-PCo" secondAttribute="centerY" id="8YP-IJ-yJe"/>
+                                        <constraint firstItem="ePa-dd-jj4" firstAttribute="top" secondItem="2Wz-kr-r4Y" secondAttribute="top" id="FDG-SG-IQt"/>
+                                        <constraint firstItem="4gI-ey-PCo" firstAttribute="leading" secondItem="7sd-A1-5X0" secondAttribute="trailing" constant="2" id="HFx-uJ-2kp"/>
+                                        <constraint firstItem="4gI-ey-PCo" firstAttribute="top" secondItem="ePa-dd-jj4" secondAttribute="bottom" id="eca-bt-jQd"/>
+                                        <constraint firstItem="ePa-dd-jj4" firstAttribute="centerX" secondItem="2Wz-kr-r4Y" secondAttribute="centerX" id="lMc-Ko-QWT"/>
+                                        <constraint firstItem="4gI-ey-PCo" firstAttribute="centerX" secondItem="2Wz-kr-r4Y" secondAttribute="centerX" constant="5" id="qiB-Ze-6QG"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TEK-hT-rlq">
+                                    <rect key="frame" x="281.33333333333331" y="0.0" width="93.666666666666686" height="95"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgk-pi-kce" customClass="JFNoHighlightButton">
+                                            <rect key="frame" x="5.6666666666666856" y="0.0" width="82" height="95.666666666666671"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" image="penguin_miner_open_count_100"/>
+                                            <connections>
+                                                <action selector="onClickOptionBtn3:" destination="iN0-l3-epB" eventType="touchUpInside" id="SU5-GA-9r3"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="666" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJY-gp-3R5">
+                                            <rect key="frame" x="42.666666666666686" y="95.666666666666629" width="18" height="14"/>
+                                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="10"/>
+                                            <color key="textColor" red="0.80000000000000004" green="0.76862745099999996" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold_coin_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Q7d-gy-K2i">
+                                            <rect key="frame" x="30.666666666666686" y="97.666666666666629" width="10" height="10"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="10" id="Jha-Gn-GXH"/>
+                                                <constraint firstAttribute="height" constant="10" id="UUm-Wr-M8v"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="ZJY-gp-3R5" firstAttribute="top" secondItem="wgk-pi-kce" secondAttribute="bottom" id="4Ql-xJ-IbE"/>
+                                        <constraint firstItem="Q7d-gy-K2i" firstAttribute="centerY" secondItem="ZJY-gp-3R5" secondAttribute="centerY" id="IiI-1Q-nni"/>
+                                        <constraint firstItem="wgk-pi-kce" firstAttribute="top" secondItem="TEK-hT-rlq" secondAttribute="top" id="RDN-ZC-fV8"/>
+                                        <constraint firstItem="wgk-pi-kce" firstAttribute="centerX" secondItem="TEK-hT-rlq" secondAttribute="centerX" id="aic-W0-9zO"/>
+                                        <constraint firstItem="ZJY-gp-3R5" firstAttribute="leading" secondItem="Q7d-gy-K2i" secondAttribute="trailing" constant="2" id="ixI-eS-qLv"/>
+                                        <constraint firstItem="ZJY-gp-3R5" firstAttribute="centerX" secondItem="TEK-hT-rlq" secondAttribute="centerX" constant="5" id="sqJ-aP-0sa"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="95" id="kvo-7B-83d"/>
+                            </constraints>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFJ-Iy-z3R">
+                            <rect key="frame" x="360" y="360.33333333333331" width="30" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="x1L-5e-EYA"/>
+                            </constraints>
+                            <state key="normal" image="penguin_miner_open_arrow"/>
+                            <connections>
+                                <action selector="onClickArrowBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="rku-Tp-YlG"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="i5i-Ox-Ypj" firstAttribute="top" secondItem="ssr-Tb-QTn" secondAttribute="bottom" constant="5" id="0Cd-NA-oMD"/>
+                        <constraint firstItem="eZn-12-2ug" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" id="89a-oR-3t1"/>
+                        <constraint firstAttribute="trailing" secondItem="sKj-CT-vjY" secondAttribute="trailing" id="9du-zE-DTe"/>
+                        <constraint firstItem="FSM-Di-7l6" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" constant="15" id="At2-n4-ziv"/>
+                        <constraint firstItem="ssr-Tb-QTn" firstAttribute="top" secondItem="Bd5-HW-0ZC" secondAttribute="bottom" constant="6" id="GXO-9z-KdZ"/>
+                        <constraint firstItem="M1f-KJ-mNG" firstAttribute="centerX" secondItem="7MT-un-tlM" secondAttribute="centerX" id="JbZ-Ma-qNk"/>
+                        <constraint firstAttribute="trailing" secondItem="Bd5-HW-0ZC" secondAttribute="trailing" id="Jzy-bz-GH1"/>
+                        <constraint firstItem="i5i-Ox-Ypj" firstAttribute="centerX" secondItem="7MT-un-tlM" secondAttribute="centerX" id="Nh6-0B-9eA"/>
+                        <constraint firstAttribute="bottom" secondItem="sKj-CT-vjY" secondAttribute="bottom" id="Nsh-tU-sq5"/>
+                        <constraint firstItem="sKj-CT-vjY" firstAttribute="top" secondItem="Bd5-HW-0ZC" secondAttribute="bottom" constant="-6" id="Pp3-YD-yPl"/>
+                        <constraint firstAttribute="bottom" secondItem="1lb-F9-U2j" secondAttribute="bottom" constant="30" id="QWG-gi-xIG"/>
+                        <constraint firstItem="eFJ-Iy-z3R" firstAttribute="leading" secondItem="FSM-Di-7l6" secondAttribute="trailing" id="RRF-Sw-mc2"/>
+                        <constraint firstItem="ssr-Tb-QTn" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" constant="15" id="Rop-e7-C60"/>
+                        <constraint firstItem="eFJ-Iy-z3R" firstAttribute="centerY" secondItem="FSM-Di-7l6" secondAttribute="centerY" id="SbO-it-FeM"/>
+                        <constraint firstAttribute="trailing" secondItem="ssr-Tb-QTn" secondAttribute="trailing" constant="15" id="YnE-yK-FNC"/>
+                        <constraint firstAttribute="trailing" secondItem="eFJ-Iy-z3R" secondAttribute="trailing" id="aR5-B7-EnP"/>
+                        <constraint firstItem="1lb-F9-U2j" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" id="cQ4-IX-IT9"/>
+                        <constraint firstAttribute="trailing" secondItem="eZn-12-2ug" secondAttribute="trailing" id="eaj-wA-7Lz"/>
+                        <constraint firstItem="eZn-12-2ug" firstAttribute="centerY" secondItem="7MT-un-tlM" secondAttribute="centerY" constant="-75" id="gob-t1-4bx"/>
+                        <constraint firstAttribute="trailing" secondItem="FSM-Di-7l6" secondAttribute="trailing" constant="30" id="gs9-EP-BBm"/>
+                        <constraint firstItem="Bd5-HW-0ZC" firstAttribute="top" secondItem="7MT-un-tlM" secondAttribute="top" id="k5N-0m-fIp"/>
+                        <constraint firstItem="sKj-CT-vjY" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" id="mDf-92-rE2"/>
+                        <constraint firstItem="Bd5-HW-0ZC" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" id="nJn-cM-kFb"/>
+                        <constraint firstAttribute="width" secondItem="7MT-un-tlM" secondAttribute="height" multiplier="375:532" id="nx2-rA-MGC"/>
+                        <constraint firstItem="1lb-F9-U2j" firstAttribute="top" secondItem="FSM-Di-7l6" secondAttribute="bottom" constant="8" id="pyV-g1-WLH"/>
+                        <constraint firstAttribute="trailing" secondItem="1lb-F9-U2j" secondAttribute="trailing" constant="15" id="qaO-Ek-sE0"/>
+                        <constraint firstItem="ssr-Tb-QTn" firstAttribute="centerX" secondItem="7MT-un-tlM" secondAttribute="centerX" id="vjP-LW-6jh"/>
+                        <constraint firstItem="FSM-Di-7l6" firstAttribute="top" secondItem="M1f-KJ-mNG" secondAttribute="bottom" constant="15" id="xQ3-pM-pFP"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="gmE-Ca-Ezn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9MG-kO-RYL"/>
+                <constraint firstItem="7MT-un-tlM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Mfu-Dh-H0v"/>
+                <constraint firstItem="gmE-Ca-Ezn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="PK1-kR-UNt"/>
+                <constraint firstAttribute="bottom" secondItem="7MT-un-tlM" secondAttribute="bottom" id="YcS-mJ-hDT"/>
+                <constraint firstAttribute="bottom" secondItem="gmE-Ca-Ezn" secondAttribute="bottom" id="ZBp-wI-aZ4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7MT-un-tlM" secondAttribute="trailing" id="byz-t3-Qmj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="gmE-Ca-Ezn" secondAttribute="trailing" id="iQp-NB-iNU"/>
+            </constraints>
+            <connections>
+                <outlet property="bgImageView" destination="sKj-CT-vjY" id="RJ0-8n-hlK"/>
+                <outlet property="bottom_contentView" destination="YcS-mJ-hDT" id="jR0-TD-0mo"/>
+                <outlet property="collectionView" destination="FSM-Di-7l6" id="GZq-iR-5sk"/>
+                <outlet property="contentView" destination="7MT-un-tlM" id="JAJ-1w-auY"/>
+                <outlet property="coverView" destination="gmE-Ca-Ezn" id="0Iv-fh-1ge"/>
+                <outlet property="goldBalanceLabel" destination="2Cq-HF-IEg" id="1Sg-fs-0Y4"/>
+                <outlet property="navSwitchBtn1" destination="1g8-Sc-O6J" id="igq-vW-5Sk"/>
+                <outlet property="navSwitchBtn2" destination="J6R-xR-qu2" id="auZ-QW-XOi"/>
+                <outlet property="openSvgaImageView" destination="eZn-12-2ug" id="Stf-Hy-Urx"/>
+                <outlet property="optionBtn1" destination="y46-qM-16r" id="hWc-53-pP3"/>
+                <outlet property="optionBtn2" destination="ePa-dd-jj4" id="zOq-NB-sMB"/>
+                <outlet property="optionBtn3" destination="wgk-pi-kce" id="LZh-MC-IE9"/>
+                <outlet property="priceLabel1" destination="o2L-G0-gvN" id="mwH-3Y-Tpw"/>
+                <outlet property="priceLabel2" destination="4gI-ey-PCo" id="Y3O-nF-0kP"/>
+                <outlet property="priceLabel3" destination="ZJY-gp-3R5" id="IIv-Gi-rW3"/>
+                <outlet property="turntableImageView" destination="M1f-KJ-mNG" id="Hll-p5-9fB"/>
+            </connections>
+            <point key="canvasLocation" x="20" y="71.090047393364927"/>
+        </view>
+        <tapGestureRecognizer id="3Ka-x2-iSD">
+            <connections>
+                <action selector="onClickCloseBtn:" destination="iN0-l3-epB" id="uxO-KE-bBI"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="50c96713694f9301144ff5c2316d3a3d" width="160" height="160"/>
+        <image name="gold_coin_icon" width="20.333333969116211" height="20"/>
+        <image name="penguin_miner_open_arrow" width="14.666666984558105" height="23.666666030883789"/>
+        <image name="penguin_miner_open_bg_normal" width="375" height="530.66668701171875"/>
+        <image name="penguin_miner_open_buy" width="69" height="31.666666030883789"/>
+        <image name="penguin_miner_open_close" width="27.666666030883789" height="27.666666030883789"/>
+        <image name="penguin_miner_open_count_1" width="82" height="94"/>
+        <image name="penguin_miner_open_count_10" width="82.666664123535156" height="94.666664123535156"/>
+        <image name="penguin_miner_open_count_100" width="82" height="95.666664123535156"/>
+        <image name="penguin_miner_open_notice" width="17" height="14"/>
+        <image name="penguin_miner_open_rank" width="27.666666030883789" height="27.666666030883789"/>
+        <image name="penguin_miner_open_record" width="27.666666030883789" height="27.666666030883789"/>
+        <image name="penguin_miner_open_rotation_normal" width="203.66667175292969" height="190"/>
+        <image name="penguin_miner_open_rule" width="27.666666030883789" height="27.666666030883789"/>
+        <image name="penguin_miner_open_title_1" width="140.66667175292969" height="32"/>
+        <image name="penguin_miner_open_title_1_sel" width="145.66667175292969" height="37"/>
+        <image name="penguin_miner_open_title_2" width="140.66667175292969" height="32.666667938232422"/>
+        <image name="penguin_miner_open_title_2_sel" width="145.66667175292969" height="37.666667938232422"/>
+        <image name="penguin_miner_open_title_bg" width="375" height="51"/>
+    </resources>
+</document>

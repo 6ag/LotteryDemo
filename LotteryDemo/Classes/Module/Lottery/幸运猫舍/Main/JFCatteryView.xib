@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JFCatteryView">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmE-Ca-Ezn">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="3Ka-x2-iSD" appends="YES" id="HV3-e3-mp0"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7MT-un-tlM" userLabel="ContentView">
+                    <rect key="frame" x="0.0" y="209.66666666666669" width="390" height="634.33333333333326"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cattery_open_bg" translatesAutoresizingMaskIntoConstraints="NO" id="K6o-7g-pLw">
+                            <rect key="frame" x="0.0" y="0.0" width="390" height="634.33333333333337"/>
+                        </imageView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cwc-8X-FNP">
+                            <rect key="frame" x="15" y="62.000000000000028" width="360" height="41.666666666666657"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgf-Y3-Qfd" customClass="JFNoHighlightButton">
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="41.666666666666664"/>
+                                    <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="17"/>
+                                    <state key="normal" image="cattery_open_type_level0"/>
+                                    <state key="selected" image="cattery_open_type_level0_sel"/>
+                                    <connections>
+                                        <action selector="onClickTitleBtn1:" destination="iN0-l3-epB" eventType="touchUpInside" id="LLU-gW-Zqa"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWW-sx-T3v" customClass="JFNoHighlightButton">
+                                    <rect key="frame" x="120" y="0.0" width="120" height="41.666666666666664"/>
+                                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="15"/>
+                                    <state key="normal" image="cattery_open_type_level1">
+                                        <color key="titleColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <state key="selected" image="cattery_open_type_level1_sel"/>
+                                    <connections>
+                                        <action selector="onClickTitleBtn2:" destination="iN0-l3-epB" eventType="touchUpInside" id="HxH-zm-TQv"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d88-vP-O7l" customClass="JFNoHighlightButton">
+                                    <rect key="frame" x="240" y="0.0" width="120" height="41.666666666666664"/>
+                                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="15"/>
+                                    <state key="normal" image="cattery_open_type_level2">
+                                        <color key="titleColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <state key="selected" image="cattery_open_type_level2_sel"/>
+                                    <connections>
+                                        <action selector="onClickTitleBtn3:" destination="iN0-l3-epB" eventType="touchUpInside" id="ghM-H2-2iL"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="cwc-8X-FNP" secondAttribute="height" multiplier="345:40" id="XSN-Wj-EFT"/>
+                            </constraints>
+                        </stackView>
+                        <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="ycA-kq-HTG" userLabel="NormalSvga" customClass="SVGAImageView">
+                            <rect key="frame" x="95" y="167" width="200" height="200"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="f60-1M-K8j"/>
+                                <constraint firstAttribute="height" constant="200" id="n8z-aH-C8x"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="loops">
+                                    <integer key="value" value="0"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="clearsAfterStop" value="NO"/>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="autoPlay" value="YES"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="imageName" value="cattery_cat_normal_0"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view hidden="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="pWg-zu-7cD" userLabel="FeedingSvga" customClass="SVGAImageView">
+                            <rect key="frame" x="95" y="167" width="200" height="200"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="200" id="6XA-pT-Xxm"/>
+                                <constraint firstAttribute="width" constant="200" id="e3a-Df-zAh"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="loops">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="clearsAfterStop" value="NO"/>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="autoPlay" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJI-Qh-jS3" userLabel="排行">
+                            <rect key="frame" x="268" y="11.000000000000002" width="73" height="26.666666666666671"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="10"/>
+                            <state key="normal" image="cattery_open_rank"/>
+                            <connections>
+                                <action selector="onClickRankBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="1Wi-Up-Kua"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J2X-wM-z5m" userLabel="GoldView" customClass="GGImageView">
+                            <rect key="frame" x="140.33333333333334" y="410.33333333333337" width="109.66666666666666" height="24"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Wz-al-jIe">
+                                    <rect key="frame" x="0.0" y="0.0" width="109.66666666666667" height="24"/>
+                                    <connections>
+                                        <action selector="onClickCoinBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="MRF-9y-RDe"/>
+                                    </connections>
+                                </button>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold_coin_icon" translatesAutoresizingMaskIntoConstraints="NO" id="eSi-uP-uqP">
+                                    <rect key="frame" x="9.9999999999999982" y="2" width="20.333333333333329" height="20"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Cq-HF-IEg">
+                                    <rect key="frame" x="36.333333333333314" y="3.6666666666666288" width="43.333333333333343" height="17"/>
+                                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="12"/>
+                                    <color key="textColor" red="1" green="0.94901960784313721" blue="0.55294117647058827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cattery_open_recharge" translatesAutoresizingMaskIntoConstraints="NO" id="zaT-0N-F1R">
+                                    <rect key="frame" x="85.666666666666657" y="5" width="14" height="14"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="2Wz-al-jIe" firstAttribute="leading" secondItem="J2X-wM-z5m" secondAttribute="leading" id="0CV-2n-aKo"/>
+                                <constraint firstItem="2Cq-HF-IEg" firstAttribute="centerY" secondItem="J2X-wM-z5m" secondAttribute="centerY" id="193-iY-DCQ"/>
+                                <constraint firstAttribute="trailing" secondItem="zaT-0N-F1R" secondAttribute="trailing" constant="10" id="CJF-vJ-7DX"/>
+                                <constraint firstItem="zaT-0N-F1R" firstAttribute="leading" secondItem="2Cq-HF-IEg" secondAttribute="trailing" constant="6" id="JM7-Pr-AJ8"/>
+                                <constraint firstAttribute="trailing" secondItem="2Wz-al-jIe" secondAttribute="trailing" id="KaA-H4-iHS"/>
+                                <constraint firstAttribute="height" constant="24" id="R3D-nC-JKc"/>
+                                <constraint firstItem="2Cq-HF-IEg" firstAttribute="leading" secondItem="eSi-uP-uqP" secondAttribute="trailing" constant="6" id="VEs-on-QoN"/>
+                                <constraint firstItem="eSi-uP-uqP" firstAttribute="leading" secondItem="J2X-wM-z5m" secondAttribute="leading" constant="10" id="Vnj-Ag-xDG"/>
+                                <constraint firstAttribute="bottom" secondItem="2Wz-al-jIe" secondAttribute="bottom" id="Xdj-kE-OeZ"/>
+                                <constraint firstItem="eSi-uP-uqP" firstAttribute="centerY" secondItem="J2X-wM-z5m" secondAttribute="centerY" id="gmO-yZ-Rvy"/>
+                                <constraint firstItem="2Wz-al-jIe" firstAttribute="top" secondItem="J2X-wM-z5m" secondAttribute="top" id="iCx-1T-e0o"/>
+                                <constraint firstItem="zaT-0N-F1R" firstAttribute="centerY" secondItem="J2X-wM-z5m" secondAttribute="centerY" id="j75-WL-DJD"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="12"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jlu-6n-8rR" userLabel="规则">
+                            <rect key="frame" x="15" y="4.3333333333333428" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="deb-0P-Gfo"/>
+                                <constraint firstAttribute="width" constant="40" id="fUs-rA-ja6"/>
+                            </constraints>
+                            <state key="normal" image="cattery_open_rule"/>
+                            <connections>
+                                <action selector="onClickRuleBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="9hT-TK-Wfw"/>
+                            </connections>
+                        </button>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="OOM-mG-WE2">
+                            <rect key="frame" x="25" y="449.33333333333337" width="340" height="120"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LXz-4b-6yv">
+                                    <rect key="frame" x="0.0" y="0.0" width="113.33333333333333" height="120"/>
+                                    <subviews>
+                                        <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gS-lp-9jf">
+                                            <rect key="frame" x="15.333333333333336" y="81.333333333333371" width="82.666666666666657" height="38.666666666666657"/>
+                                            <state key="normal" backgroundImage="cattery_open_count_1"/>
+                                        </button>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cattery_open_count_1_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Y6g-yy-J0X">
+                                            <rect key="frame" x="16.333333333333336" y="-2.6666666666666288" width="81" height="74"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gvj-rP-3uG" customClass="JFNoHighlightButton">
+                                            <rect key="frame" x="0.0" y="0.0" width="113.33333333333333" height="120"/>
+                                            <connections>
+                                                <action selector="onClickCountBtn1:" destination="iN0-l3-epB" eventType="touchUpInside" id="hs6-Ix-Cfd"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="3gS-lp-9jf" firstAttribute="top" secondItem="Y6g-yy-J0X" secondAttribute="bottom" constant="10" id="1TX-4I-5RX"/>
+                                        <constraint firstAttribute="bottom" secondItem="Gvj-rP-3uG" secondAttribute="bottom" id="4hE-bJ-Ps3"/>
+                                        <constraint firstAttribute="bottom" secondItem="3gS-lp-9jf" secondAttribute="bottom" id="KQS-wI-sdO"/>
+                                        <constraint firstItem="Gvj-rP-3uG" firstAttribute="top" secondItem="LXz-4b-6yv" secondAttribute="top" id="WUF-ae-1cV"/>
+                                        <constraint firstItem="Y6g-yy-J0X" firstAttribute="centerX" secondItem="LXz-4b-6yv" secondAttribute="centerX" id="YZE-Tb-wBp"/>
+                                        <constraint firstItem="3gS-lp-9jf" firstAttribute="centerX" secondItem="LXz-4b-6yv" secondAttribute="centerX" id="bed-X3-NNJ"/>
+                                        <constraint firstItem="Gvj-rP-3uG" firstAttribute="leading" secondItem="LXz-4b-6yv" secondAttribute="leading" id="g6T-5k-Vxu"/>
+                                        <constraint firstAttribute="trailing" secondItem="Gvj-rP-3uG" secondAttribute="trailing" id="vTO-g5-Fcu"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5b3-OS-hxo">
+                                    <rect key="frame" x="113.33333333333334" y="0.0" width="113.33333333333334" height="120"/>
+                                    <subviews>
+                                        <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yf-50-hHX">
+                                            <rect key="frame" x="15" y="81.333333333333371" width="83.666666666666671" height="38.666666666666657"/>
+                                            <state key="normal" backgroundImage="cattery_open_count_10"/>
+                                        </button>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cattery_open_count_10_icon" translatesAutoresizingMaskIntoConstraints="NO" id="BaJ-Cx-O6h">
+                                            <rect key="frame" x="17.333333333333314" y="-10.666666666666629" width="78.666666666666671" height="82"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXM-ni-gDo" customClass="JFNoHighlightButton">
+                                            <rect key="frame" x="0.0" y="0.0" width="113.33333333333333" height="120"/>
+                                            <connections>
+                                                <action selector="onClickCountBtn2:" destination="iN0-l3-epB" eventType="touchUpInside" id="O2a-TB-qCR"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="oXM-ni-gDo" secondAttribute="bottom" id="3F0-jm-2ki"/>
+                                        <constraint firstItem="oXM-ni-gDo" firstAttribute="top" secondItem="5b3-OS-hxo" secondAttribute="top" id="9e6-lM-5Cd"/>
+                                        <constraint firstAttribute="trailing" secondItem="oXM-ni-gDo" secondAttribute="trailing" id="D1O-Xr-8zd"/>
+                                        <constraint firstItem="oXM-ni-gDo" firstAttribute="leading" secondItem="5b3-OS-hxo" secondAttribute="leading" id="Epi-Ku-9iw"/>
+                                        <constraint firstItem="1yf-50-hHX" firstAttribute="top" secondItem="BaJ-Cx-O6h" secondAttribute="bottom" constant="10" id="G7k-9t-equ"/>
+                                        <constraint firstItem="1yf-50-hHX" firstAttribute="centerX" secondItem="5b3-OS-hxo" secondAttribute="centerX" id="QEw-Oh-B4W"/>
+                                        <constraint firstItem="BaJ-Cx-O6h" firstAttribute="centerX" secondItem="5b3-OS-hxo" secondAttribute="centerX" id="hta-0a-Z4x"/>
+                                        <constraint firstAttribute="bottom" secondItem="1yf-50-hHX" secondAttribute="bottom" id="jog-8S-ICf"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rp8-NW-0TC">
+                                    <rect key="frame" x="226.66666666666666" y="0.0" width="113.33333333333334" height="120"/>
+                                    <subviews>
+                                        <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffx-Py-dp3">
+                                            <rect key="frame" x="15.333333333333343" y="81.333333333333371" width="83" height="38.666666666666657"/>
+                                            <state key="normal" backgroundImage="cattery_open_count_100"/>
+                                        </button>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cattery_open_count_100_icon" translatesAutoresizingMaskIntoConstraints="NO" id="rBL-jB-n44">
+                                            <rect key="frame" x="14.000000000000028" y="-9.3333333333333712" width="85.666666666666671" height="80.666666666666671"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vf0-Ad-FFc" customClass="JFNoHighlightButton">
+                                            <rect key="frame" x="0.0" y="0.0" width="113.33333333333333" height="120"/>
+                                            <connections>
+                                                <action selector="onClickCountBtn3:" destination="iN0-l3-epB" eventType="touchUpInside" id="WMS-D0-5jM"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="ffx-Py-dp3" firstAttribute="top" secondItem="rBL-jB-n44" secondAttribute="bottom" constant="10" id="8yt-2n-4ji"/>
+                                        <constraint firstAttribute="trailing" secondItem="Vf0-Ad-FFc" secondAttribute="trailing" id="Cvn-vA-XmW"/>
+                                        <constraint firstAttribute="bottom" secondItem="ffx-Py-dp3" secondAttribute="bottom" id="HWZ-by-hC5"/>
+                                        <constraint firstItem="ffx-Py-dp3" firstAttribute="centerX" secondItem="rp8-NW-0TC" secondAttribute="centerX" id="Ktt-Ay-3qU"/>
+                                        <constraint firstItem="Vf0-Ad-FFc" firstAttribute="top" secondItem="rp8-NW-0TC" secondAttribute="top" id="Xxk-hP-Hr9"/>
+                                        <constraint firstItem="rBL-jB-n44" firstAttribute="centerX" secondItem="rp8-NW-0TC" secondAttribute="centerX" id="cgb-OW-1Gt"/>
+                                        <constraint firstAttribute="bottom" secondItem="Vf0-Ad-FFc" secondAttribute="bottom" id="erc-54-DcZ"/>
+                                        <constraint firstItem="Vf0-Ad-FFc" firstAttribute="leading" secondItem="rp8-NW-0TC" secondAttribute="leading" id="vj0-jZ-gze"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="120" id="OPS-zz-Gxw"/>
+                            </constraints>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C31-Te-xxH">
+                            <rect key="frame" x="345" y="4.3333333333333428" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="1Xb-pc-qTf"/>
+                                <constraint firstAttribute="height" constant="40" id="ter-wT-45i"/>
+                            </constraints>
+                            <state key="normal" image="cattery_open_close"/>
+                            <connections>
+                                <action selector="onClickCloseBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="k23-h5-nvZ"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cattery_open_title" translatesAutoresizingMaskIntoConstraints="NO" id="QAH-1K-DL9">
+                            <rect key="frame" x="122.33333333333333" y="-5" width="145.66666666666669" height="59"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1vo-dN-hwP" customClass="GGImageView">
+                            <rect key="frame" x="130" y="579.33333333333337" width="130.33333333333337" height="20"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每喂食1次消耗5音符" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30J-wW-vl6">
+                                    <rect key="frame" x="19.999999999999993" y="3" width="90.333333333333314" height="14"/>
+                                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="10"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="30J-wW-vl6" secondAttribute="trailing" constant="20" id="9m9-B2-op7"/>
+                                <constraint firstItem="30J-wW-vl6" firstAttribute="leading" secondItem="1vo-dN-hwP" secondAttribute="leading" constant="20" id="RhS-Nq-jpz"/>
+                                <constraint firstAttribute="height" constant="20" id="ZeK-jg-056"/>
+                                <constraint firstItem="30J-wW-vl6" firstAttribute="centerY" secondItem="1vo-dN-hwP" secondAttribute="centerY" id="aQx-cg-Ni8"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fV-Wq-sUl" userLabel="礼品">
+                            <rect key="frame" x="325" y="128.66666666666666" width="47" height="49"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="10"/>
+                            <state key="normal" image="cattery_open_gift"/>
+                            <connections>
+                                <action selector="onClickGiftBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="ibV-ZU-tbV"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3f-lA-T24" userLabel="记录">
+                            <rect key="frame" x="60" y="4.3333333333333428" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="OFP-Nh-y9b"/>
+                                <constraint firstAttribute="width" constant="40" id="R5x-C6-e9q"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="10"/>
+                            <state key="normal" image="cattery_open_record"/>
+                            <connections>
+                                <action selector="onClickRecordBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="kZa-Vh-4qq"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="cwc-8X-FNP" firstAttribute="top" secondItem="QAH-1K-DL9" secondAttribute="bottom" constant="8" id="1J2-4t-SAr"/>
+                        <constraint firstItem="QAH-1K-DL9" firstAttribute="centerX" secondItem="7MT-un-tlM" secondAttribute="centerX" id="1ZW-Yf-LE4"/>
+                        <constraint firstItem="pWg-zu-7cD" firstAttribute="centerY" secondItem="7MT-un-tlM" secondAttribute="centerY" constant="-50" id="AXD-Gm-Tdn"/>
+                        <constraint firstItem="OOM-mG-WE2" firstAttribute="top" secondItem="J2X-wM-z5m" secondAttribute="bottom" constant="15" id="BbA-8R-pvF"/>
+                        <constraint firstItem="K6o-7g-pLw" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" id="IQo-bm-9Nr"/>
+                        <constraint firstItem="1vo-dN-hwP" firstAttribute="centerX" secondItem="7MT-un-tlM" secondAttribute="centerX" id="K3O-Uu-6D7"/>
+                        <constraint firstAttribute="trailing" secondItem="C31-Te-xxH" secondAttribute="trailing" constant="5" id="NRO-Ga-oLt"/>
+                        <constraint firstItem="cwc-8X-FNP" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" constant="15" id="Oa7-5m-1Cy">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="widthRadioScreen" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                        <constraint firstAttribute="bottom" secondItem="K6o-7g-pLw" secondAttribute="bottom" id="PYJ-c2-OMZ"/>
+                        <constraint firstItem="Jlu-6n-8rR" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" constant="15" id="Pn7-8R-Odo"/>
+                        <constraint firstItem="OOM-mG-WE2" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" constant="25" id="SSG-cU-a23"/>
+                        <constraint firstItem="K6o-7g-pLw" firstAttribute="top" secondItem="7MT-un-tlM" secondAttribute="top" id="SVJ-fa-d28"/>
+                        <constraint firstItem="RJI-Qh-jS3" firstAttribute="leading" secondItem="QAH-1K-DL9" secondAttribute="trailing" id="Tpt-54-RbS"/>
+                        <constraint firstItem="Jlu-6n-8rR" firstAttribute="centerY" secondItem="h3f-lA-T24" secondAttribute="centerY" id="UKd-Mx-V6s"/>
+                        <constraint firstAttribute="trailing" secondItem="OOM-mG-WE2" secondAttribute="trailing" constant="25" id="WUz-B8-KiO"/>
+                        <constraint firstItem="h3f-lA-T24" firstAttribute="centerY" secondItem="QAH-1K-DL9" secondAttribute="centerY" id="XrS-tT-WtP"/>
+                        <constraint firstItem="RJI-Qh-jS3" firstAttribute="centerY" secondItem="QAH-1K-DL9" secondAttribute="centerY" id="YR8-sy-rH5"/>
+                        <constraint firstItem="pWg-zu-7cD" firstAttribute="centerX" secondItem="7MT-un-tlM" secondAttribute="centerX" id="Zfn-Sl-bwl"/>
+                        <constraint firstItem="7fV-Wq-sUl" firstAttribute="top" secondItem="cwc-8X-FNP" secondAttribute="bottom" constant="25" id="aML-Gh-Aka"/>
+                        <constraint firstAttribute="bottom" secondItem="1vo-dN-hwP" secondAttribute="bottom" constant="35" id="af6-Qa-JsC"/>
+                        <constraint firstItem="ycA-kq-HTG" firstAttribute="centerY" secondItem="7MT-un-tlM" secondAttribute="centerY" constant="-50" id="dNZ-uz-1rW">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="widthRadioScreen" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                        <constraint firstItem="QAH-1K-DL9" firstAttribute="top" secondItem="7MT-un-tlM" secondAttribute="top" constant="-5" id="dVJ-c7-F0c"/>
+                        <constraint firstItem="C31-Te-xxH" firstAttribute="centerY" secondItem="RJI-Qh-jS3" secondAttribute="centerY" id="dW6-Pu-MAd"/>
+                        <constraint firstItem="ycA-kq-HTG" firstAttribute="centerX" secondItem="7MT-un-tlM" secondAttribute="centerX" id="dy5-5Q-Ump"/>
+                        <constraint firstAttribute="trailing" secondItem="7fV-Wq-sUl" secondAttribute="trailing" constant="18" id="fzE-uU-dTr"/>
+                        <constraint firstItem="1vo-dN-hwP" firstAttribute="top" secondItem="OOM-mG-WE2" secondAttribute="bottom" constant="10" id="iW6-MR-k05"/>
+                        <constraint firstItem="J2X-wM-z5m" firstAttribute="centerX" secondItem="7MT-un-tlM" secondAttribute="centerX" id="jnc-Z4-5NX"/>
+                        <constraint firstItem="h3f-lA-T24" firstAttribute="leading" secondItem="Jlu-6n-8rR" secondAttribute="trailing" constant="5" id="lwi-7D-gnw"/>
+                        <constraint firstAttribute="width" secondItem="7MT-un-tlM" secondAttribute="height" multiplier="375:610" id="nx2-rA-MGC"/>
+                        <constraint firstAttribute="trailing" secondItem="K6o-7g-pLw" secondAttribute="trailing" id="uya-8F-eTS"/>
+                        <constraint firstAttribute="trailing" secondItem="cwc-8X-FNP" secondAttribute="trailing" constant="15" id="w5B-n6-462">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="widthRadioScreen" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="gmE-Ca-Ezn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9MG-kO-RYL"/>
+                <constraint firstItem="7MT-un-tlM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Mfu-Dh-H0v"/>
+                <constraint firstItem="gmE-Ca-Ezn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="PK1-kR-UNt"/>
+                <constraint firstAttribute="bottom" secondItem="7MT-un-tlM" secondAttribute="bottom" id="YcS-mJ-hDT"/>
+                <constraint firstAttribute="bottom" secondItem="gmE-Ca-Ezn" secondAttribute="bottom" id="ZBp-wI-aZ4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7MT-un-tlM" secondAttribute="trailing" id="byz-t3-Qmj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="gmE-Ca-Ezn" secondAttribute="trailing" id="iQp-NB-iNU"/>
+            </constraints>
+            <connections>
+                <outlet property="bottom_contentView" destination="YcS-mJ-hDT" id="jR0-TD-0mo"/>
+                <outlet property="contentView" destination="7MT-un-tlM" id="JAJ-1w-auY"/>
+                <outlet property="countBtn1" destination="Gvj-rP-3uG" id="lSU-UL-z0f"/>
+                <outlet property="countBtn2" destination="oXM-ni-gDo" id="DEe-Nu-VVc"/>
+                <outlet property="countBtn3" destination="Vf0-Ad-FFc" id="PAN-6p-Sbv"/>
+                <outlet property="coverView" destination="gmE-Ca-Ezn" id="0Iv-fh-1ge"/>
+                <outlet property="feedingSvgaView" destination="pWg-zu-7cD" id="vzp-09-hMb"/>
+                <outlet property="goldBalanceLabel" destination="2Cq-HF-IEg" id="1Sg-fs-0Y4"/>
+                <outlet property="left_stackView" destination="Oa7-5m-1Cy" id="ZzR-aK-TwW"/>
+                <outlet property="normalSvgaView" destination="ycA-kq-HTG" id="EBM-Vu-xaf"/>
+                <outlet property="priceTipLabel" destination="30J-wW-vl6" id="9Jf-jX-zYB"/>
+                <outlet property="right_stackView" destination="w5B-n6-462" id="BTs-w4-PHw"/>
+                <outlet property="titleBtn1" destination="pgf-Y3-Qfd" id="oc8-wG-RpD"/>
+                <outlet property="titleBtn2" destination="wWW-sx-T3v" id="4Bi-Z4-d2Y"/>
+                <outlet property="titleBtn3" destination="d88-vP-O7l" id="wkk-U8-eMQ"/>
+            </connections>
+            <point key="canvasLocation" x="20" y="71.090047393364927"/>
+        </view>
+        <tapGestureRecognizer id="3Ka-x2-iSD">
+            <connections>
+                <action selector="onClickCloseBtn:" destination="iN0-l3-epB" id="uxO-KE-bBI"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="cattery_open_bg" width="375" height="609"/>
+        <image name="cattery_open_close" width="22" height="22"/>
+        <image name="cattery_open_count_1" width="82.666664123535156" height="38.666667938232422"/>
+        <image name="cattery_open_count_10" width="83.666664123535156" height="38.666667938232422"/>
+        <image name="cattery_open_count_100" width="83" height="38.666667938232422"/>
+        <image name="cattery_open_count_100_icon" width="85.666664123535156" height="80.666664123535156"/>
+        <image name="cattery_open_count_10_icon" width="78.666664123535156" height="82"/>
+        <image name="cattery_open_count_1_icon" width="81" height="74"/>
+        <image name="cattery_open_gift" width="47" height="49"/>
+        <image name="cattery_open_rank" width="73" height="26.666666030883789"/>
+        <image name="cattery_open_recharge" width="14" height="14"/>
+        <image name="cattery_open_record" width="22" height="22"/>
+        <image name="cattery_open_rule" width="22" height="22"/>
+        <image name="cattery_open_title" width="145.66667175292969" height="59"/>
+        <image name="cattery_open_type_level0" width="102" height="34"/>
+        <image name="cattery_open_type_level0_sel" width="102" height="34"/>
+        <image name="cattery_open_type_level1" width="102" height="34"/>
+        <image name="cattery_open_type_level1_sel" width="102" height="34"/>
+        <image name="cattery_open_type_level2" width="102" height="34"/>
+        <image name="cattery_open_type_level2_sel" width="102" height="34"/>
+        <image name="gold_coin_icon" width="20.333333969116211" height="20"/>
+    </resources>
+</document>

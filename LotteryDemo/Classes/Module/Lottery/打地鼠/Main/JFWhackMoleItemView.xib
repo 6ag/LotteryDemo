@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JFWhackMoleItemView">
+            <rect key="frame" x="0.0" y="0.0" width="102" height="112"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Dd-a3-4nQ" userLabel="ClickBtn" customClass="JFNoHighlightButton">
+                    <rect key="frame" x="0.0" y="0.0" width="102" height="112"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <action selector="onClickCard:" destination="iN0-l3-epB" eventType="touchUpInside" id="cAe-Nv-BEq"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whack_mole_open_item_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="v05-0n-wkH">
+                    <rect key="frame" x="0.0" y="27" width="102" height="85"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="v05-0n-wkH" secondAttribute="height" multiplier="102:85" id="qOx-Xa-ppF"/>
+                    </constraints>
+                </imageView>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NOF-TH-rcM" userLabel="ClipView">
+                    <rect key="frame" x="0.0" y="0.0" width="102" height="85"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whack_mole_open_item_1_dead.png" translatesAutoresizingMaskIntoConstraints="NO" id="XZ3-Nw-zyu" customClass="YYAnimatedImageView">
+                            <rect key="frame" x="0.0" y="103" width="102" height="102"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="XZ3-Nw-zyu" secondAttribute="height" id="Gwb-fm-jsE"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="XZ3-Nw-zyu" secondAttribute="trailing" id="F5H-31-F8n"/>
+                        <constraint firstItem="XZ3-Nw-zyu" firstAttribute="leading" secondItem="NOF-TH-rcM" secondAttribute="leading" id="uAK-zZ-qBl"/>
+                        <constraint firstItem="XZ3-Nw-zyu" firstAttribute="bottom" secondItem="NOF-TH-rcM" secondAttribute="bottom" constant="120" id="zRE-83-ebh">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="widthRadioScreen" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whack_mole_open_item_cover" translatesAutoresizingMaskIntoConstraints="NO" id="xk1-tb-ydn">
+                    <rect key="frame" x="0.0" y="27" width="102" height="85"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="xk1-tb-ydn" secondAttribute="height" multiplier="102:85" id="Lhj-dl-hk5"/>
+                    </constraints>
+                </imageView>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HDV-2m-ca7" userLabel="EffectView">
+                    <rect key="frame" x="0.0" y="0.0" width="102" height="85"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whack_mole_open_option_hammer_1" translatesAutoresizingMaskIntoConstraints="NO" id="yzd-aq-ZlC">
+                            <rect key="frame" x="61" y="12.5" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="6je-Pu-P4f"/>
+                                <constraint firstAttribute="width" secondItem="yzd-aq-ZlC" secondAttribute="height" multiplier="1:1" id="u1H-g0-WBC"/>
+                            </constraints>
+                        </imageView>
+                        <view userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MK5-ST-P3X" userLabel="StunView">
+                            <rect key="frame" x="1" y="-12.5" width="100" height="100"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whack_mole_open_item_lightning" translatesAutoresizingMaskIntoConstraints="NO" id="SNa-bV-Bpx">
+                                    <rect key="frame" x="30" y="39.5" width="40" height="21"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="SNa-bV-Bpx" secondAttribute="height" multiplier="247:128" id="pBg-fS-NNR"/>
+                                        <constraint firstAttribute="width" constant="40" id="u1I-K4-VFN"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whack_mole_open_item_star" translatesAutoresizingMaskIntoConstraints="NO" id="nVL-5D-wOL">
+                                    <rect key="frame" x="15" y="30" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="nVL-5D-wOL" secondAttribute="height" multiplier="1:1" id="Vrt-2b-wpI"/>
+                                        <constraint firstAttribute="width" constant="20" id="zgt-DQ-OtI"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whack_mole_open_item_star" translatesAutoresizingMaskIntoConstraints="NO" id="ZyZ-4C-Jqh">
+                                    <rect key="frame" x="32" y="55" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="20" id="Mmv-c0-SNJ"/>
+                                        <constraint firstAttribute="width" secondItem="ZyZ-4C-Jqh" secondAttribute="height" multiplier="1:1" id="vkZ-17-kqN"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whack_mole_open_item_star" translatesAutoresizingMaskIntoConstraints="NO" id="cWh-LD-zhJ">
+                                    <rect key="frame" x="65" y="50" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="20" id="SfC-1V-B1i"/>
+                                        <constraint firstAttribute="width" secondItem="cWh-LD-zhJ" secondAttribute="height" multiplier="1:1" id="bJy-YK-egt"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="23u-i7-2W5"/>
+                                <constraint firstItem="nVL-5D-wOL" firstAttribute="centerX" secondItem="MK5-ST-P3X" secondAttribute="centerX" constant="-25" id="5we-Yo-1RG"/>
+                                <constraint firstItem="cWh-LD-zhJ" firstAttribute="centerY" secondItem="MK5-ST-P3X" secondAttribute="centerY" constant="10" id="7Ct-ic-moG"/>
+                                <constraint firstItem="ZyZ-4C-Jqh" firstAttribute="centerX" secondItem="MK5-ST-P3X" secondAttribute="centerX" constant="-8" id="E0x-bn-QIC"/>
+                                <constraint firstAttribute="width" secondItem="MK5-ST-P3X" secondAttribute="height" id="Hec-AY-eWv"/>
+                                <constraint firstItem="cWh-LD-zhJ" firstAttribute="centerX" secondItem="MK5-ST-P3X" secondAttribute="centerX" constant="25" id="WbC-0n-DJp"/>
+                                <constraint firstItem="SNa-bV-Bpx" firstAttribute="centerY" secondItem="MK5-ST-P3X" secondAttribute="centerY" id="Z0y-pu-POc"/>
+                                <constraint firstItem="ZyZ-4C-Jqh" firstAttribute="centerY" secondItem="MK5-ST-P3X" secondAttribute="centerY" constant="15" id="bKW-ee-uhA"/>
+                                <constraint firstItem="SNa-bV-Bpx" firstAttribute="centerX" secondItem="MK5-ST-P3X" secondAttribute="centerX" id="pQD-kI-3hF"/>
+                                <constraint firstItem="nVL-5D-wOL" firstAttribute="centerY" secondItem="MK5-ST-P3X" secondAttribute="centerY" constant="-10" id="w1m-sF-Fiy"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="85" id="Bdm-cT-dzh">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="widthRadioScreen" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                        <constraint firstItem="yzd-aq-ZlC" firstAttribute="centerX" secondItem="HDV-2m-ca7" secondAttribute="centerX" constant="50" id="EQp-uA-Vy6"/>
+                        <constraint firstItem="MK5-ST-P3X" firstAttribute="centerX" secondItem="HDV-2m-ca7" secondAttribute="centerX" id="MMl-Xe-dbr"/>
+                        <constraint firstItem="yzd-aq-ZlC" firstAttribute="centerY" secondItem="HDV-2m-ca7" secondAttribute="centerY" constant="10" id="mA8-4R-ImF"/>
+                        <constraint firstItem="MK5-ST-P3X" firstAttribute="centerY" secondItem="HDV-2m-ca7" secondAttribute="centerY" constant="-5" id="vY5-Jv-gyM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="NOF-TH-rcM" secondAttribute="trailing" id="7Aj-mQ-ow2"/>
+                <constraint firstAttribute="bottom" secondItem="9Dd-a3-4nQ" secondAttribute="bottom" id="9Xk-lm-etc"/>
+                <constraint firstAttribute="trailing" secondItem="HDV-2m-ca7" secondAttribute="trailing" id="Fb0-db-ei0"/>
+                <constraint firstAttribute="bottom" secondItem="xk1-tb-ydn" secondAttribute="bottom" id="H9M-Mb-Fa7"/>
+                <constraint firstAttribute="trailing" secondItem="xk1-tb-ydn" secondAttribute="trailing" id="LQw-Xr-PWS"/>
+                <constraint firstItem="xk1-tb-ydn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="N60-Oh-5eF"/>
+                <constraint firstItem="9Dd-a3-4nQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Noo-sL-LnH"/>
+                <constraint firstAttribute="bottom" secondItem="v05-0n-wkH" secondAttribute="bottom" id="Owx-EE-H4R">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="widthRadioScreen" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </constraint>
+                <constraint firstItem="NOF-TH-rcM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="T8D-y3-ZuL"/>
+                <constraint firstAttribute="trailing" secondItem="9Dd-a3-4nQ" secondAttribute="trailing" id="c5H-X2-m0h"/>
+                <constraint firstAttribute="bottom" secondItem="NOF-TH-rcM" secondAttribute="bottom" constant="27" id="cyC-3Y-APg">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="widthRadioScreen" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </constraint>
+                <constraint firstItem="HDV-2m-ca7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="efJ-Ol-Fvp"/>
+                <constraint firstAttribute="bottom" secondItem="HDV-2m-ca7" secondAttribute="bottom" constant="27" id="g1Q-mm-HoC">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="widthRadioScreen" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </constraint>
+                <constraint firstItem="9Dd-a3-4nQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="iUH-o9-xew"/>
+                <constraint firstAttribute="trailing" secondItem="v05-0n-wkH" secondAttribute="trailing" id="rMv-hj-IWY"/>
+                <constraint firstItem="v05-0n-wkH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uoj-gi-Zat"/>
+                <constraint firstItem="NOF-TH-rcM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wOl-TE-EET"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bottom_MouseImageView" destination="zRE-83-ebh" id="rC9-zV-YYn"/>
+                <outlet property="effectHammerImageView" destination="yzd-aq-ZlC" id="vNU-XW-AFo"/>
+                <outlet property="effectStunView" destination="MK5-ST-P3X" id="ncT-gm-8Io"/>
+                <outlet property="mouseImageView" destination="XZ3-Nw-zyu" id="k3g-W9-2jY"/>
+            </connections>
+            <point key="canvasLocation" x="197.10144927536234" y="-9.375"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="whack_mole_open_item_1_dead.png" width="360" height="360"/>
+        <image name="whack_mole_open_item_bottom" width="101.5" height="84.5"/>
+        <image name="whack_mole_open_item_cover" width="101.5" height="84.5"/>
+        <image name="whack_mole_open_item_lightning" width="246.5" height="127.5"/>
+        <image name="whack_mole_open_item_star" width="105.5" height="105.5"/>
+        <image name="whack_mole_open_option_hammer_1" width="150" height="150"/>
+    </resources>
+</document>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JFUnlimitedTreasureChestView">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmE-Ca-Ezn">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="3Ka-x2-iSD" appends="YES" id="HV3-e3-mp0"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7MT-un-tlM" userLabel="ContentView">
+                    <rect key="frame" x="0.0" y="465.66666666666674" width="390" height="343.33333333333326"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unlimited_treasure_chest_open_bg" translatesAutoresizingMaskIntoConstraints="NO" id="sKj-CT-vjY">
+                            <rect key="frame" x="0.0" y="0.0" width="390" height="343.33333333333331"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unlimited_treasure_chest_open_title" translatesAutoresizingMaskIntoConstraints="NO" id="tPa-a4-VyI">
+                            <rect key="frame" x="106.33333333333333" y="0.0" width="177.66666666666669" height="46.666666666666664"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1g8-Sc-O6J">
+                            <rect key="frame" x="5" y="-10" width="81" height="61.666666666666664"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="13"/>
+                            <inset key="imageEdgeInsets" minX="2" minY="5" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" image="unlimited_treasure_chest_open_title_1"/>
+                            <state key="selected" title=" "/>
+                            <connections>
+                                <action selector="onClickNormalBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="OMf-JT-BjN"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6R-xR-qu2">
+                            <rect key="frame" x="304" y="-10" width="81" height="61.666666666666664"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="13"/>
+                            <inset key="imageEdgeInsets" minX="2" minY="5" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" image="unlimited_treasure_chest_open_title_2"/>
+                            <state key="selected" title=" "/>
+                            <connections>
+                                <action selector="onClickLuxuryBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="DQm-3n-Bde"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hu-k6-RV4" customClass="JFNoHighlightButton">
+                            <rect key="frame" x="311.33333333333331" y="101.66666666666669" width="78.666666666666686" height="22"/>
+                            <state key="normal" image="unlimited_treasure_chest_open_anim_on"/>
+                            <state key="selected" image="unlimited_treasure_chest_open_anim_off"/>
+                            <connections>
+                                <action selector="onClickAnimBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="uAF-0J-m2q"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJI-Qh-jS3" userLabel="排行">
+                            <rect key="frame" x="334.33333333333331" y="229.66666666666669" width="55.666666666666686" height="22"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="12"/>
+                            <state key="normal" image="unlimited_treasure_chest_open_rank">
+                                <color key="titleColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="onClickRankBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="1Wi-Up-Kua"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3f-lA-T24" userLabel="记录">
+                            <rect key="frame" x="333.33333333333331" y="165.66666666666669" width="56.666666666666686" height="22"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="12"/>
+                            <state key="normal" image="unlimited_treasure_chest_open_record">
+                                <color key="titleColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="onClickRecordBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="kZa-Vh-4qq"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jlu-6n-8rR" userLabel="规则">
+                            <rect key="frame" x="333.33333333333331" y="133.66666666666669" width="56.666666666666686" height="22"/>
+                            <state key="normal" image="unlimited_treasure_chest_open_rule"/>
+                            <connections>
+                                <action selector="onClickRuleBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="9hT-TK-Wfw"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxN-rD-PGr">
+                            <rect key="frame" x="333.33333333333331" y="197.66666666666669" width="56.666666666666686" height="22"/>
+                            <state key="normal" image="unlimited_treasure_chest_open_gift"/>
+                            <connections>
+                                <action selector="onClickGiftBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="QRM-Zl-XLi"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QUL-Kj-lbO">
+                            <rect key="frame" x="25" y="71.666666666666686" width="74.333333333333329" height="15"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Cq-HF-IEg">
+                                    <rect key="frame" x="19.000000000000004" y="-1" width="43.333333333333343" height="17"/>
+                                    <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="12"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold_coin_icon" translatesAutoresizingMaskIntoConstraints="NO" id="1R9-lG-2ew">
+                                    <rect key="frame" x="-5" y="-2" width="19" height="19"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="19" id="OgO-Lw-KX6"/>
+                                        <constraint firstAttribute="height" constant="19" id="sWi-43-aVE"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="2Cq-HF-IEg" secondAttribute="trailing" constant="12" id="3BD-Dw-6Ca"/>
+                                <constraint firstAttribute="height" constant="15" id="8hw-aA-6ZW"/>
+                                <constraint firstItem="2Cq-HF-IEg" firstAttribute="centerY" secondItem="QUL-Kj-lbO" secondAttribute="centerY" id="ML0-Y2-R0J"/>
+                                <constraint firstItem="1R9-lG-2ew" firstAttribute="leading" secondItem="QUL-Kj-lbO" secondAttribute="leading" constant="-5" id="TX6-MQ-HjC"/>
+                                <constraint firstItem="1R9-lG-2ew" firstAttribute="centerY" secondItem="QUL-Kj-lbO" secondAttribute="centerY" id="fjb-Dt-x2I"/>
+                                <constraint firstItem="2Cq-HF-IEg" firstAttribute="leading" secondItem="1R9-lG-2ew" secondAttribute="trailing" constant="5" id="zeu-c2-Mnk"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <real key="value" value="7.5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="1lb-F9-U2j">
+                            <rect key="frame" x="25" y="303.33333333333331" width="340" height="40"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y46-qM-16r" customClass="JFNoHighlightButton">
+                                    <rect key="frame" x="0.0" y="0.0" width="113.33333333333333" height="40"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" image="unlimited_treasure_chest_open_count_1"/>
+                                    <connections>
+                                        <action selector="onClickOptionBtn1:" destination="iN0-l3-epB" eventType="touchUpInside" id="Vmg-6p-8Sw"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePa-dd-jj4" customClass="JFNoHighlightButton">
+                                    <rect key="frame" x="113.33333333333334" y="0.0" width="113.33333333333334" height="40"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" image="unlimited_treasure_chest_open_count_10"/>
+                                    <connections>
+                                        <action selector="onClickOptionBtn2:" destination="iN0-l3-epB" eventType="touchUpInside" id="X3H-tu-gJL"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgk-pi-kce" customClass="JFNoHighlightButton">
+                                    <rect key="frame" x="226.66666666666666" y="0.0" width="113.33333333333334" height="40"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" image="unlimited_treasure_chest_open_count_100"/>
+                                    <connections>
+                                        <action selector="onClickOptionBtn3:" destination="iN0-l3-epB" eventType="touchUpInside" id="SU5-GA-9r3"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="kvo-7B-83d"/>
+                            </constraints>
+                        </stackView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unlimited_treasure_chest_open_rotation_normal" translatesAutoresizingMaskIntoConstraints="NO" id="M1f-KJ-mNG">
+                            <rect key="frame" x="117.33333333333333" y="103.66666666666669" width="155.66666666666669" height="136"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T9g-nU-vjb" customClass="GGImageView">
+                            <rect key="frame" x="127.00000000000001" y="278.33333333333331" width="136.33333333333337" height="20"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每开1次消耗20红音符" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ntu-qR-9dU">
+                                    <rect key="frame" x="19.999999999999993" y="3" width="96.333333333333314" height="14"/>
+                                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="10"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="Fn9-3A-n03"/>
+                                <constraint firstItem="ntu-qR-9dU" firstAttribute="leading" secondItem="T9g-nU-vjb" secondAttribute="leading" constant="20" id="VCA-Nn-SaO"/>
+                                <constraint firstItem="ntu-qR-9dU" firstAttribute="centerY" secondItem="T9g-nU-vjb" secondAttribute="centerY" id="dtK-yq-geU"/>
+                                <constraint firstAttribute="trailing" secondItem="ntu-qR-9dU" secondAttribute="trailing" constant="20" id="zrr-Iy-Xaa"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZn-12-2ug" userLabel="SvgaView" customClass="SVGAImageView">
+                            <rect key="frame" x="0.0" y="0.0" width="390" height="343.33333333333331"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="loops">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="clearsAfterStop" value="NO"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="imageName" value="unlimited_treasure_chest_open"/>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="autoPlay" value="NO"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="1lb-F9-U2j" firstAttribute="top" secondItem="T9g-nU-vjb" secondAttribute="bottom" constant="5" id="0qZ-CC-Ud5"/>
+                        <constraint firstItem="eZn-12-2ug" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" id="89a-oR-3t1"/>
+                        <constraint firstAttribute="trailing" secondItem="sKj-CT-vjY" secondAttribute="trailing" id="9du-zE-DTe"/>
+                        <constraint firstItem="7hu-k6-RV4" firstAttribute="top" secondItem="J6R-xR-qu2" secondAttribute="bottom" constant="50" id="BUr-40-ThZ"/>
+                        <constraint firstItem="QUL-Kj-lbO" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" constant="25" id="E3w-7A-NTh"/>
+                        <constraint firstItem="h3f-lA-T24" firstAttribute="top" secondItem="Jlu-6n-8rR" secondAttribute="bottom" constant="10" id="E6e-fZ-gHO"/>
+                        <constraint firstItem="T9g-nU-vjb" firstAttribute="centerX" secondItem="7MT-un-tlM" secondAttribute="centerX" id="EpX-QT-kMe"/>
+                        <constraint firstItem="QUL-Kj-lbO" firstAttribute="top" secondItem="1g8-Sc-O6J" secondAttribute="bottom" constant="20" id="LzO-wo-XcL"/>
+                        <constraint firstAttribute="bottom" secondItem="sKj-CT-vjY" secondAttribute="bottom" id="Nsh-tU-sq5"/>
+                        <constraint firstAttribute="bottom" secondItem="1lb-F9-U2j" secondAttribute="bottom" id="QWG-gi-xIG"/>
+                        <constraint firstItem="pxN-rD-PGr" firstAttribute="top" secondItem="h3f-lA-T24" secondAttribute="bottom" constant="10" id="Swc-qu-Vd6"/>
+                        <constraint firstItem="Jlu-6n-8rR" firstAttribute="top" secondItem="7hu-k6-RV4" secondAttribute="bottom" constant="10" id="XsF-1k-aGi"/>
+                        <constraint firstAttribute="trailing" secondItem="RJI-Qh-jS3" secondAttribute="trailing" id="YMT-es-Met"/>
+                        <constraint firstItem="tPa-a4-VyI" firstAttribute="centerX" secondItem="7MT-un-tlM" secondAttribute="centerX" id="YYX-4V-rgv"/>
+                        <constraint firstItem="J6R-xR-qu2" firstAttribute="top" secondItem="7MT-un-tlM" secondAttribute="top" constant="-10" id="Ym9-fE-HPt"/>
+                        <constraint firstAttribute="bottom" secondItem="eZn-12-2ug" secondAttribute="bottom" id="ZBs-LX-Xp8"/>
+                        <constraint firstItem="1lb-F9-U2j" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" constant="25" id="cQ4-IX-IT9"/>
+                        <constraint firstAttribute="trailing" secondItem="eZn-12-2ug" secondAttribute="trailing" id="eaj-wA-7Lz"/>
+                        <constraint firstItem="1g8-Sc-O6J" firstAttribute="top" secondItem="7MT-un-tlM" secondAttribute="top" constant="-10" id="geE-P8-CLM"/>
+                        <constraint firstItem="eZn-12-2ug" firstAttribute="top" secondItem="7MT-un-tlM" secondAttribute="top" id="hNH-kY-CCo"/>
+                        <constraint firstItem="sKj-CT-vjY" firstAttribute="top" secondItem="7MT-un-tlM" secondAttribute="top" id="ktF-pX-wwE"/>
+                        <constraint firstAttribute="trailing" secondItem="h3f-lA-T24" secondAttribute="trailing" id="m70-FL-uCp"/>
+                        <constraint firstItem="sKj-CT-vjY" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" id="mDf-92-rE2"/>
+                        <constraint firstAttribute="trailing" secondItem="Jlu-6n-8rR" secondAttribute="trailing" id="mPf-I8-mfx"/>
+                        <constraint firstItem="RJI-Qh-jS3" firstAttribute="top" secondItem="pxN-rD-PGr" secondAttribute="bottom" constant="10" id="mQA-sM-ACI"/>
+                        <constraint firstAttribute="trailing" secondItem="7hu-k6-RV4" secondAttribute="trailing" id="mUY-FV-MGr"/>
+                        <constraint firstAttribute="width" secondItem="7MT-un-tlM" secondAttribute="height" multiplier="375:330" id="nx2-rA-MGC"/>
+                        <constraint firstAttribute="trailing" secondItem="J6R-xR-qu2" secondAttribute="trailing" constant="5" id="pNS-sw-v0e"/>
+                        <constraint firstAttribute="trailing" secondItem="1lb-F9-U2j" secondAttribute="trailing" constant="25" id="qaO-Ek-sE0"/>
+                        <constraint firstItem="1g8-Sc-O6J" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" constant="5" id="tTa-QG-Szf"/>
+                        <constraint firstItem="tPa-a4-VyI" firstAttribute="top" secondItem="7MT-un-tlM" secondAttribute="top" id="vGM-7s-PqV"/>
+                        <constraint firstAttribute="trailing" secondItem="pxN-rD-PGr" secondAttribute="trailing" id="z8V-Vn-Lj1"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="gmE-Ca-Ezn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9MG-kO-RYL"/>
+                <constraint firstItem="7MT-un-tlM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Mfu-Dh-H0v"/>
+                <constraint firstItem="gmE-Ca-Ezn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="PK1-kR-UNt"/>
+                <constraint firstAttribute="bottom" secondItem="7MT-un-tlM" secondAttribute="bottom" constant="35" id="YcS-mJ-hDT"/>
+                <constraint firstAttribute="bottom" secondItem="gmE-Ca-Ezn" secondAttribute="bottom" id="ZBp-wI-aZ4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7MT-un-tlM" secondAttribute="trailing" id="byz-t3-Qmj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="gmE-Ca-Ezn" secondAttribute="trailing" id="iQp-NB-iNU"/>
+            </constraints>
+            <connections>
+                <outlet property="animBtn" destination="7hu-k6-RV4" id="Wgl-7u-xi7"/>
+                <outlet property="bgImageView" destination="sKj-CT-vjY" id="RJ0-8n-hlK"/>
+                <outlet property="bottom_contentView" destination="YcS-mJ-hDT" id="jR0-TD-0mo"/>
+                <outlet property="contentView" destination="7MT-un-tlM" id="JAJ-1w-auY"/>
+                <outlet property="coverView" destination="gmE-Ca-Ezn" id="0Iv-fh-1ge"/>
+                <outlet property="goldBalanceLabel" destination="2Cq-HF-IEg" id="1Sg-fs-0Y4"/>
+                <outlet property="navSwitchBtn1" destination="1g8-Sc-O6J" id="igq-vW-5Sk"/>
+                <outlet property="navSwitchBtn2" destination="J6R-xR-qu2" id="auZ-QW-XOi"/>
+                <outlet property="openSvgaImageView" destination="eZn-12-2ug" id="Stf-Hy-Urx"/>
+                <outlet property="optionBtn1" destination="y46-qM-16r" id="hWc-53-pP3"/>
+                <outlet property="optionBtn2" destination="ePa-dd-jj4" id="zOq-NB-sMB"/>
+                <outlet property="optionBtn3" destination="wgk-pi-kce" id="LZh-MC-IE9"/>
+                <outlet property="priceTipLabel" destination="ntu-qR-9dU" id="Ds9-iY-5EX"/>
+                <outlet property="turntableImageView" destination="M1f-KJ-mNG" id="Hll-p5-9fB"/>
+            </connections>
+            <point key="canvasLocation" x="20" y="71.090047393364927"/>
+        </view>
+        <tapGestureRecognizer id="3Ka-x2-iSD">
+            <connections>
+                <action selector="onClickCloseBtn:" destination="iN0-l3-epB" id="uxO-KE-bBI"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="gold_coin_icon" width="20.333333969116211" height="20"/>
+        <image name="unlimited_treasure_chest_open_anim_off" width="78.666664123535156" height="22"/>
+        <image name="unlimited_treasure_chest_open_anim_on" width="78.666664123535156" height="22"/>
+        <image name="unlimited_treasure_chest_open_bg" width="374.66665649414062" height="330"/>
+        <image name="unlimited_treasure_chest_open_count_1" width="80" height="30"/>
+        <image name="unlimited_treasure_chest_open_count_10" width="80" height="30"/>
+        <image name="unlimited_treasure_chest_open_count_100" width="80" height="30"/>
+        <image name="unlimited_treasure_chest_open_gift" width="56.666667938232422" height="22"/>
+        <image name="unlimited_treasure_chest_open_rank" width="55.666667938232422" height="22"/>
+        <image name="unlimited_treasure_chest_open_record" width="56.666667938232422" height="22"/>
+        <image name="unlimited_treasure_chest_open_rotation_normal" width="155.66667175292969" height="136"/>
+        <image name="unlimited_treasure_chest_open_rule" width="56.666667938232422" height="22"/>
+        <image name="unlimited_treasure_chest_open_title" width="177.66667175292969" height="46.666667938232422"/>
+        <image name="unlimited_treasure_chest_open_title_1" width="81" height="61.666667938232422"/>
+        <image name="unlimited_treasure_chest_open_title_2" width="81" height="61.666667938232422"/>
+    </resources>
+</document>

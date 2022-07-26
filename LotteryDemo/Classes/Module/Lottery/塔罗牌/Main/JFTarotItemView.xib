@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JFTarotItemView">
+            <rect key="frame" x="0.0" y="0.0" width="135" height="187"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Dd-a3-4nQ" customClass="JFNoHighlightButton">
+                    <rect key="frame" x="0.0" y="0.0" width="135" height="187"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <action selector="onClickCard:" destination="iN0-l3-epB" eventType="touchUpInside" id="cAe-Nv-BEq"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tarot_open_result_55" translatesAutoresizingMaskIntoConstraints="NO" id="v05-0n-wkH">
+                    <rect key="frame" x="0.0" y="0.0" width="135" height="187"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tarot_open_card_back_1" translatesAutoresizingMaskIntoConstraints="NO" id="xk1-tb-ydn">
+                    <rect key="frame" x="0.0" y="0.0" width="135" height="187"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="v05-0n-wkH" secondAttribute="bottom" id="0fN-JO-qs1"/>
+                <constraint firstItem="xk1-tb-ydn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4ii-KU-t0f"/>
+                <constraint firstAttribute="bottom" secondItem="xk1-tb-ydn" secondAttribute="bottom" id="6kO-O4-CJm"/>
+                <constraint firstAttribute="bottom" secondItem="9Dd-a3-4nQ" secondAttribute="bottom" id="9Xk-lm-etc"/>
+                <constraint firstItem="xk1-tb-ydn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="DKz-4L-BAK"/>
+                <constraint firstItem="9Dd-a3-4nQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Noo-sL-LnH"/>
+                <constraint firstAttribute="trailing" secondItem="9Dd-a3-4nQ" secondAttribute="trailing" id="c5H-X2-m0h"/>
+                <constraint firstAttribute="trailing" secondItem="v05-0n-wkH" secondAttribute="trailing" id="e9x-C1-Y5e"/>
+                <constraint firstItem="v05-0n-wkH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gRa-wp-HDz"/>
+                <constraint firstItem="9Dd-a3-4nQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="iUH-o9-xew"/>
+                <constraint firstItem="v05-0n-wkH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pgf-gJ-KSc"/>
+                <constraint firstAttribute="trailing" secondItem="xk1-tb-ydn" secondAttribute="trailing" id="vuz-1N-aGZ"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backImageView" destination="xk1-tb-ydn" id="BYS-pm-HVQ"/>
+                <outlet property="frontImageView" destination="v05-0n-wkH" id="We0-kz-aD8"/>
+            </connections>
+            <point key="canvasLocation" x="167.39130434782609" y="-0.33482142857142855"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tarot_open_card_back_1" width="87.5" height="125"/>
+        <image name="tarot_open_result_55" width="87.5" height="125"/>
+    </resources>
+</document>
