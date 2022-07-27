@@ -71,7 +71,8 @@
     [[UIApplication sharedApplication].keyWindow addSubview:view];
     
     view.animBtn.selected = [[NSUserDefaults standardUserDefaults] boolForKey:@"TWISTEDEGG_ANIM_STATUS"];
-
+    [view onClickLevelBtn1:nil];
+    
     view.coverView.alpha = 0;
     view.bottom_contentView.constant = -CONTENT_VIEW_HEIGHT;
     
@@ -80,8 +81,6 @@
         view.coverView.alpha = 1;
         view.bottom_contentView.constant = (iPhoneX ? 0 : -20);
         [view layoutIfNeeded];
-    } completion:^(BOOL finished) {
-        [view onClickLevelBtn1:nil];
     }];
 }
 
@@ -308,10 +307,8 @@
     
     __weak typeof(self) weakSelf = self;
     [JFHttpRequestHelper getWishListWithSuccess:^(id  _Nonnull data) {
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [weakSelf.giftArray appendObjects:[data copy]];
-            [weakSelf.collectionView reloadData];
-        });
+        [weakSelf.giftArray appendObjects:[data copy]];
+        [weakSelf.collectionView reloadData];
     } failure:^(NSNumber * _Nonnull code, NSString * _Nonnull msg) {
         [MBProgressHUD showError:msg];
     }];
