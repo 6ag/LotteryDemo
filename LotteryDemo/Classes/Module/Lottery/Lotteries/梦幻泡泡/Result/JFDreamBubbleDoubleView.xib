@@ -39,14 +39,8 @@
             </constraints>
             <connections>
                 <outlet property="svgaImageView" destination="Uxg-Nz-jJt" id="2fE-vu-SDm"/>
-                <outletCollection property="gestureRecognizers" destination="nXI-XT-iJS" appends="YES" id="ZSr-8P-v5v"/>
             </connections>
             <point key="canvasLocation" x="132" y="119"/>
         </view>
-        <tapGestureRecognizer id="nXI-XT-iJS">
-            <connections>
-                <action selector="onTapCover:" destination="iN0-l3-epB" id="1dg-5Y-d0z"/>
-            </connections>
-        </tapGestureRecognizer>
     </objects>
 </document>

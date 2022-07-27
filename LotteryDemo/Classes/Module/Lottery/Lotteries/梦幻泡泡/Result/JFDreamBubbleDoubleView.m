@@ -51,7 +51,6 @@
     [UIView animateWithDuration:0.28 animations:^{
         view.alpha = 1;
     }];
-    view.userInteractionEnabled = NO;
     [view downloadImage];
 }
 
@@ -64,12 +63,6 @@
         if (imageNames.count < 5) {
             [imageNames addObject:item.picUrl];
         }
-    }
-    
-    if (imageNames.count < 5) {
-        NSLog(@"礼物不足");
-        [MBProgressHUD showError:@"梦幻启航失败"];
-        [self onTapCover:nil];
     }
     
     self.image1 = [UIImage imageNamed:imageNames[0]];
@@ -111,17 +104,12 @@
 #pragma mark - SVGAPlayerDelegate
 - (void)svgaPlayerDidFinishedAnimation:(SVGAPlayer *)player
 {
-    self.userInteractionEnabled = YES;
-}
-
-#pragma mark - Event
-- (IBAction)onTapCover:(id)sender
-{
-    [self removeFromSuperview];
-    
-    if (self.finished) {
-        self.finished();
-    }
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.25 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self removeFromSuperview];
+        if (self.finished) {
+            self.finished();
+        }
+    });
 }
 
 @end

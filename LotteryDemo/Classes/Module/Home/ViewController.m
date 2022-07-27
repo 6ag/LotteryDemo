@@ -53,7 +53,7 @@
 
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
 {
-    return UIEdgeInsetsMake(0, 15, 0, 15);
+    return UIEdgeInsetsMake(15, 15, 0, 15);
 }
 
 - (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
@@ -74,6 +74,7 @@
 {
     if (!_lotteryList) {
         _lotteryList = [NSMutableArray array];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFMoonTreasureView") image:@"lottery_moon_treasure" title:@"月球宝藏"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFMagicPrayView") image:@"lottery_magic_pray" title:@"魔法祈愿池"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFDreamBubbleView") image:@"lottery_dream_bubble" title:@"梦幻泡泡"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFWhackMoleView") image:@"lottery_whack_mole" title:@"打地鼠"]];
@@ -100,9 +101,7 @@
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFTwistedEggView") image:@"lottery_twisted_egg" title:@"快乐扭蛋"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFMagicTableView") image:@"lottery_magic_table" title:@"魔法仙台"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFPentagramBallView") image:@"lottery_pentagram_ball" title:@"五角星球"]];
-        
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFInterstellarTravelView") image:@"lottery_interstellar_travel" title:@"星际旅行"]];
-        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFMoonTreasureView") image:@"lottery_moon_treasure" title:@"月球宝藏"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFRocketView") image:@"lottery_rocket" title:@"火箭大作战"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFLuckyBottleView") image:@"lottery_lucky_bottle" title:@"幸运瓶"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFOrchardView") image:@"lottery_orchard" title:@"果农乐园"]];
