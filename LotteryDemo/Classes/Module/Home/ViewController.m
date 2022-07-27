@@ -10,7 +10,7 @@
 #import "JFLotteryListModel.h"
 #import <objc/runtime.h>
 
-@interface ViewController () <UICollectionViewDelegate, UICollectionViewDataSource>
+@interface ViewController () <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
@@ -24,7 +24,7 @@
     [super viewDidLoad];
 }
 
-#pragma mark - UICollectionViewDelegate, UICollectionViewDataSource
+#pragma mark - UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
     return 1;
@@ -103,7 +103,16 @@
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFWaterTreeView") image:@"lottery_water_tree" title:@"给树浇水"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFUnlimitedTreasureChestView") image:@"lottery_unlimited_treasure_chest" title:@"无限宝箱"]];
         [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFWhackMoleView") image:@"lottery_whack_mole" title:@"打地鼠"]];
-        
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("BBTreasureBoxView") image:@"lottery_bb_treasure_box" title:@"开宝箱2"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("EETurntableView") image:@"lottery_ee_turntable" title:@"幸运转盘2"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("CCTreasureBoxView") image:@"lottery_cc_treasure_box" title:@"潘多拉魔盒"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("FFTurntableView") image:@"lottery_ff_turntable" title:@"幸运大转盘3"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("BBWaterTreeView") image:@"lottery_bb_water_tree" title:@"给树浇水2"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("GGTurntableView") image:@"lottery_gg_turntable" title:@"幸运大转盘4"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("HHTurntableView") image:@"lottery_hh_turntable" title:@"幸运大转盘5"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFDreamBubbleView") image:@"lottery_dream_bubble" title:@"梦幻光轮"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFBindBoxView") image:@"lottery_bind_box" title:@"奇趣盲盒"]];
+        [_lotteryList addObject:[[JFLotteryListModel alloc] initWithViewClass:objc_getClass("JFWishBottleView") image:@"lottery_wish_bottle" title:@"许愿水瓶"]];
     }
     return _lotteryList;
 }

@@ -73,6 +73,7 @@
     view.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
     [[UIApplication sharedApplication].keyWindow addSubview:view];
     
+    [view addNotification];
     [view setupMaterial];
     [view setupFuncLineViewAnim];
 
@@ -85,6 +86,20 @@
         [view layoutIfNeeded];
     }];
     
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+- (void)addNotification
+{
+    //后台进前台通知
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didBecomeActive) name:UIApplicationDidBecomeActiveNotification object:nil];
+
+    //进入后台
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didEnterBackground) name:UIApplicationDidEnterBackgroundNotification object:nil];
 }
 
 - (void)closeDialog

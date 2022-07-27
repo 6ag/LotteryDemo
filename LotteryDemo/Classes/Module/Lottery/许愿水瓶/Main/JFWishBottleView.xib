@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JFWishBottleView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmE-Ca-Ezn">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="3Ka-x2-iSD" appends="YES" id="HV3-e3-mp0"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7MT-un-tlM" userLabel="ContentView">
+                    <rect key="frame" x="15" y="141.66666666666669" width="345" height="528.66666666666652"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wish_bottle_open_bg" translatesAutoresizingMaskIntoConstraints="NO" id="DJg-VQ-3rw">
+                            <rect key="frame" x="0.0" y="0.0" width="345" height="528.66666666666663"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wKv-Cb-OM2">
+                            <rect key="frame" x="0.0" y="22.333333333333343" width="345" height="345"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="wKv-Cb-OM2" secondAttribute="height" id="VdI-Dh-YXN"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MGT-4L-SyG">
+                            <rect key="frame" x="0.0" y="22.333333333333343" width="345" height="345"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wish_bottle_open_title_normal" translatesAutoresizingMaskIntoConstraints="NO" id="gTp-Ew-CX0">
+                            <rect key="frame" x="55.333333333333329" y="-24.999999999999986" width="234.33333333333337" height="52.333333333333336"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="gTp-Ew-CX0" secondAttribute="height" multiplier="9:2" id="Gdt-rb-6yu"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xsj-e7-O7d">
+                            <rect key="frame" x="298" y="3" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="NkQ-3b-Z0K"/>
+                                <constraint firstAttribute="height" constant="44" id="hVM-YC-Pqq"/>
+                            </constraints>
+                            <state key="normal" image="wish_bottle_open_close"/>
+                            <connections>
+                                <action selector="onClickCloseBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="2BF-sC-52o"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jlu-6n-8rR">
+                            <rect key="frame" x="254.33333333333329" y="75" width="76.666666666666657" height="24.666666666666671"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24.670000000000002" id="FzW-fU-WTB"/>
+                                <constraint firstAttribute="width" constant="76.670000000000002" id="frJ-D2-Pmi"/>
+                            </constraints>
+                            <state key="normal" image="wish_bottle_open_rule"/>
+                            <connections>
+                                <action selector="onClickRuleBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="9hT-TK-Wfw"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJI-Qh-jS3">
+                            <rect key="frame" x="26" y="112.66666666666667" width="44" height="51.333333333333329"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="10"/>
+                            <state key="normal" image="wish_bottle_open_rank"/>
+                            <connections>
+                                <action selector="onClickRankBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="1Wi-Up-Kua"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3f-lA-T24">
+                            <rect key="frame" x="26" y="177.00000000000003" width="44" height="50.333333333333343"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="10"/>
+                            <state key="normal" image="wish_bottle_open_record"/>
+                            <connections>
+                                <action selector="onClickRecordBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="kZa-Vh-4qq"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ViW-3L-7sP">
+                            <rect key="frame" x="20.999999999999993" y="332" width="98.333333333333314" height="60.333333333333314"/>
+                            <state key="normal" image="wish_bottle_open_count_1_normal"/>
+                            <connections>
+                                <action selector="onClickOpenBtn1:" destination="iN0-l3-epB" eventType="touchUpInside" id="Qe7-Rv-yjr"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjt-J4-XWs">
+                            <rect key="frame" x="123.33333333333334" y="332" width="98.333333333333343" height="60.333333333333314"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="fjt-J4-XWs" secondAttribute="height" multiplier="49:30" id="w0f-mf-B9T"/>
+                            </constraints>
+                            <state key="normal" image="wish_bottle_open_count_10_normal"/>
+                            <connections>
+                                <action selector="onClickOpenBtn2:" destination="iN0-l3-epB" eventType="touchUpInside" id="CUb-Ib-aLv"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BiU-uN-0eN">
+                            <rect key="frame" x="225.66666666666666" y="332" width="98.333333333333343" height="60.333333333333314"/>
+                            <state key="normal" image="wish_bottle_open_count_100_normal"/>
+                            <connections>
+                                <action selector="onClickOpenBtn3:" destination="iN0-l3-epB" eventType="touchUpInside" id="5LN-xC-I3e"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fV-Wq-sUl">
+                            <rect key="frame" x="270" y="112.66666666666667" width="49" height="51.333333333333329"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="10"/>
+                            <state key="normal" image="wish_bottle_open_gift"/>
+                            <connections>
+                                <action selector="onClickGiftBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="ibV-ZU-tbV"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J2X-wM-z5m">
+                            <rect key="frame" x="20.000000000000014" y="415.33333333333337" width="219.33333333333337" height="36"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wish_bottle_open_coin_bg" translatesAutoresizingMaskIntoConstraints="NO" id="h6x-uz-cux">
+                                    <rect key="frame" x="0.0" y="0.0" width="219.33333333333334" height="36"/>
+                                </imageView>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold_coin_icon" translatesAutoresizingMaskIntoConstraints="NO" id="eeg-uJ-wsX">
+                                    <rect key="frame" x="10" y="10" width="16" height="16"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="16" id="sZX-YH-my9"/>
+                                        <constraint firstAttribute="width" constant="16" id="tn0-cD-B6N"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="余额：999999" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Cq-HF-IEg">
+                                    <rect key="frame" x="30.999999999999993" y="8.666666666666627" width="96.333333333333314" height="18.333333333333329"/>
+                                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="13"/>
+                                    <color key="textColor" red="0.75686274509803919" green="0.63921568627450975" blue="0.95686274509803915" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbg-ua-HVj">
+                                    <rect key="frame" x="151.33333333333334" y="7" width="58" height="22"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="58" id="5Ak-iO-RMC"/>
+                                        <constraint firstAttribute="height" constant="22" id="mbt-Cz-xeT"/>
+                                    </constraints>
+                                    <state key="normal" image="wish_bottle_open_coin_btn"/>
+                                    <connections>
+                                        <action selector="onClickRechargeBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="ZLb-cA-juh"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="zbg-ua-HVj" firstAttribute="centerY" secondItem="J2X-wM-z5m" secondAttribute="centerY" id="1Qb-ib-x24"/>
+                                <constraint firstItem="h6x-uz-cux" firstAttribute="leading" secondItem="J2X-wM-z5m" secondAttribute="leading" id="8N9-t7-Dg1"/>
+                                <constraint firstItem="2Cq-HF-IEg" firstAttribute="leading" secondItem="eeg-uJ-wsX" secondAttribute="trailing" constant="5" id="AwW-at-ttU"/>
+                                <constraint firstAttribute="height" constant="36" id="H6R-97-qnf"/>
+                                <constraint firstItem="h6x-uz-cux" firstAttribute="top" secondItem="J2X-wM-z5m" secondAttribute="top" id="RHE-7U-MXD"/>
+                                <constraint firstAttribute="bottom" secondItem="h6x-uz-cux" secondAttribute="bottom" id="U2V-8B-zHJ"/>
+                                <constraint firstAttribute="trailing" secondItem="h6x-uz-cux" secondAttribute="trailing" id="Vvu-lw-v5B"/>
+                                <constraint firstItem="zbg-ua-HVj" firstAttribute="leading" secondItem="2Cq-HF-IEg" secondAttribute="trailing" constant="24" id="ZKx-ky-uMQ"/>
+                                <constraint firstItem="eeg-uJ-wsX" firstAttribute="centerY" secondItem="J2X-wM-z5m" secondAttribute="centerY" id="dEm-KN-viP"/>
+                                <constraint firstItem="2Cq-HF-IEg" firstAttribute="centerY" secondItem="J2X-wM-z5m" secondAttribute="centerY" id="fW9-UK-82Y"/>
+                                <constraint firstItem="eeg-uJ-wsX" firstAttribute="leading" secondItem="J2X-wM-z5m" secondAttribute="leading" constant="10" id="ff9-mq-UrM"/>
+                                <constraint firstAttribute="trailing" secondItem="zbg-ua-HVj" secondAttribute="trailing" constant="10" id="i2j-ui-gMr"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="BiU-uN-0eN" firstAttribute="width" secondItem="ViW-3L-7sP" secondAttribute="width" id="2V4-vh-TR3"/>
+                        <constraint firstItem="MGT-4L-SyG" firstAttribute="bottom" secondItem="wKv-Cb-OM2" secondAttribute="bottom" id="6fs-UV-Die"/>
+                        <constraint firstItem="RJI-Qh-jS3" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" constant="26" id="AxA-9e-0lh"/>
+                        <constraint firstItem="gTp-Ew-CX0" firstAttribute="top" secondItem="7MT-un-tlM" secondAttribute="top" constant="-25" id="BJc-Jt-FCX"/>
+                        <constraint firstItem="h3f-lA-T24" firstAttribute="top" secondItem="RJI-Qh-jS3" secondAttribute="bottom" constant="13" id="EQd-S9-oaB"/>
+                        <constraint firstAttribute="trailing" secondItem="wKv-Cb-OM2" secondAttribute="trailing" id="FGS-I6-pvC"/>
+                        <constraint firstItem="gTp-Ew-CX0" firstAttribute="width" secondItem="7MT-un-tlM" secondAttribute="width" multiplier="0.679227" id="G1M-D8-rYJ"/>
+                        <constraint firstAttribute="trailing" secondItem="Jlu-6n-8rR" secondAttribute="trailing" constant="14" id="GIn-iR-oCR"/>
+                        <constraint firstItem="fjt-J4-XWs" firstAttribute="centerX" secondItem="7MT-un-tlM" secondAttribute="centerX" id="GOJ-wP-Vt6"/>
+                        <constraint firstItem="BiU-uN-0eN" firstAttribute="centerY" secondItem="fjt-J4-XWs" secondAttribute="centerY" id="I4D-H3-i0d"/>
+                        <constraint firstItem="Xsj-e7-O7d" firstAttribute="top" secondItem="7MT-un-tlM" secondAttribute="top" constant="3" id="I5C-Nf-RRC"/>
+                        <constraint firstItem="h3f-lA-T24" firstAttribute="centerX" secondItem="RJI-Qh-jS3" secondAttribute="centerX" id="JSq-Kj-iJ1"/>
+                        <constraint firstItem="Jlu-6n-8rR" firstAttribute="top" secondItem="Xsj-e7-O7d" secondAttribute="bottom" constant="28" id="Kt9-GY-Ilx"/>
+                        <constraint firstItem="MGT-4L-SyG" firstAttribute="leading" secondItem="wKv-Cb-OM2" secondAttribute="leading" id="MP4-Tn-Ed1"/>
+                        <constraint firstItem="fjt-J4-XWs" firstAttribute="width" secondItem="ViW-3L-7sP" secondAttribute="width" id="Mgq-Io-iww"/>
+                        <constraint firstAttribute="trailing" secondItem="DJg-VQ-3rw" secondAttribute="trailing" id="OI0-Di-guU"/>
+                        <constraint firstItem="MGT-4L-SyG" firstAttribute="trailing" secondItem="wKv-Cb-OM2" secondAttribute="trailing" id="Owo-OT-Ngt"/>
+                        <constraint firstAttribute="trailing" secondItem="7fV-Wq-sUl" secondAttribute="trailing" constant="26" id="WVL-7S-Sr1"/>
+                        <constraint firstItem="ViW-3L-7sP" firstAttribute="centerY" secondItem="fjt-J4-XWs" secondAttribute="centerY" id="ZbK-QD-LxO"/>
+                        <constraint firstItem="J2X-wM-z5m" firstAttribute="top" secondItem="fjt-J4-XWs" secondAttribute="bottom" constant="23" id="aYr-8R-mjo"/>
+                        <constraint firstItem="fjt-J4-XWs" firstAttribute="leading" secondItem="ViW-3L-7sP" secondAttribute="trailing" constant="4" id="b0f-by-4vf"/>
+                        <constraint firstAttribute="bottom" secondItem="DJg-VQ-3rw" secondAttribute="bottom" id="cjk-d6-I6K"/>
+                        <constraint firstItem="MGT-4L-SyG" firstAttribute="top" secondItem="wKv-Cb-OM2" secondAttribute="top" id="ff0-gs-Ytf"/>
+                        <constraint firstItem="fjt-J4-XWs" firstAttribute="height" secondItem="ViW-3L-7sP" secondAttribute="height" id="hMW-J1-Uxn"/>
+                        <constraint firstItem="DJg-VQ-3rw" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" id="hc5-gH-onX"/>
+                        <constraint firstItem="ViW-3L-7sP" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" constant="21" id="ioa-xC-utG"/>
+                        <constraint firstItem="wKv-Cb-OM2" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" id="klO-ig-k8d"/>
+                        <constraint firstItem="BiU-uN-0eN" firstAttribute="leading" secondItem="fjt-J4-XWs" secondAttribute="trailing" constant="4" id="liC-ch-Clg"/>
+                        <constraint firstAttribute="trailing" secondItem="Xsj-e7-O7d" secondAttribute="trailing" constant="3" id="mQ6-8h-GfQ"/>
+                        <constraint firstItem="7fV-Wq-sUl" firstAttribute="top" secondItem="Jlu-6n-8rR" secondAttribute="bottom" constant="13" id="nP8-Es-AUX"/>
+                        <constraint firstAttribute="width" secondItem="7MT-un-tlM" secondAttribute="height" multiplier="346:530" id="nx2-rA-MGC"/>
+                        <constraint firstItem="fjt-J4-XWs" firstAttribute="bottom" secondItem="wKv-Cb-OM2" secondAttribute="bottom" constant="25" id="oVb-AR-iLA"/>
+                        <constraint firstItem="DJg-VQ-3rw" firstAttribute="top" secondItem="7MT-un-tlM" secondAttribute="top" id="opT-tw-2IJ"/>
+                        <constraint firstItem="gTp-Ew-CX0" firstAttribute="centerX" secondItem="7MT-un-tlM" secondAttribute="centerX" id="p0S-Nr-omN"/>
+                        <constraint firstItem="RJI-Qh-jS3" firstAttribute="centerY" secondItem="7fV-Wq-sUl" secondAttribute="centerY" id="q8W-rY-T82"/>
+                        <constraint firstAttribute="trailing" secondItem="BiU-uN-0eN" secondAttribute="trailing" constant="21" id="v3j-tB-umg"/>
+                        <constraint firstItem="wKv-Cb-OM2" firstAttribute="top" secondItem="gTp-Ew-CX0" secondAttribute="bottom" constant="-5" id="v5b-4K-3TS"/>
+                        <constraint firstItem="BiU-uN-0eN" firstAttribute="height" secondItem="ViW-3L-7sP" secondAttribute="height" id="wI8-ye-MH4"/>
+                        <constraint firstItem="J2X-wM-z5m" firstAttribute="leading" secondItem="7MT-un-tlM" secondAttribute="leading" constant="20" id="yrk-RL-jk0"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="gZ3-1n-d2G">
+                    <rect key="frame" x="107.66666666666669" y="119.66666666666669" width="160" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaT-64-xfN">
+                            <rect key="frame" x="0.0" y="0.0" width="72.333333333333329" height="44"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="onClickNormalBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="Qgh-ba-y7q"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6aH-rw-WI9">
+                            <rect key="frame" x="87.333333333333314" y="0.0" width="72.666666666666686" height="44"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="onClickLuxuryBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="4oj-Hd-EWd"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="GFN-o6-ATl"/>
+                        <constraint firstAttribute="width" constant="160" id="GHp-Bo-F9U"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="gmE-Ca-Ezn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9MG-kO-RYL"/>
+                <constraint firstItem="gZ3-1n-d2G" firstAttribute="top" secondItem="7MT-un-tlM" secondAttribute="top" constant="-22" id="9mG-8b-tCf"/>
+                <constraint firstItem="7MT-un-tlM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="Mfu-Dh-H0v"/>
+                <constraint firstItem="gZ3-1n-d2G" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="PDQ-eI-COU"/>
+                <constraint firstItem="gmE-Ca-Ezn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="PK1-kR-UNt"/>
+                <constraint firstAttribute="bottom" secondItem="gmE-Ca-Ezn" secondAttribute="bottom" id="ZBp-wI-aZ4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7MT-un-tlM" secondAttribute="trailing" constant="15" id="byz-t3-Qmj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="gmE-Ca-Ezn" secondAttribute="trailing" id="iQp-NB-iNU"/>
+                <constraint firstItem="7MT-un-tlM" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="qKf-b2-WV3"/>
+            </constraints>
+            <connections>
+                <outlet property="contentView" destination="7MT-un-tlM" id="JAJ-1w-auY"/>
+                <outlet property="coverView" destination="gmE-Ca-Ezn" id="0Iv-fh-1ge"/>
+                <outlet property="goldBalanceLabel" destination="2Cq-HF-IEg" id="1Sg-fs-0Y4"/>
+                <outlet property="navSwitchBtn1" destination="EaT-64-xfN" id="2cH-6a-mfd"/>
+                <outlet property="navSwitchBtn2" destination="6aH-rw-WI9" id="xS6-7u-e5T"/>
+                <outlet property="openBottleImageView" destination="MGT-4L-SyG" id="oGz-BD-kGH"/>
+                <outlet property="openBtn1" destination="ViW-3L-7sP" id="YRy-NF-xcu"/>
+                <outlet property="openBtn2" destination="fjt-J4-XWs" id="bSq-r0-YCI"/>
+                <outlet property="openBtn3" destination="BiU-uN-0eN" id="0kd-sU-1NH"/>
+                <outlet property="titleImageView" destination="gTp-Ew-CX0" id="7Tu-5L-ifn"/>
+                <outlet property="waitBottleImageView" destination="wKv-Cb-OM2" id="OVQ-o7-z1G"/>
+            </connections>
+            <point key="canvasLocation" x="20" y="71.674876847290648"/>
+        </view>
+        <tapGestureRecognizer id="3Ka-x2-iSD">
+            <connections>
+                <action selector="onClickCloseBtn:" destination="iN0-l3-epB" id="uxO-KE-bBI"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="gold_coin_icon" width="20.333333969116211" height="20"/>
+        <image name="wish_bottle_open_bg" width="346.33334350585938" height="530"/>
+        <image name="wish_bottle_open_close" width="45" height="45"/>
+        <image name="wish_bottle_open_coin_bg" width="219.33332824707031" height="36.666667938232422"/>
+        <image name="wish_bottle_open_coin_btn" width="57.333332061767578" height="22"/>
+        <image name="wish_bottle_open_count_100_normal" width="98.666664123535156" height="61"/>
+        <image name="wish_bottle_open_count_10_normal" width="98" height="60"/>
+        <image name="wish_bottle_open_count_1_normal" width="98" height="60"/>
+        <image name="wish_bottle_open_gift" width="49" height="51.333332061767578"/>
+        <image name="wish_bottle_open_rank" width="44" height="51.333332061767578"/>
+        <image name="wish_bottle_open_record" width="44" height="50.333332061767578"/>
+        <image name="wish_bottle_open_rule" width="76.666664123535156" height="24.666666030883789"/>
+        <image name="wish_bottle_open_title_normal" width="234" height="52"/>
+    </resources>
+</document>

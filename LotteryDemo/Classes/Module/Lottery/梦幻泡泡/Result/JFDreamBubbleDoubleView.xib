@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JFDreamBubbleDoubleView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uxg-Nz-jJt" customClass="SVGAImageView">
+                    <rect key="frame" x="12" y="179.5" width="390" height="537"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Uxg-Nz-jJt" secondAttribute="height" multiplier="336:463" id="xk3-zQ-AmR"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="loops">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="clearsAfterStop" value="NO"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="autoPlay" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.65000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Uxg-Nz-jJt" secondAttribute="trailing" constant="12" id="4ak-6G-Ijg"/>
+                <constraint firstItem="Uxg-Nz-jJt" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Wfs-Iw-QrC"/>
+                <constraint firstItem="Uxg-Nz-jJt" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="12" id="v4a-xP-F1R"/>
+            </constraints>
+            <connections>
+                <outlet property="svgaImageView" destination="Uxg-Nz-jJt" id="2fE-vu-SDm"/>
+                <outletCollection property="gestureRecognizers" destination="nXI-XT-iJS" appends="YES" id="ZSr-8P-v5v"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="119"/>
+        </view>
+        <tapGestureRecognizer id="nXI-XT-iJS">
+            <connections>
+                <action selector="onTapCover:" destination="iN0-l3-epB" id="1dg-5Y-d0z"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

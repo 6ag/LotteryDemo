@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="8dD-Do-eE8" customClass="JFBindBoxResultItemView">
+            <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VxD-c9-f4Z">
+                    <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="k8L-zF-K2a">
+                    <rect key="frame" x="26" y="0.0" width="49" height="20"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bind_box_result_num_x" translatesAutoresizingMaskIntoConstraints="NO" id="ubD-D9-jNl">
+                            <rect key="frame" x="0.0" y="0.0" width="12.5" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="ubD-D9-jNl" secondAttribute="height" multiplier="44:72" id="1zK-0b-z7H"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bind_box_result_num_9" translatesAutoresizingMaskIntoConstraints="NO" id="Yjq-b8-6cN">
+                            <rect key="frame" x="12.5" y="0.0" width="12" height="20"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bind_box_result_num_9" translatesAutoresizingMaskIntoConstraints="NO" id="Ugc-WV-wJq">
+                            <rect key="frame" x="24.5" y="0.0" width="12.5" height="20"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bind_box_result_num_9" translatesAutoresizingMaskIntoConstraints="NO" id="hKe-qZ-krF">
+                            <rect key="frame" x="37" y="0.0" width="12" height="20"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="fCI-pR-Baq"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="ur0-RG-auh"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ur0-RG-auh" firstAttribute="trailing" secondItem="k8L-zF-K2a" secondAttribute="trailing" id="8re-Yo-DuQ"/>
+                <constraint firstItem="k8L-zF-K2a" firstAttribute="top" secondItem="8dD-Do-eE8" secondAttribute="top" id="Opr-dS-8XJ"/>
+                <constraint firstAttribute="trailing" secondItem="VxD-c9-f4Z" secondAttribute="trailing" id="TQv-by-d5x"/>
+                <constraint firstItem="ur0-RG-auh" firstAttribute="bottom" secondItem="VxD-c9-f4Z" secondAttribute="bottom" id="bv8-ui-B8J"/>
+                <constraint firstItem="VxD-c9-f4Z" firstAttribute="leading" secondItem="ur0-RG-auh" secondAttribute="leading" id="pXt-pw-rF8"/>
+                <constraint firstItem="VxD-c9-f4Z" firstAttribute="top" secondItem="8dD-Do-eE8" secondAttribute="top" id="x20-NF-PPD"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="count1ImageView" destination="Yjq-b8-6cN" id="zbO-v2-9z3"/>
+                <outlet property="count2ImageView" destination="Ugc-WV-wJq" id="O2k-mu-ClZ"/>
+                <outlet property="count3ImageView" destination="hKe-qZ-krF" id="bQt-eu-t5D"/>
+                <outlet property="countXImageView" destination="ubD-D9-jNl" id="Nfp-U7-kdr"/>
+                <outlet property="logoImageView" destination="VxD-c9-f4Z" id="fNC-mR-Y5W"/>
+            </connections>
+            <point key="canvasLocation" x="-28.260869565217394" y="39.174107142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bind_box_result_num_9" width="22" height="36"/>
+        <image name="bind_box_result_num_x" width="22" height="36"/>
+    </resources>
+</document>
