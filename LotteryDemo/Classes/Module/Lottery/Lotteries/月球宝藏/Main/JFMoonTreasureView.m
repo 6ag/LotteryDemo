@@ -351,18 +351,18 @@
         
         NSString *ballImageName = @"";
         if (self.isLuxury) {
-            ballImageName = [NSString stringWithFormat:@"turntable_open_gift_%d_luxury",i % 3 + 1];
+            ballImageName = [NSString stringWithFormat:@"moon_treasure_open_gift_%d_luxury",i % 3 + 1];
         } else {
-            ballImageName = [NSString stringWithFormat:@"turntable_open_gift_%d_normal",i % 3 + 1];
+            ballImageName = [NSString stringWithFormat:@"moon_treasure_open_gift_%d_normal",i % 3 + 1];
         }
         UIImageView *ballImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:ballImageName]];
         ballImageView.frame = CGRectMake(0, 0, ballWidth, ballWidth);
         
         NSString *kernerImageName = @"";
         if (self.isLuxury) {
-            kernerImageName = [NSString stringWithFormat:@"turntable_open_gift_%d_kerner_luxury",i % 3 + 1];
+            kernerImageName = [NSString stringWithFormat:@"moon_treasure_open_gift_%d_kerner_luxury",i % 3 + 1];
         } else {
-            kernerImageName = [NSString stringWithFormat:@"turntable_open_gift_%d_kerner_normal",i % 3 + 1];
+            kernerImageName = [NSString stringWithFormat:@"moon_treasure_open_gift_%d_kerner_normal",i % 3 + 1];
         }
         UIImageView *kernerImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:kernerImageName]];
         kernerImageView.frame = CGRectMake(0, 0, ballWidth, ballWidth);
@@ -479,33 +479,33 @@
 - (void)setupMaterial
 {
     if (self.isLuxury) {
-        self.turntableBgImageView.image = [UIImage imageNamed:@"turntable_open_container_luxury"];
-        self.turntableImageView.image = [UIImage imageNamed:@"turntable_open_rotation_luxury"];
+        self.turntableBgImageView.image = [UIImage imageNamed:@"moon_treasure_open_container_luxury"];
+        self.turntableImageView.image = [UIImage imageNamed:@"moon_treasure_open_rotation_luxury"];
         
         self.costLabel1.text = @"200金币";
         self.costLabel2.text = @"2000金币";
         self.costLabel3.text = @"20000金币";
-        [self.optionBtn1 setBackgroundImage:[UIImage imageNamed:@"turntable_open_normal_luxury"] forState:UIControlStateNormal];
-        [self.optionBtn2 setBackgroundImage:[UIImage imageNamed:@"turntable_open_normal_luxury"] forState:UIControlStateNormal];
-        [self.optionBtn3 setBackgroundImage:[UIImage imageNamed:@"turntable_open_normal_luxury"] forState:UIControlStateNormal];
-        [self.optionBtn1 setBackgroundImage:[UIImage imageNamed:@"turntable_open_selected_luxury"] forState:UIControlStateSelected];
-        [self.optionBtn2 setBackgroundImage:[UIImage imageNamed:@"turntable_open_selected_luxury"] forState:UIControlStateSelected];
-        [self.optionBtn3 setBackgroundImage:[UIImage imageNamed:@"turntable_open_selected_luxury"] forState:UIControlStateSelected];
-        [self.startBtn setImage:[UIImage imageNamed:@"turntable_open_start_luxury"] forState:UIControlStateNormal];
+        [self.optionBtn1 setBackgroundImage:[UIImage imageNamed:@"moon_treasure_open_normal_luxury"] forState:UIControlStateNormal];
+        [self.optionBtn2 setBackgroundImage:[UIImage imageNamed:@"moon_treasure_open_normal_luxury"] forState:UIControlStateNormal];
+        [self.optionBtn3 setBackgroundImage:[UIImage imageNamed:@"moon_treasure_open_normal_luxury"] forState:UIControlStateNormal];
+        [self.optionBtn1 setBackgroundImage:[UIImage imageNamed:@"moon_treasure_open_selected_luxury"] forState:UIControlStateSelected];
+        [self.optionBtn2 setBackgroundImage:[UIImage imageNamed:@"moon_treasure_open_selected_luxury"] forState:UIControlStateSelected];
+        [self.optionBtn3 setBackgroundImage:[UIImage imageNamed:@"moon_treasure_open_selected_luxury"] forState:UIControlStateSelected];
+        [self.startBtn setImage:[UIImage imageNamed:@"moon_treasure_open_start_luxury"] forState:UIControlStateNormal];
     } else {
-        self.turntableBgImageView.image = [UIImage imageNamed:@"turntable_open_container_normal"];
-        self.turntableImageView.image = [UIImage imageNamed:@"turntable_open_rotation_normal"];
+        self.turntableBgImageView.image = [UIImage imageNamed:@"moon_treasure_open_container_normal"];
+        self.turntableImageView.image = [UIImage imageNamed:@"moon_treasure_open_rotation_normal"];
         
         self.costLabel1.text = @"20金币";
         self.costLabel2.text = @"200金币";
         self.costLabel3.text = @"2000金币";
-        [self.optionBtn1 setBackgroundImage:[UIImage imageNamed:@"turntable_open_normal_normal"] forState:UIControlStateNormal];
-        [self.optionBtn2 setBackgroundImage:[UIImage imageNamed:@"turntable_open_normal_normal"] forState:UIControlStateNormal];
-        [self.optionBtn3 setBackgroundImage:[UIImage imageNamed:@"turntable_open_normal_normal"] forState:UIControlStateNormal];
-        [self.optionBtn1 setBackgroundImage:[UIImage imageNamed:@"turntable_open_selected_normal"] forState:UIControlStateSelected];
-        [self.optionBtn2 setBackgroundImage:[UIImage imageNamed:@"turntable_open_selected_normal"] forState:UIControlStateSelected];
-        [self.optionBtn3 setBackgroundImage:[UIImage imageNamed:@"turntable_open_selected_normal"] forState:UIControlStateSelected];
-        [self.startBtn setImage:[UIImage imageNamed:@"turntable_open_start_normal"] forState:UIControlStateNormal];
+        [self.optionBtn1 setBackgroundImage:[UIImage imageNamed:@"moon_treasure_open_normal_normal"] forState:UIControlStateNormal];
+        [self.optionBtn2 setBackgroundImage:[UIImage imageNamed:@"moon_treasure_open_normal_normal"] forState:UIControlStateNormal];
+        [self.optionBtn3 setBackgroundImage:[UIImage imageNamed:@"moon_treasure_open_normal_normal"] forState:UIControlStateNormal];
+        [self.optionBtn1 setBackgroundImage:[UIImage imageNamed:@"moon_treasure_open_selected_normal"] forState:UIControlStateSelected];
+        [self.optionBtn2 setBackgroundImage:[UIImage imageNamed:@"moon_treasure_open_selected_normal"] forState:UIControlStateSelected];
+        [self.optionBtn3 setBackgroundImage:[UIImage imageNamed:@"moon_treasure_open_selected_normal"] forState:UIControlStateSelected];
+        [self.startBtn setImage:[UIImage imageNamed:@"moon_treasure_open_start_normal"] forState:UIControlStateNormal];
     }
 }
 

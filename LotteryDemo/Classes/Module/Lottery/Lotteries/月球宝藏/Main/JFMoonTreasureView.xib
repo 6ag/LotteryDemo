@@ -25,7 +25,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7MT-un-tlM" userLabel="ContentView">
                     <rect key="frame" x="0.0" y="324" width="390" height="520"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="turntable_open_bg" translatesAutoresizingMaskIntoConstraints="NO" id="sKj-CT-vjY">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moon_treasure_open_bg" translatesAutoresizingMaskIntoConstraints="NO" id="sKj-CT-vjY">
                             <rect key="frame" x="-1" y="0.0" width="391" height="520"/>
                         </imageView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i5i-Ox-Ypj" userLabel="TitleView">
@@ -36,7 +36,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="Jlu-6n-8rR" secondAttribute="height" multiplier="1:1" id="OVM-M6-5t0"/>
                                     </constraints>
-                                    <state key="normal" image="turntable_open_rule"/>
+                                    <state key="normal" image="moon_treasure_open_rule"/>
                                     <connections>
                                         <action selector="onClickRuleBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="9hT-TK-Wfw"/>
                                     </connections>
@@ -110,7 +110,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="Xsj-e7-O7d" secondAttribute="height" id="j82-Ii-CUi"/>
                                     </constraints>
-                                    <state key="normal" image="turntable_white_close"/>
+                                    <state key="normal" image="moon_treasure_white_close"/>
                                     <connections>
                                         <action selector="onClickCloseBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="2BF-sC-52o"/>
                                     </connections>
@@ -129,16 +129,16 @@
                                 <constraint firstItem="Jlu-6n-8rR" firstAttribute="leading" secondItem="i5i-Ox-Ypj" secondAttribute="leading" id="mrh-In-fkC"/>
                             </constraints>
                         </view>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="turntable_open_container_normal" translatesAutoresizingMaskIntoConstraints="NO" id="5tE-PW-hXz">
-                            <rect key="frame" x="0.0" y="88.666666666666714" width="390" height="431.33333333333326"/>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moon_treasure_open_container_normal" translatesAutoresizingMaskIntoConstraints="NO" id="5tE-PW-hXz">
+                            <rect key="frame" x="0.0" y="88.666666666666742" width="390" height="431.33333333333326"/>
                         </imageView>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="turntable_open_rotation_normal" translatesAutoresizingMaskIntoConstraints="NO" id="M1f-KJ-mNG">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moon_treasure_open_rotation_normal" translatesAutoresizingMaskIntoConstraints="NO" id="M1f-KJ-mNG">
                             <rect key="frame" x="0.0" y="90" width="390" height="430"/>
                         </imageView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fV-Wq-sUl" userLabel="礼品" customClass="JFVerticalButton">
                             <rect key="frame" x="332" y="80" width="45" height="21"/>
                             <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="12"/>
-                            <state key="normal" title="奖品" image="turntable_open_gift">
+                            <state key="normal" title="奖品" image="moon_treasure_open_gift">
                                 <color key="titleColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <userDefinedRuntimeAttributes>
@@ -153,7 +153,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJI-Qh-jS3" userLabel="排行" customClass="JFVerticalButton">
                             <rect key="frame" x="331" y="136" width="46" height="17.666666666666657"/>
                             <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="12"/>
-                            <state key="normal" title="排行" image="turntable_open_rank">
+                            <state key="normal" title="排行" image="moon_treasure_open_rank">
                                 <color key="titleColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <userDefinedRuntimeAttributes>
@@ -168,7 +168,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3f-lA-T24" userLabel="记录" customClass="JFVerticalButton">
                             <rect key="frame" x="332" y="188.66666666666663" width="45" height="21"/>
                             <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="12"/>
-                            <state key="normal" title="记录" image="turntable_open_record">
+                            <state key="normal" title="记录" image="moon_treasure_open_record">
                                 <color key="titleColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <userDefinedRuntimeAttributes>
@@ -208,7 +208,7 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="turntable_open_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="CWH-GE-meH">
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moon_treasure_open_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="CWH-GE-meH">
                                     <rect key="frame" x="193.66666666666666" y="11.666666666666629" width="5" height="8.6666666666666643"/>
                                 </imageView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Cq-HF-IEg">
@@ -259,8 +259,8 @@
                                         <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y46-qM-16r" customClass="JFNoHighlightButton">
                                             <rect key="frame" x="0.0" y="0.0" width="95" height="67"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <state key="normal" backgroundImage="turntable_open_normal_normal"/>
-                                            <state key="selected" backgroundImage="turntable_open_selected_normal"/>
+                                            <state key="normal" backgroundImage="moon_treasure_open_normal_normal"/>
+                                            <state key="selected" backgroundImage="moon_treasure_open_selected_normal"/>
                                             <connections>
                                                 <action selector="onClickOptionBtn1:" destination="iN0-l3-epB" eventType="touchUpInside" id="Vmg-6p-8Sw"/>
                                             </connections>
@@ -308,8 +308,8 @@
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePa-dd-jj4" customClass="JFNoHighlightButton">
                                             <rect key="frame" x="0.0" y="0.0" width="95" height="67"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <state key="normal" backgroundImage="turntable_open_normal_normal"/>
-                                            <state key="selected" backgroundImage="turntable_open_selected_normal"/>
+                                            <state key="normal" backgroundImage="moon_treasure_open_normal_normal"/>
+                                            <state key="selected" backgroundImage="moon_treasure_open_selected_normal"/>
                                             <connections>
                                                 <action selector="onClickOptionBtn2:" destination="iN0-l3-epB" eventType="touchUpInside" id="X3H-tu-gJL"/>
                                             </connections>
@@ -357,8 +357,8 @@
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgk-pi-kce" customClass="JFNoHighlightButton">
                                             <rect key="frame" x="0.0" y="0.0" width="95" height="67"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <state key="normal" backgroundImage="turntable_open_normal_normal"/>
-                                            <state key="selected" backgroundImage="turntable_open_selected_normal"/>
+                                            <state key="normal" backgroundImage="moon_treasure_open_normal_normal"/>
+                                            <state key="selected" backgroundImage="moon_treasure_open_selected_normal"/>
                                             <connections>
                                                 <action selector="onClickOptionBtn3:" destination="iN0-l3-epB" eventType="touchUpInside" id="SU5-GA-9r3"/>
                                             </connections>
@@ -406,7 +406,7 @@
                                         <constraint firstAttribute="width" constant="100" id="urv-gN-QAd"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="24"/>
-                                    <state key="normal" image="turntable_open_start_normal">
+                                    <state key="normal" image="moon_treasure_open_start_normal">
                                         <color key="titleColor" red="0.25882352941176467" green="0.19607843137254902" blue="0.082352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <connections>
@@ -514,17 +514,17 @@
         </tapGestureRecognizer>
     </objects>
     <resources>
-        <image name="turntable_open_arrow" width="5" height="8.5"/>
-        <image name="turntable_open_bg" width="375" height="525.5"/>
-        <image name="turntable_open_container_normal" width="375" height="431.5"/>
-        <image name="turntable_open_gift" width="21" height="21"/>
-        <image name="turntable_open_normal_normal" width="95" height="65.5"/>
-        <image name="turntable_open_rank" width="22" height="17.5"/>
-        <image name="turntable_open_record" width="21" height="21"/>
-        <image name="turntable_open_rotation_normal" width="375" height="430"/>
-        <image name="turntable_open_rule" width="18" height="18"/>
-        <image name="turntable_open_selected_normal" width="95" height="65"/>
-        <image name="turntable_open_start_normal" width="100" height="55"/>
-        <image name="turntable_white_close" width="12" height="11.666666984558105"/>
+        <image name="moon_treasure_open_arrow" width="5" height="8.5"/>
+        <image name="moon_treasure_open_bg" width="375" height="525.5"/>
+        <image name="moon_treasure_open_container_normal" width="375" height="431.5"/>
+        <image name="moon_treasure_open_gift" width="21" height="21"/>
+        <image name="moon_treasure_open_normal_normal" width="95" height="65.5"/>
+        <image name="moon_treasure_open_rank" width="22" height="17.5"/>
+        <image name="moon_treasure_open_record" width="21" height="21"/>
+        <image name="moon_treasure_open_rotation_normal" width="375" height="430"/>
+        <image name="moon_treasure_open_rule" width="18" height="18"/>
+        <image name="moon_treasure_open_selected_normal" width="95" height="65"/>
+        <image name="moon_treasure_open_start_normal" width="100" height="55"/>
+        <image name="moon_treasure_white_close" width="12" height="11.666666984558105"/>
     </resources>
 </document>
